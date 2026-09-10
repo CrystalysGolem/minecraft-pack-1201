@@ -136,11 +136,10 @@ pause
 exit /b 1
 
 :fixpacks
-rem Включает наши ресурспаки с фиксами: игра их видит только если они в options.txt.
+rem Включает наши ресурспаки с фиксами: игра видит ресурспак только если он в options.txt.
+rem Наш пак дописываем В КОНЕЦ списка - в resourcePacks побеждает последний пак, иначе мод перекрывает фикс.
 if not exist "options.txt" exit /b 0
-findstr /c:"mcwbetters-fix" "options.txt" >nul 2>nul
-if not errorlevel 1 exit /b 0
-powershell -NoProfile -Command "$f='options.txt';if(Test-Path $f){$t=[IO.File]::ReadAllText($f);if($t -notlike '*mcwbetters-fix*'){$i='{0}{1}{2}{3}{4}' -f 'resourcePacks:[',[char]34,'file/mcwbetters-fix.zip',[char]34,',';$t=$t -replace '(?<![\w])resourcePacks:\[',$i;[IO.File]::WriteAllText($f,$t,(New-Object System.Text.UTF8Encoding($false)))}}" >nul 2>nul
+powershell -NoProfile -EncodedCommand JABmACAAPQAgACcAbwBwAHQAaQBvAG4AcwAuAHQAeAB0ACcACgBpAGYAIAAoAFQAZQBzAHQALQBQAGEAdABoACAAJABmACkAIAB7AAoAIAAgACQAdAAgAD0AIABbAEkATwAuAEYAaQBsAGUAXQA6ADoAUgBlAGEAZABBAGwAbABUAGUAeAB0ACgAJABmACkACgAgACAAJABxACAAPQAgAFsAYwBoAGEAcgBdADMANAAKACAAIAAkAGUAdgAgAD0AIABbAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAFIAZQBnAHUAbABhAHIARQB4AHAAcgBlAHMAcwBpAG8AbgBzAC4ATQBhAHQAYwBoAEUAdgBhAGwAdQBhAHQAbwByAF0AewAKACAAIAAgACAAcABhAHIAYQBtACgAJABtACkACgAgACAAIAAgACQAcAAgAD0AIABAACgAKQAKACAAIAAgACAAZgBvAHIAZQBhAGMAaAAgACgAJAB4ACAAaQBuACAAJABtAC4ARwByAG8AdQBwAHMAWwAyAF0ALgBWAGEAbAB1AGUALgBTAHAAbABpAHQAKAAnACwAJwApACkAIAB7AAoAIAAgACAAIAAgACAAaQBmACAAKAAkAHgALgBUAHIAaQBtACgAKQAuAEwAZQBuAGcAdABoACAALQBnAHQAIAAwACAALQBhAG4AZAAgACQAeAAgAC0AbgBvAHQAbABpAGsAZQAgACcAKgBtAGMAdwBiAGUAdAB0AGUAcgBzAC0AZgBpAHgALgB6AGkAcAAqACcAKQAgAHsAIAAkAHAAIAArAD0AIAAkAHgALgBUAHIAaQBtACgAKQAgAH0ACgAgACAAIAAgAH0ACgAgACAAIAAgACQAcAAgACsAPQAgACQAcQAgACsAIAAnAGYAaQBsAGUALwBtAGMAdwBiAGUAdAB0AGUAcgBzAC0AZgBpAHgALgB6AGkAcAAnACAAKwAgACQAcQAKACAAIAAgACAAJABtAC4ARwByAG8AdQBwAHMAWwAxAF0ALgBWAGEAbAB1AGUAIAArACAAJwByAGUAcwBvAHUAcgBjAGUAUABhAGMAawBzADoAWwAnACAAKwAgACgAJABwACAALQBqAG8AaQBuACAAJwAsACcAKQAgACsAIAAnAF0AJwAKACAAIAB9AAoAIAAgACQAdAAgAD0AIABbAHIAZQBnAGUAeABdADoAOgBSAGUAcABsAGEAYwBlACgAJAB0ACwAIAAnACgAXgB8AAoAKQByAGUAcwBvAHUAcgBjAGUAUABhAGMAawBzADoAXABbACgAWwBeAFwAXQBdACoAKQBcAF0AJwAsACAAJABlAHYAKQAKACAAIABbAEkATwAuAEYAaQBsAGUAXQA6ADoAVwByAGkAdABlAEEAbABsAFQAZQB4AHQAKAAkAGYALAAgACQAdAAsACAAKABOAGUAdwAtAE8AYgBqAGUAYwB0ACAAUwB5AHMAdABlAG0ALgBUAGUAeAB0AC4AVQBUAEYAOABFAG4AYwBvAGQAaQBuAGcAKAAkAGYAYQBsAHMAZQApACkAKQAKAH0ACgA= >nul 2>nul
 exit /b 0
 
 rem ---------------- установка пакета ----------------
@@ -150,7 +149,6 @@ set "TRY=0"
 :install_again
 set /a TRY+=1
 "%JAVA%" -jar packwiz-installer-bootstrap.jar "%URL%"
-if not errorlevel 1 exit /b 0
 if %TRY% GEQ %INSTALL_TRIES% exit /b 1
 call :reachable "%URL%"
 if errorlevel 1 exit /b 1
@@ -223,7 +221,6 @@ set /a FTRY+=1
 call :direct "%FURL%" "%FDST%"
 if not errorlevel 1 (
   call :looks_ok "%FDST%" "%FMARK%"
-  if not errorlevel 1 exit /b 0
 )
 if exist "%FDST%" del "%FDST%" >nul 2>nul
 if %FTRY% GEQ %FMAX% exit /b 1

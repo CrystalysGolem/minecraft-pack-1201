@@ -682,7 +682,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -922,7 +922,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "103aec766f3c596ba03399a08a796da76b1111e110c058a74fd8c988f36209c6"
+hash = "5736a4cea481b6bbb62b29bba4c0f2652d15c13d9838c0449068f611f80cf50e"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -982,7 +982,7 @@ hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
 [[files]]
 file = "config/global_packs.toml"
-hash = "c020f392032f601a59eff3309d6d613b72fdb2f1fe8802ee714488049efd9024"
+hash = "48d5abe7a774c53f63bf7cf14569efe948b803798b79422197de91c405120951"
 
 [[files]]
 file = "config/guideme.toml"
@@ -1261,46 +1261,6 @@ file = "config/jade/sort-order.json"
 hash = "e2384d33c0f36349a21df20e85ba59eddc3a98b32df20efd650a3d6d648fdfcb"
 
 [[files]]
-file = "config/jei/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "3079ab63c96b18135bc5168218e2a35848dfff5e46cb5e1c3063faa5951c45b7"
-
-[[files]]
-file = "config/jei/ingredient-list-type-sort-order.ini"
-hash = "40159d9dcf1d5a4db8ff25aafbc748e00cbb61f915dea39612960a29e5a57f17"
-
-[[files]]
-file = "config/jei/jei-client.ini"
-hash = "3780eefa7d01e882f86993864a8f7594771be4733a6f76f2b8bbdf0c5e695d10"
-
-[[files]]
-file = "config/jei/jei-colors.ini"
-hash = "5f37aacd70460fdc2631ff45e98e8a2ce4e52d3e9a50917edf40eeed1236952e"
-
-[[files]]
-file = "config/jei/jei-debug.ini"
-hash = "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b"
-
-[[files]]
-file = "config/jei/jei-mod-id-format.ini"
-hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
-
-[[files]]
-file = "config/jei/recipe-category-sort-order.ini"
-hash = "82574869eab8ba21a4c5fd51d36719217a89035a671fa85aea65a5e7034fab14"
-
-[[files]]
-file = "config/jei/world/local/__-/bookmarks.ini"
-hash = "b2d68db5ed6449a61fe2152249051ffdab07f9a134c8c1d83784654e1d074d4f"
-
-[[files]]
-file = "config/jei/world/local/__-/lookupHistory.ini"
-hash = "72036b05209baee4ad7683f8113d39383a45ac14ba818fcf9f52f4aec59f4a6a"
-
-[[files]]
 file = "config/jeresources-common.toml"
 hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
 
@@ -1370,7 +1330,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "9d69ced0d141b0918167d6e33f6943f4ec9e961128a13fb49b4274ac231d9db1"
+hash = "764c591cb5aa66b3883674afc471f0e901f85b14f8e16c1bbcc042d1d6d3d955"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -4734,7 +4694,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "c1daf47cd5e8a78ec3cf6b6acaad5ef6a0fa0f02bda9d817ae8c53734de9ef0e"
+hash = "de0a7f2638d5a5260bd22e1946afb502a2d58f1b8b2cc5aab0cc56e1bae246f0"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

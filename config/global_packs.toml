@@ -1,18 +1,16 @@
 # Global Packs (gdarp): грузит глобальные дата/ресурспаки во всех мирах.
 # Нужен сборке: папку datapacks/ сама игра не читает — её читает этот мод.
 # Список путей задаём явно, чтобы resourcepacks/ не подтягивался как датапак.
-config_version=3
-enable_system_global_packs=false
-log_pack_ids=false
+config_version = 4
+enable_system_global_packs = false
+log_pack_ids = false
 
 [resourcepacks]
-required = [
-    "global_packs/required_resources/"
-]
-enable_builtin = []
+	required = ["global_packs/required_resources/"]
+	enable_builtin = []
 
 [datapacks]
-required = [
-    "datapacks/"
-]
-optional = []
+	required = ["datapacks/"]
+	optional = []
+	enable_builtin = []
+
