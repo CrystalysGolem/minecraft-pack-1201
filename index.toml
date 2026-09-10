@@ -4254,8 +4254,8 @@ hash = "2cc29ce063d4bd5291993ce852b9b1058e018b889ca0ea4b3708de839147458d"
 metafile = true
 
 [[files]]
-file = "mods/mcwbetters-forge-1.20.1-1.6.pw.toml"
-hash = "14a17c5d2621fb5a37462fba0fa18b647fd15952d317f6edef271b09bc35f146"
+file = "mods/mcwbetters-forge-1.20.1-1.6-fix1.pw.toml"
+hash = "f2cd86a4be097804fd05631149c1ba1fc95d1b79341f4dce655346f3c3e4e0da"
 metafile = true
 
 [[files]]

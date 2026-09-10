@@ -1,0 +1,8 @@
+name = "mcwbetters-forge-1.20.1-1.6-fix1"
+filename = "mcwbetters-forge-1.20.1-1.6-fix1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/mcwbetters-forge-1.20.1-1.6-fix1.jar"
+hash-format = "sha512"
+hash = "26c663b71ed087d619a1092289def21ab0d854ee5544b0b292b0ce3e0e9f3266d8a8a49ea30daf35a7e5f6db82489baa4013ec7f7ff875989a0c616766b21a1d"
