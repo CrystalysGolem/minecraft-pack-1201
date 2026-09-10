@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:no_cobweb_slowdown",
+    "origins:fall_immunity",
+    "origins-plus-plus:vishaichian/chicken_status_clear",
+    "origins-plus-plus:vishaichian/high_prices",
+    "origins-plus-plus:vishaichian/poison_spit",
+    "origins-plus-plus:vishaichian/saturation",
+    "origins-plus-plus:vishaichian/summon_fangs",
+    "origins-plus-plus:vishaichian/upgrade/upgrade_hearts",
+    "origins-plus-plus:vishaichian/upgrade/upgrade_jump",
+    "origins-plus-plus:vishaichian/upgrade/upgrade_strength"
+  ],
+  "icon": "minecraft:rabbit_hide",
+  "impact": 2
+}

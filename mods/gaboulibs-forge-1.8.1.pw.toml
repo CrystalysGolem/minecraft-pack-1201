@@ -1,0 +1,8 @@
+name = "gaboulibs-forge-1.8.1"
+filename = "gaboulibs-forge-1.8.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/gaboulibs-forge-1.8.1.jar"
+hash-format = "sha512"
+hash = "1fcc12c79f175cbe27b1d8fd4249084d96d63cddaeb9f888d3a2055c0bf8b0f2f52ef67fcf3c2dcba87549bf5faa48238ca60d7a779a1d4fe32da98ab63b8e2f"

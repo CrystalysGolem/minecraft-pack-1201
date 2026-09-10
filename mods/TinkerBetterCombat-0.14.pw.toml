@@ -1,0 +1,8 @@
+name = "TinkerBetterCombat-0.14"
+filename = "TinkerBetterCombat-0.14.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/TinkerBetterCombat-0.14.jar"
+hash-format = "sha512"
+hash = "219a7743194e446bb63642879cbb296f45779664c22306c4051949a5797ad9faf71b1f2f601f30a01cb2c19081721cee2f843e91f3ba58676adffb7a59042e71"

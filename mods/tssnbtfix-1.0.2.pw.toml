@@ -1,0 +1,8 @@
+name = "tssnbtfix-1.0.2"
+filename = "tssnbtfix-1.0.2.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/tssnbtfix-1.0.2.jar"
+hash-format = "sha512"
+hash = "0983e226d45b57f7a5d649d8cdcb2e9b373041b9450f3f753d6e1d93e46b4e04f0562598ca69727a0923e70b57fb27a0507ae09d2ff44239240b3637d1bd0409"

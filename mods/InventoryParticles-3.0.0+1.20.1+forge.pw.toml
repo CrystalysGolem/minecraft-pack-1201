@@ -1,0 +1,12 @@
+name = "Inventory Particles"
+filename = "InventoryParticles-3.0.0+1.20.1+forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/XYnKrsxH/versions/ruz2O5DP/InventoryParticles-3.0.0%2B1.20.1%2Bforge.jar"
+hash-format = "sha512"
+hash = "9cf5415df57854cac534427232fc1f53205ebfb2d3dac709e7d332f3632283845ffa7bab67eb58b32451ad2f098accb42d6e27945f4d15e2ef17207118c2fb71"
+
+[update.modrinth]
+mod-id = "XYnKrsxH"
+version = "ruz2O5DP"

@@ -1,0 +1,17 @@
+{
+  "powers": [
+    "origins:natural_armor",
+    "origins:fall_immunity",
+    "origins-plus-plus:fallen-angel/arms",
+    "origins-plus-plus:fallen-angel/bloodthirsty",
+    "origins-plus-plus:fallen-angel/deadshot",
+    "origins-plus-plus:fallen-angel/elytra",
+    "origins-plus-plus:fallen-angel/glowing",
+    "origins-plus-plus:fallen-angel/haste",
+    "origins-plus-plus:fallen-angel/immunity",
+    "origins-plus-plus:fallen-angel/translucent",
+    "origins-plus-plus:fallen-angel/velocity"
+  ],
+  "icon": "minecraft:elytra",
+  "impact": 3
+}

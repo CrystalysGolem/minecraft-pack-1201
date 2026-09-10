@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins-plus-plus:alien-axolotl/a_reminder",
+    "origins-plus-plus:alien-axolotl/adapted_oceaner",
+    "origins-plus-plus:alien-axolotl/dried_kelp",
+    "origins-plus-plus:alien-axolotl/exalted_height",
+    "origins-plus-plus:alien-axolotl/nether",
+    "origins-plus-plus:alien-axolotl/poison_gills",
+    "origins-plus-plus:alien-axolotl/runaway",
+    "origins-plus-plus:alien-axolotl/swim_speed"
+  ],
+  "icon": "minecraft:kelp",
+  "impact": 3
+}

@@ -1,0 +1,12 @@
+name = "EMI professions (EMIP)"
+filename = "EMIProfessions-forge-1.20.1-1.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LGVihYcz/versions/25FG7eb6/EMIProfessions-forge-1.20.1-1.0.4.jar"
+hash-format = "sha512"
+hash = "e0518c42c98e1629b427ef56f4ffe53eef8919849764fe0075e6b15c123163595ddc2445616074b4d98e3be9eaed9b3390efbc266ab688a015c398b5dc605de5"
+
+[update.modrinth]
+mod-id = "LGVihYcz"
+version = "25FG7eb6"

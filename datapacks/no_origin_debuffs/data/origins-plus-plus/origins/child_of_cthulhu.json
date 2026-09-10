@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins-plus-plus:child-of-cthulhu/camouflage",
+    "origins-plus-plus:child-of-cthulhu/launch",
+    "origins-plus-plus:child-of-cthulhu/size_change",
+    "origins-plus-plus:child-of-cthulhu/size_changer",
+    "origins-plus-plus:child-of-cthulhu/size_resource",
+    "origins-plus-plus:child-of-cthulhu/water_lungs",
+    "origins-plus-plus:child-of-cthulhu/water_vision"
+  ],
+  "icon": "minecraft:purple_glazed_terracotta",
+  "impact": 2
+}

@@ -1,0 +1,8 @@
+name = "alltheleaks-1.1.3+1.20.1-forge"
+filename = "alltheleaks-1.1.3+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/alltheleaks-1.1.3%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "04691ff068e19a864723ed069c392977d23a222bde181b97d363423ff69f9d6a3c1dc28bfe9b89fc954ffcce447a9b128c45264140aa3ff14cb4953a11141424"

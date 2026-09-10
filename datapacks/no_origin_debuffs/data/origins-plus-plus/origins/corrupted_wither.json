@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins-plus-plus:corrupted-wither/skirmish",
+    "origins-plus-plus:corrupted-wither/warp",
+    "origins-plus-plus:corrupted-wither/wieldy"
+  ],
+  "icon": "minecraft:dragon_breath",
+  "impact": 3
+}

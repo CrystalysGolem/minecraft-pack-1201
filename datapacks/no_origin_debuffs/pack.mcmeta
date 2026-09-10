@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "Origins Tweaks (MASTER): без дебафов рас, фикс размера Вивериана. Источник истины — этот датапак мира; копии: minecraft/datapacks/no_origin_debuffs и мод origins_tweaks (синхронизируются tools/sync_origins_pack.py)."
+  }
+}

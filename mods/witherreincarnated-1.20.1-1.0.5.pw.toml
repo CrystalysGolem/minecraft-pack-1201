@@ -1,0 +1,12 @@
+name = "Wither: Reincarnated"
+filename = "witherreincarnated-1.20.1-1.0.5.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YDc8cRWF/versions/Z3UVVtzh/witherreincarnated-1.20.1-1.0.5.jar"
+hash-format = "sha512"
+hash = "045a676acee3e29c64498fe37019ed3c5769a51b5dc09e1e144517504f4fe89ac38e093287c1fbc6916a832650de1eee00a53572ac0447e68ce09e9ec182954e"
+
+[update.modrinth]
+mod-id = "YDc8cRWF"
+version = "Z3UVVtzh"

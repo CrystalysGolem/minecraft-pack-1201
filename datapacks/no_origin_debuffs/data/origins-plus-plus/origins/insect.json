@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:climbing",
+    "origins:fall_immunity",
+    "origins-plus-plus:insect/ankle_bite",
+    "origins-plus-plus:insect/flap",
+    "origins-plus-plus:insect/lava",
+    "origins-plus-plus:insect/small",
+    "origins-plus-plus:insect/speed",
+    "origins-plus-plus:insect/water"
+  ],
+  "icon": "minecraft:vine",
+  "impact": 2
+}

@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-plus-plus:shadow/behind_you",
+    "origins-plus-plus:shadow/cloud",
+    "origins-plus-plus:shadow/hunger",
+    "origins-plus-plus:shadow/invisibility",
+    "origins-plus-plus:shadow/night_vision"
+  ],
+  "icon": "minecraft:black_concrete",
+  "impact": 3
+}

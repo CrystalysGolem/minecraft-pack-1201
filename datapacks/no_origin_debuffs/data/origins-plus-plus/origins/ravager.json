@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "origins-plus-plus:ravager/attributes",
+    "origins-plus-plus:ravager/axe_strength",
+    "origins-plus-plus:ravager/bad_omen_on_death",
+    "origins-plus-plus:ravager/dash",
+    "origins-plus-plus:ravager/fear",
+    "origins-plus-plus:ravager/hard_hitting",
+    "origins-plus-plus:ravager/heavy_footed",
+    "origins-plus-plus:ravager/immense",
+    "origins-plus-plus:ravager/ram",
+    "origins-plus-plus:ravager/ravager_resource",
+    "origins-plus-plus:ravager/team",
+    "origins-plus-plus:ravager/thick_skin",
+    "origins-plus-plus:ravager/vexy"
+  ],
+  "icon": "minecraft:saddle",
+  "impact": 2
+}

@@ -1,0 +1,88 @@
+{
+  "type": "origins:multiple",
+  "dryness": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 60,
+    "start_value": 60,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+      "bar_index": 15
+    }
+  },
+  "deplete": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_dryness",
+      "change": -1
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": "<=",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:in_rain",
+          "inverted": true
+        },
+        {
+          "type": "origins:block_in_radius",
+          "radius": 0.1,
+          "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:water_cauldron"
+          },
+          "offset_y": -1,
+          "inverted": true
+        }
+      ]
+    }
+  },
+  "replenish": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "*:*_dryness",
+      "change": 1
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:in_rain"
+        },
+        {
+          "type": "origins:block_in_radius",
+          "radius": 0.1,
+          "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:water_cauldron"
+          },
+          "offset_y": -1
+        }
+      ]
+    }
+  },
+  "respawn": {
+    "type": "origins:action_on_callback",
+    "entity_action_respawned": {
+      "type": "origins:change_resource",
+      "resource": "*:*_dryness",
+      "change": 60,
+      "operation": "set"
+    }
+  }
+}

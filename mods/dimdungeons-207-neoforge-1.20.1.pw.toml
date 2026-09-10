@@ -1,0 +1,12 @@
+name = "Dimensional Dungeons"
+filename = "dimdungeons-207-neoforge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Q8XlZjYF/versions/nKQuSvjH/dimdungeons-207-neoforge-1.20.1.jar"
+hash-format = "sha512"
+hash = "b946f0fa6548705e0930f2a9132befcdf1c6a7f990f14ddf54e1c6f244be848f500f3146eae2b8c380c4557304e2acc8d6521d7cd1d942895d27caf11466e691"
+
+[update.modrinth]
+mod-id = "Q8XlZjYF"
+version = "nKQuSvjH"

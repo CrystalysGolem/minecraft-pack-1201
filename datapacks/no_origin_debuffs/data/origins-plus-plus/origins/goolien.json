@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins-plus-plus:goolien/condensing",
+    "origins-plus-plus:goolien/flammable",
+    "origins-plus-plus:goolien/gooey_body",
+    "origins-plus-plus:goolien/gooey_skin",
+    "origins-plus-plus:goolien/no_lungs",
+    "origins-plus-plus:goolien/splat",
+    "origins-plus-plus:goolien/sticky_grip",
+    "origins-plus-plus:goolien/stomach_body"
+  ],
+  "icon": "minecraft:slime_block",
+  "impact": 3
+}

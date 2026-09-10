@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins-plus-plus:technomancer/blockade",
+    "origins-plus-plus:technomancer/grappling_hook",
+    "origins-plus-plus:technomancer/healing_aura",
+    "origins-plus-plus:technomancer/laser_beam",
+    "origins-plus-plus:technomancer/nanite_wall",
+    "origins-plus-plus:technomancer/nanite_wall_toggle",
+    "origins-plus-plus:technomancer/summon_items",
+    "origins-plus-plus:technomancer/tech_mana"
+  ],
+  "icon": "minecraft:redstone",
+  "impact": 3
+}

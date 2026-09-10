@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "enabled": true,
+  "allow_random": true,
+  "origins": [
+    "origins_tweaks:flyer"
+  ]
+}

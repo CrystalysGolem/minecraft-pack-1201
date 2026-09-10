@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins-plus-plus:wandering-spirit/damage_glitch",
+    "origins-plus-plus:wandering-spirit/lightning_charge",
+    "origins-plus-plus:wandering-spirit/lightning_invulnerability",
+    "origins-plus-plus:wandering-spirit/lightning_summon",
+    "origins-plus-plus:wandering-spirit/phase",
+    "origins-plus-plus:wandering-spirit/quick_hands_and_feet",
+    "origins-plus-plus:wandering-spirit/shaking",
+    "origins-plus-plus:wandering-spirit/size",
+    "origins-plus-plus:wandering-spirit/size_change"
+  ],
+  "icon": "minecraft:crimson_roots",
+  "impact": 3
+}

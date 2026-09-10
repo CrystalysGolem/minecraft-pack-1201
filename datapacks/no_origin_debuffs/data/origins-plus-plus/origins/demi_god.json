@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-plus-plus:demi-god/god_punch",
+    "origins-plus-plus:demi-god/god_speed",
+    "origins-plus-plus:demi-god/health",
+    "origins-plus-plus:demi-god/phase",
+    "origins-plus-plus:demi-god/raw_meat_buff"
+  ],
+  "icon": "minecraft:glowstone",
+  "impact": 2
+}

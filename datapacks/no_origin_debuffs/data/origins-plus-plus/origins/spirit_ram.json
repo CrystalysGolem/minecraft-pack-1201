@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins-plus-plus:spirit-ram/color",
+    "origins-plus-plus:spirit-ram/horn_pockets",
+    "origins-plus-plus:spirit-ram/mist_protection",
+    "origins-plus-plus:spirit-ram/mist_protection_trigger",
+    "origins-plus-plus:spirit-ram/no_water",
+    "origins-plus-plus:spirit-ram/phase"
+  ],
+  "icon": "minecraft:white_wool",
+  "impact": 3
+}

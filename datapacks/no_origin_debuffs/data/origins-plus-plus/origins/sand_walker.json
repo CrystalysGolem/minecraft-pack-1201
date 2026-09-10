@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins-plus-plus:sand-walker/desert_spawn",
+    "origins-plus-plus:sand-walker/flesh_eater",
+    "origins-plus-plus:sand-walker/heat_resistance",
+    "origins-plus-plus:sand-walker/no_hunger",
+    "origins-plus-plus:sand-walker/sand_blender",
+    "origins-plus-plus:sand-walker/sand_shifter",
+    "origins-plus-plus:sand-walker/worse_steak"
+  ],
+  "icon": "minecraft:sand",
+  "impact": 2
+}

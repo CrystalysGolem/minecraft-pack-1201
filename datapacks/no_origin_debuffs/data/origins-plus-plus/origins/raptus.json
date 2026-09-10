@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:tailwind",
+    "origins:fall_immunity",
+    "origins-plus-plus:raptus/bite",
+    "origins-plus-plus:raptus/higher_jump",
+    "origins-plus-plus:raptus/pounce",
+    "origins-plus-plus:raptus/small"
+  ],
+  "icon": "minecraft:lime_dye",
+  "impact": 2
+}

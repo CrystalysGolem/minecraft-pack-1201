@@ -1,0 +1,12 @@
+name = "Serene Seasons Plus"
+filename = "Forge-Version-sereneseasonsplus-1.20.1-5.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4Al4H3t9/versions/HHCnd0G8/Forge-Version-sereneseasonsplus-1.20.1-5.1.3.jar"
+hash-format = "sha512"
+hash = "8a585c719a1051e1ac4b67edb29ec684c42e5fc5b1908522e5d64e22161f22cef23571ea6ddb124660b762582b3fa2044a136c362d48d66713c97b47a136307b"
+
+[update.modrinth]
+mod-id = "4Al4H3t9"
+version = "HHCnd0G8"

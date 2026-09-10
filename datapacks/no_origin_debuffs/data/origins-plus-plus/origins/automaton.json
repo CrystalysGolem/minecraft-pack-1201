@@ -1,0 +1,33 @@
+{
+  "powers": [
+    "origins-plus-plus:automaton/aging",
+    "origins-plus-plus:automaton/attack",
+    "origins-plus-plus:automaton/cold_biome",
+    "origins-plus-plus:automaton/dense",
+    "origins-plus-plus:automaton/drown",
+    "origins-plus-plus:automaton/elemental_attack_title",
+    "origins-plus-plus:automaton/end",
+    "origins-plus-plus:automaton/extinguish",
+    "origins-plus-plus:automaton/fire_attack",
+    "origins-plus-plus:automaton/fire_elemental_attack",
+    "origins-plus-plus:automaton/firebar",
+    "origins-plus-plus:automaton/firebar_increase",
+    "origins-plus-plus:automaton/health",
+    "origins-plus-plus:automaton/hot_biome",
+    "origins-plus-plus:automaton/humidity",
+    "origins-plus-plus:automaton/lava",
+    "origins-plus-plus:automaton/nether",
+    "origins-plus-plus:automaton/no_hunger",
+    "origins-plus-plus:automaton/power_saving_mode",
+    "origins-plus-plus:automaton/respawn",
+    "origins-plus-plus:automaton/toggle",
+    "origins-plus-plus:automaton/undying",
+    "origins-plus-plus:automaton/water",
+    "origins-plus-plus:automaton/water_attack",
+    "origins-plus-plus:automaton/water_elemental_attack",
+    "origins-plus-plus:automaton/waterbar",
+    "origins-plus-plus:automaton/waterbar_increase"
+  ],
+  "icon": "minecraft:weathered_copper",
+  "impact": 3
+}

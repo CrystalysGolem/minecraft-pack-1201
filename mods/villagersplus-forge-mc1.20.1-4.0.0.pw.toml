@@ -1,0 +1,12 @@
+name = "VillagersPlus"
+filename = "villagersplus-forge-mc1.20.1-4.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oHGMwNDR/versions/GqXtCYDa/villagersplus-forge-mc1.20.1-4.0.0.jar"
+hash-format = "sha512"
+hash = "3ad13f2753755831c72a85361fa508cff44b26f1b0a6243134695385ec5a09d51c76a43276d439bdc88158acd7d3c9bd0e07b097c889c49a591ef45ff5f99ea6"
+
+[update.modrinth]
+mod-id = "oHGMwNDR"
+version = "GqXtCYDa"

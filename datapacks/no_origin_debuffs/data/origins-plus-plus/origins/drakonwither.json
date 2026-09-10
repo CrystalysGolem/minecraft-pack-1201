@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:launch_into_air",
+    "origins:elytra",
+    "origins:ender_particles",
+    "origins-plus-plus:drakonwither/skulls",
+    "origins-plus-plus:drakonwither/wither_immunity",
+    "origins-plus-plus:drakonwither/wither_skull"
+  ],
+  "icon": "minecraft:wither_skeleton_skull",
+  "impact": 2
+}

@@ -1,0 +1,12 @@
+name = "Better Combat Reach Fix"
+filename = "better_combat_reach_fix-1.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DDECTrHw/versions/4oAL9FXU/better_combat_reach_fix-1.1.0.jar"
+hash-format = "sha512"
+hash = "ef79de63cad82230dcf10d815760208abb5010cd04136a08d99a6f981484956ef231d6dc7ab04717866078be529c4d161edaec28581cb906e268352f9f7cc1f8"
+
+[update.modrinth]
+mod-id = "DDECTrHw"
+version = "4oAL9FXU"

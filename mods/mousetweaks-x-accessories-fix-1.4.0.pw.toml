@@ -1,0 +1,12 @@
+name = "MouseTweaks x Accessories Fix"
+filename = "mousetweaks-x-accessories-fix-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bFBJU91s/versions/znY5vYq7/mousetweaks-x-accessories-fix-1.4.0.jar"
+hash-format = "sha512"
+hash = "63a179595cb38598968fe1f34680af08560f731d877ce6cb67abec8a3dab91eb34a118208caab28a592a90e144319036f26d83648d5773bbdd5e78142775385f"
+
+[update.modrinth]
+mod-id = "bFBJU91s"
+version = "znY5vYq7"

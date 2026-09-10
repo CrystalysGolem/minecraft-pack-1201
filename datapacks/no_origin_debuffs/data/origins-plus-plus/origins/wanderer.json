@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-plus-plus:wanderer/bag",
+    "origins-plus-plus:wanderer/healing_warmth",
+    "origins-plus-plus:wanderer/leather",
+    "origins-plus-plus:wanderer/night",
+    "origins-plus-plus:wanderer/trade"
+  ],
+  "icon": "minecraft:soul_lantern",
+  "impact": 1
+}

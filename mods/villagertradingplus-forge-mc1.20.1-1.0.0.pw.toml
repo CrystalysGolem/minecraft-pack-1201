@@ -1,0 +1,12 @@
+name = "VillagersTradingPlus"
+filename = "villagertradingplus-forge-mc1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DhOXUfnP/versions/eYEtjtLG/villagertradingplus-forge-mc1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "a472a8e0d504d4874900caddf3606b11b6569e0d267035b484cada325b4e8f731033008e3cbc55c9f4fb5111c3b1652aace22c3f5a08f98391da90e0c1277f1c"
+
+[update.modrinth]
+mod-id = "DhOXUfnP"
+version = "eYEtjtLG"

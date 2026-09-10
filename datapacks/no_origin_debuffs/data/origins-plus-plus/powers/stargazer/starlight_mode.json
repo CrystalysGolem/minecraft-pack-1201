@@ -1,0 +1,34 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "key": "key.origins.primary_active",
+    "active_by_default": false
+  },
+  "invisible": {
+    "type": "origins:invisibility",
+    "render_armor": true,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "night_vision": {
+    "type": "origins:night_vision",
+    "strength": 0.4,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  },
+  "sunburn_immunity": {
+    "type": "origins:effect_immunity",
+    "effects": [
+      "minecraft:slowness"
+    ],
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  }
+}

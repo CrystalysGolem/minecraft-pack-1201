@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:aqua_affinity",
+    "origins-plus-plus:sunken-sailor/ignore_water",
+    "origins-plus-plus:sunken-sailor/shipwreck_spawn",
+    "origins-plus-plus:sunken-sailor/skin_tone",
+    "origins-plus-plus:sunken-sailor/spyglass",
+    "origins-plus-plus:sunken-sailor/water_breathing",
+    "origins-plus-plus:sunken-sailor/water_falling"
+  ],
+  "icon": "minecraft:filled_map",
+  "impact": 2
+}

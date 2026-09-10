@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins-plus-plus:golden-golem/extra_damage",
+    "origins-plus-plus:golden-golem/gold_color",
+    "origins-plus-plus:golden-golem/gold_resource",
+    "origins-plus-plus:golden-golem/gold_resource_extras",
+    "origins-plus-plus:golden-golem/golem_power",
+    "origins-plus-plus:golden-golem/health_resource",
+    "origins-plus-plus:golden-golem/health_resource_items",
+    "origins-plus-plus:golden-golem/water"
+  ],
+  "icon": "minecraft:totem_of_undying",
+  "impact": 3
+}

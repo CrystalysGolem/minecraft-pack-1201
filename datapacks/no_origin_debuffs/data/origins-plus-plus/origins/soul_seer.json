@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "origins-plus-plus:soul-seer/antivore",
+    "origins-plus-plus:soul-seer/empty_well",
+    "origins-plus-plus:soul-seer/energized_vigor",
+    "origins-plus-plus:soul-seer/glowing",
+    "origins-plus-plus:soul-seer/lightweight",
+    "origins-plus-plus:soul-seer/particles",
+    "origins-plus-plus:soul-seer/resource",
+    "origins-plus-plus:soul-seer/shaders",
+    "origins-plus-plus:soul-seer/soul_deplete",
+    "origins-plus-plus:soul-seer/soul_steal",
+    "origins-plus-plus:soul-seer/teleport",
+    "origins-plus-plus:soul-seer/transparent"
+  ],
+  "icon": "minecraft:soul_sand",
+  "impact": 3
+}

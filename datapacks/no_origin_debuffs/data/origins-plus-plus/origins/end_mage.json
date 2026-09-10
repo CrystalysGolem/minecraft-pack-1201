@@ -1,0 +1,18 @@
+{
+  "powers": [
+    "origins-plus-plus:end-mage/end_rage",
+    "origins-plus-plus:end-mage/mage_book",
+    "origins-plus-plus:end-mage/mana_potion",
+    "origins-plus-plus:end-mage/reach",
+    "origins-plus-plus:end-mage/recipes",
+    "origins-plus-plus:end-mage/resource",
+    "origins-plus-plus:end-mage/resource_change",
+    "origins-plus-plus:end-mage/super_mana_potion",
+    "origins-plus-plus:end-mage/telekinesis",
+    "origins-plus-plus:end-mage/teleport",
+    "origins-plus-plus:end-mage/tp_to_you",
+    "origins-plus-plus:end-mage/waypoint"
+  ],
+  "icon": "minecraft:end_crystal",
+  "impact": 3
+}

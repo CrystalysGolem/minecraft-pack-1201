@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins_minus:blink",
+    "origins_minus:reach",
+    "origins_minus:wraparound",
+    "origins_minus:voidthing_particles"
+  ],
+  "icon": {
+    "item": "minecraft:music_disc_11"
+  },
+  "impact": 1
+}

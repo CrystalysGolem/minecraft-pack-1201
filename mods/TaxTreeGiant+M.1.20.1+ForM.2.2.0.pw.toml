@@ -1,0 +1,8 @@
+name = "TaxTreeGiant+M.1.20.1+ForM.2.2.0"
+filename = "TaxTreeGiant+M.1.20.1+ForM.2.2.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/TaxTreeGiant%2BM.1.20.1%2BForM.2.2.0.jar"
+hash-format = "sha512"
+hash = "cd208cc80eaea7b280d5feeb5d15ac2f74f13355e0faaf06dd8d7e2e9710a2d3c124cec18a365e0dc5ec9dbe21534e626daee07b44213ab146f6df309834e766"

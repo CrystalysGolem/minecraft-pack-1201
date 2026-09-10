@@ -1,0 +1,41 @@
+{
+  "type": "origins:multiple",
+  "cold_skin": {
+    "type": "origins:model_color",
+    "red": 0.7,
+    "green": 0.7,
+    "blue": 1,
+    "alpha": 1,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:cobra/cold_resource",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:cobra/cold_resource",
+          "comparison": "<",
+          "compare_to": 200
+        }
+      ]
+    }
+  },
+  "frozen_skin": {
+    "type": "origins:model_color",
+    "red": 0.5,
+    "green": 0.5,
+    "blue": 1,
+    "alpha": 1,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:cobra/cold_resource",
+      "comparison": "==",
+      "compare_to": 200
+    }
+  },
+  "hidden": true
+}

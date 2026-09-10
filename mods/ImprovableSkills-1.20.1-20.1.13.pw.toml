@@ -1,0 +1,8 @@
+name = "ImprovableSkills-1.20.1-20.1.13"
+filename = "ImprovableSkills-1.20.1-20.1.13.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/ImprovableSkills-1.20.1-20.1.13.jar"
+hash-format = "sha512"
+hash = "e04600e78f5b7aacce880c6009f111a64812b26601d123fde8932aad431af85bd3a66a6da0c0fbd4af9c862ff199f30b5fe24f51e95c7f4dce75285d225dda7b"

@@ -1,0 +1,12 @@
+name = "Alternate Origin GUI"
+filename = "AltOriginGui-forge-1.20.1-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ldWHqZwQ/versions/465dmrwW/AltOriginGui-forge-1.20.1-1.1.2.jar"
+hash-format = "sha512"
+hash = "83bbbd838fb8f09552012f80a71bac2d67bb644cdfd5546d8c1bb21a1342876ef1cd9e9114c42d19d005cc355969d11a0846728d8729823d043792998d8a3ff6"
+
+[update.modrinth]
+mod-id = "ldWHqZwQ"
+version = "465dmrwW"

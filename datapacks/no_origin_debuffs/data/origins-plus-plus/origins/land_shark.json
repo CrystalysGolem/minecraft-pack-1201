@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins:aqua_affinity",
+    "origins-plus-plus:land-shark/gill_lungs",
+    "origins-plus-plus:land-shark/lunge",
+    "origins-plus-plus:land-shark/razor_teeth",
+    "origins-plus-plus:land-shark/speedy"
+  ],
+  "icon": "minecraft:prismarine_shard",
+  "impact": 2
+}

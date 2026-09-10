@@ -1,0 +1,27 @@
+{
+  "type": "origins:multiple",
+  "hidden": true,
+  "scale": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins_tweaks:wyverian/normal_size"
+    },
+    "interval": 20
+  },
+  "apply": {
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+      "type": "origins:execute_command",
+      "command": "function origins_tweaks:wyverian/normal_size"
+    },
+    "entity_action_respawned": {
+      "type": "origins:execute_command",
+      "command": "function origins_tweaks:wyverian/normal_size"
+    },
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scale reset @s"
+    }
+  }
+}

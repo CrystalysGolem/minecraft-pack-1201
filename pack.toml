@@ -1,0 +1,13 @@
+name = "minecraft-pack-1201"
+author = "CrystalysGolem"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1d3f50df49b5799583d1ac21e5b7aa5adfae80f64f8e03d696aa8d8242fccb97"
+
+[versions]
+forge = "47.4.10"
+minecraft = "1.20.1"

@@ -1,0 +1,15 @@
+{
+  "powers": [
+    "origins:cat_vision",
+    "origins:elytra",
+    "origins:fall_immunity",
+    "origins:launch_into_air",
+    "origins-plus-plus:felvaxian/feline_legs",
+    "origins-plus-plus:felvaxian/ravens_defense",
+    "origins-plus-plus:felvaxian/scavenger_pouch",
+    "origins-plus-plus:felvaxian/tint",
+    "origins-plus-plus:felvaxian/unholy_aura"
+  ],
+  "icon": "minecraft:black_dye",
+  "impact": 2
+}

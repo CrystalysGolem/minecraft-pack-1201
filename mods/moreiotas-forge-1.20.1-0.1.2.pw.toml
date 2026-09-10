@@ -1,0 +1,12 @@
+name = "MoreIotas"
+filename = "moreiotas-forge-1.20.1-0.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Jmt7p37B/versions/CEgmhGUx/moreiotas-forge-1.20.1-0.1.2.jar"
+hash-format = "sha512"
+hash = "dd4b1ae29cb98492ac643ae92f5e2b0b578151b150cf7c30d3db9a913886752a1afb512fbc2ef6ca43c1e55788d78b0f6c8c1e4d5fe44c30dd5944e7acb50de4"
+
+[update.modrinth]
+mod-id = "Jmt7p37B"
+version = "CEgmhGUx"

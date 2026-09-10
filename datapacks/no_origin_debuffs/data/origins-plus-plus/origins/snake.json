@@ -1,0 +1,9 @@
+{
+  "powers": [
+    "origins-plus-plus:snake/bite",
+    "origins-plus-plus:snake/intimidate",
+    "origins-plus-plus:snake/lunge"
+  ],
+  "icon": "minecraft:scute",
+  "impact": 2
+}

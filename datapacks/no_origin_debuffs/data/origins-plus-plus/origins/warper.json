@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins-plus-plus:warper/ender_chest",
+    "origins-plus-plus:warper/fall_break",
+    "origins-plus-plus:warper/food",
+    "origins-plus-plus:warper/passive_endermen",
+    "origins-plus-plus:warper/portality",
+    "origins-plus-plus:warper/random_teleport",
+    "origins-plus-plus:warper/spawn",
+    "origins-plus-plus:warper/teleport"
+  ],
+  "icon": "minecraft:end_portal_frame",
+  "impact": 3
+}

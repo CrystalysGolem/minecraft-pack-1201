@@ -1,0 +1,8 @@
+name = "sophisticatedcore-1.20.1-1.5.1.2335"
+filename = "sophisticatedcore-1.20.1-1.5.1.2335.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/sophisticatedcore-1.20.1-1.5.1.2335.jar"
+hash-format = "sha512"
+hash = "64a03ca6b2a688c9b07059c2051ccc51f0bd11f8b58b9694cddb8e03a01339e1fca54e665471050299e305db577010f36b8f9b7326c4e057371bd73a527539e2"

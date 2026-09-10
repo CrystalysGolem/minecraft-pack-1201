@@ -1,0 +1,8 @@
+name = "geckolib-forge-1.20.1-4.8.4"
+filename = "geckolib-forge-1.20.1-4.8.4.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/geckolib-forge-1.20.1-4.8.4.jar"
+hash-format = "sha512"
+hash = "e3ddb9b3688c5dc7e32befe5b7849447acf08e7f839c453e2e7034dd01e194118a6a496205aa89dba797709fec0c06b8ea4680536ef6b33fb0c29a976c09d576"

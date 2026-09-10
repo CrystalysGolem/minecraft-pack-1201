@@ -1,0 +1,12 @@
+name = "EMI Farmer's Delight Reforged"
+filename = "emidelight-1.0.1-1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cQNGNakG/versions/UOSBMlLe/emidelight-1.0.1-1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "e426f1c7bb0cd6660261a10a7340770e362d9ba24c25a20a2f6d9686cab0ccf35b8d7f4f3d117dd0476438c384673a7058e89c3521d39ab8331b2ff42f1bfe33"
+
+[update.modrinth]
+mod-id = "cQNGNakG"
+version = "UOSBMlLe"

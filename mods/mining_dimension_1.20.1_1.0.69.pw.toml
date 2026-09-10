@@ -1,0 +1,12 @@
+name = "Quarry Mining Dimension"
+filename = "mining_dimension_1.20.1_1.0.69.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MHfCiaKL/versions/jXx0BQQl/mining_dimension_1.20.1_1.0.69.jar"
+hash-format = "sha512"
+hash = "5612c583b37c29ad61b8533e00b706008a5ebc40d110402de96fbc0d533d2674ff146e999066f819acc0257fd1b8f1e3a5cd9ba21aef4b280143543a61fe0961"
+
+[update.modrinth]
+mod-id = "MHfCiaKL"
+version = "jXx0BQQl"

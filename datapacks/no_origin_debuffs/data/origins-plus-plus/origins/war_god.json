@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins-plus-plus:war-god/axe_god",
+    "origins-plus-plus:war-god/born_in_fire",
+    "origins-plus-plus:war-god/moonlight_darkness",
+    "origins-plus-plus:war-god/philza_reference",
+    "origins-plus-plus:war-god/strong",
+    "origins-plus-plus:war-god/swordsman",
+    "origins-plus-plus:war-god/warrior"
+  ],
+  "icon": "minecraft:iron_axe",
+  "impact": 2
+}

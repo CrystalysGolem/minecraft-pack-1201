@@ -1,0 +1,21 @@
+#Show the 'Deposits: ON/OFF' button on Xaero's world map.
+#Disable if it overlaps another mod's UI (e.g. Create: Steam 'n' Rails' 
+#Train Routes toggle). The keybind still works either way.
+map_button_enabled = true
+#Edge to anchor the widget to. LEFT (default) or RIGHT.
+#Combined with map_button_x_offset to position the widget.
+#Allowed Values: LEFT, RIGHT
+map_button_anchor = "LEFT"
+#Pixels from the anchored edge to the nearest side of the 16-px-wide widget.
+#Default 5 hugs the edge. Combined with map_button_y_offset to position the widget.
+#Range: 0 ~ 4000
+map_button_x_offset = 5
+#Pixels from the top edge of the map screen to the widget's top edge.
+#Default 50 sits the widget below Xaero's corner button cluster — every
+#Xaero corner has buttons so the mid-edge area is the only reliably-clear strip.
+#Range: 0 ~ 2000
+map_button_y_offset = 50
+#Log when the client cache receives a deposit sync packet from the server.
+#Format: 'cache: +N → total M'. Default off; turn on briefly when debugging packet flow.
+log_client_sync = false
+

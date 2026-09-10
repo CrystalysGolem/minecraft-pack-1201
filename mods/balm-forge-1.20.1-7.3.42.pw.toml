@@ -1,0 +1,8 @@
+name = "balm-forge-1.20.1-7.3.42"
+filename = "balm-forge-1.20.1-7.3.42.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/balm-forge-1.20.1-7.3.42.jar"
+hash-format = "sha512"
+hash = "87eac0c95ae754f5b2fa10ab73f4c2be46c93ec7d780840e585198dcc3af5fe3d160c236dc58aa8cc685fb425f32bb717b9e235e0d36a8221978ac5f11155232"

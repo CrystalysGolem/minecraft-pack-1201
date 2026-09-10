@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-plus-plus:reign-farmer/nourish",
+    "origins-plus-plus:reign-farmer/pacifist",
+    "origins-plus-plus:reign-farmer/photosynthesis",
+    "origins-plus-plus:reign-farmer/strength_of_crops",
+    "origins-plus-plus:reign-farmer/the_gift_of_life"
+  ],
+  "icon": "minecraft:netherite_hoe",
+  "impact": 1
+}

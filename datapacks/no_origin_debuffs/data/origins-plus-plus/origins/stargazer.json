@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins-plus-plus:stargazer/equinox",
+    "origins-plus-plus:stargazer/hellish_will",
+    "origins-plus-plus:stargazer/monster_mender",
+    "origins-plus-plus:stargazer/starguard",
+    "origins-plus-plus:stargazer/starlight_mode",
+    "origins-plus-plus:stargazer/starstalker"
+  ],
+  "icon": "minecraft:nether_star",
+  "impact": 3
+}

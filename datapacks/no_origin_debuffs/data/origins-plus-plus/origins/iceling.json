@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins:climbing",
+    "origins-plus-plus:iceling/blue_transparent_skin",
+    "origins-plus-plus:iceling/cold_speed",
+    "origins-plus-plus:iceling/cold_power",
+    "origins-plus-plus:iceling/disable_regen",
+    "origins-plus-plus:iceling/harvest_now",
+    "origins-plus-plus:iceling/immunity",
+    "origins-plus-plus:iceling/nib",
+    "origins-plus-plus:iceling/no_hunger",
+    "origins-plus-plus:iceling/regen",
+    "origins-plus-plus:iceling/shard",
+    "origins-plus-plus:iceling/size",
+    "origins-plus-plus:iceling/snow_spawn",
+    "origins-plus-plus:iceling/speed",
+    "origins-plus-plus:iceling/water"
+  ],
+  "icon": "minecraft:ice",
+  "impact": 3
+}

@@ -1,0 +1,8 @@
+name = "solcarrot-1.20.1-1.15.1"
+filename = "solcarrot-1.20.1-1.15.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/solcarrot-1.20.1-1.15.1.jar"
+hash-format = "sha512"
+hash = "fe329c46c6877924e02f88af125d0c3ca9638e6477cf71d3b398c2bcab7998808e4715c234782c0ffafd9a77b50f0915773d7731e8190375d2fd244e6a37921d"

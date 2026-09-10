@@ -1,0 +1,8 @@
+name = "origins-minus-2.4.0+1.20"
+filename = "origins-minus-2.4.0+1.20.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/origins-minus-2.4.0%2B1.20.jar"
+hash-format = "sha512"
+hash = "980db3bc5ca4f8b5924945154e0b295d96b87e66dff6cb9e278420d02be3f302323f2787afee5fe01e8722a966cfcc7784c1c597206709fe52d8d318b9a3e36a"

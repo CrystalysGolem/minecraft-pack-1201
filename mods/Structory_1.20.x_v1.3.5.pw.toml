@@ -1,0 +1,8 @@
+name = "Structory_1.20.x_v1.3.5"
+filename = "Structory_1.20.x_v1.3.5.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/Structory_1.20.x_v1.3.5.jar"
+hash-format = "sha512"
+hash = "e583bb081bea1c8638deffae5c12b3548f86651641dd78f2655ccca78b2658dd5847db2bd9081e913b8755818de2e15501dd24963d8f6f67ebabc155e4fc94ff"

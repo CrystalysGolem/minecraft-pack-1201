@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:aqua_affinity",
+    "origins:fall_immunity",
+    "origins-plus-plus:dolphin/bubbles",
+    "origins-plus-plus:dolphin/ocean_spawn",
+    "origins-plus-plus:dolphin/fish_buff",
+    "origins-plus-plus:dolphin/riptide",
+    "origins-plus-plus:dolphin/speed_water",
+    "origins-plus-plus:dolphin/summon_dolphin",
+    "origins-plus-plus:dolphin/water_breathing",
+    "origins-plus-plus:dolphin/water_vision"
+  ],
+  "icon": "minecraft:prismarine_shard",
+  "impact": 2
+}

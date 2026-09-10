@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins-plus-plus:craftsman/axe",
+    "origins-plus-plus:craftsman/crafting",
+    "origins-plus-plus:craftsman/fire",
+    "origins-plus-plus:craftsman/village"
+  ],
+  "icon": "minecraft:crafting_table",
+  "impact": 1
+}

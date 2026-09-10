@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins:fall_immunity",
+    "origins:fire_immunity",
+    "origins-plus-plus:volcanic-dragon/hot_blooded",
+    "origins-plus-plus:volcanic-dragon/lava_breath",
+    "origins-plus-plus:volcanic-dragon/natural_armor",
+    "origins-plus-plus:volcanic-dragon/natural_strength",
+    "origins-plus-plus:volcanic-dragon/nether_spawn",
+    "origins-plus-plus:volcanic-dragon/two_extra_hearts",
+    "origins-plus-plus:volcanic-dragon/volcanic_dash"
+  ],
+  "icon": "minecraft:lava_bucket",
+  "impact": 3
+}

@@ -1,0 +1,24 @@
+{
+  "powers": [
+    "origins-plus-plus:glacier/chilly_person",
+    "origins-plus-plus:glacier/cold_feet",
+    "origins-plus-plus:glacier/cold_protection",
+    "origins-plus-plus:glacier/cold_skin",
+    "origins-plus-plus:glacier/freezing_touch",
+    "origins-plus-plus:glacier/harvest_snow_layer",
+    "origins-plus-plus:glacier/hot_sun",
+    "origins-plus-plus:glacier/icy_breath",
+    "origins-plus-plus:glacier/icy_defence",
+    "origins-plus-plus:glacier/icy_spawn",
+    "origins-plus-plus:glacier/multi_snowballs",
+    "origins-plus-plus:glacier/multi_snowballs_cooldown",
+    "origins-plus-plus:glacier/night_person",
+    "origins-plus-plus:glacier/snow_damper",
+    "origins-plus-plus:glacier/snow_particles",
+    "origins-plus-plus:glacier/snowballs_damage",
+    "origins-plus-plus:glacier/snowflakes_particles",
+    "origins-plus-plus:glacier/snowy_sprinter"
+  ],
+  "icon": "minecraft:snow",
+  "impact": 3
+}

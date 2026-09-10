@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins-plus-plus:wyverian/wind"
+  ],
+  "icon": "minecraft:elytra",
+  "impact": 1,
+  "order": 1,
+  "name": "Летун",
+  "description": "Только крылья виверны: планируете на элитрах и взмахиваете, чтобы взлететь. Без когтей, яда и штрафов."
+}

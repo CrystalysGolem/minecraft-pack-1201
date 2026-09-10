@@ -1,0 +1,12 @@
+name = "Sophisticated Sorter"
+filename = "SophisticatedSorter-forge-1.20.1-1.1.0-hotfix.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2LPywrDb/versions/Z4aovabF/SophisticatedSorter-forge-1.20.1-1.1.0-hotfix.jar"
+hash-format = "sha512"
+hash = "95f2e226fbea3f4221d413899d36467f2262ec3af81bd51cbd28d26fae81132007b3a05b20e31cae78ce0bea43639978ed2d70ee1e0abfd77ba3e96aa10f0f62"
+
+[update.modrinth]
+mod-id = "2LPywrDb"
+version = "Z4aovabF"

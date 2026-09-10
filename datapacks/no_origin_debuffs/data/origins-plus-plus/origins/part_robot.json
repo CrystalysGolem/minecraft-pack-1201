@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "origins:strong_arms",
+    "origins:strong_arms_break_speed",
+    "origins-plus-plus:part-robot/boiling",
+    "origins-plus-plus:part-robot/effect_immune",
+    "origins-plus-plus:part-robot/heavy",
+    "origins-plus-plus:part-robot/laser",
+    "origins-plus-plus:part-robot/no_regeneration",
+    "origins-plus-plus:part-robot/rapid_laser",
+    "origins-plus-plus:part-robot/regenerate",
+    "origins-plus-plus:part-robot/steel_skin",
+    "origins-plus-plus:part-robot/tank_skin",
+    "origins-plus-plus:part-robot/unexhausted",
+    "origins-plus-plus:part-robot/water_breather"
+  ],
+  "icon": "minecraft:iron_block",
+  "impact": 2
+}

@@ -1,0 +1,12 @@
+name = "ForgematicaPrinter"
+filename = "ForgematicaPrinter-0.1.0+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oqw1j8E7/versions/Iu8zwuRq/ForgematicaPrinter-0.1.0%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "a92c48db3297ae07ebc294fb82eb507c3916cf5c563901ef89d096a6b26c9c1f113c06cfd20304860aba0f3c7fc3b7b74ae913c2eb6685b014036ffd870c3438"
+
+[update.modrinth]
+mod-id = "oqw1j8E7"
+version = "Iu8zwuRq"

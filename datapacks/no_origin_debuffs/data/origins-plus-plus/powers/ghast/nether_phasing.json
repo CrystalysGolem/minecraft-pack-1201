@@ -1,0 +1,62 @@
+{
+  "type": "origins:multiple",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": "key.origins.secondary_active",
+    "condition": {
+      "type": "apoli:food_level",
+      "comparison": ">",
+      "compare_to": 6
+    }
+  },
+  "phasing": {
+    "type": "origins:phasing",
+    "blacklist": true,
+    "render_type": "blindness",
+    "view_distance": 10,
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "origins:unphasable"
+    },
+    "phase_down_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:sneaking"
+        },
+        {
+          "type": "origins:on_block"
+        }
+      ]
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "*:*_toggle"
+        },
+        {
+          "type": "origins:dimension",
+          "dimension": "minecraft:the_nether"
+        }
+      ]
+    }
+  },
+  "overlay": {
+    "type": "origins:overlay",
+    "texture": "minecraft:textures/misc/nausea.png",
+    "strength": 0.6,
+    "red": 0.9,
+    "green": 0.2,
+    "blue": 0.2,
+    "draw_mode": "nausea",
+    "draw_phase": "below_hud",
+    "visible_in_third_person": true,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  }
+}

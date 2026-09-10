@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins-plus-plus:candyperson/cake_master",
+    "origins-plus-plus:candyperson/cookie_master",
+    "origins-plus-plus:candyperson/favorite_food",
+    "origins-plus-plus:candyperson/hard_sugar",
+    "origins-plus-plus:candyperson/sugar_expert",
+    "origins-plus-plus:candyperson/sugar_kit",
+    "origins-plus-plus:candyperson/sugar_recipe",
+    "origins-plus-plus:candyperson/sugar_stomach"
+  ],
+  "icon": "minecraft:sugar",
+  "impact": 2
+}

@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins-plus-plus:mothling/boost",
+    "origins-plus-plus:mothling/lantern",
+    "origins-plus-plus:mothling/leather_diet",
+    "origins-plus-plus:mothling/small",
+    "origins-plus-plus:mothling/sound_effect",
+    "origins-plus-plus:mothling/weight"
+  ],
+  "icon": "minecraft:rabbit_hide",
+  "impact": 3
+}

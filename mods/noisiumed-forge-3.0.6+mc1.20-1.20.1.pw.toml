@@ -1,0 +1,12 @@
+name = "Noisiumed"
+filename = "noisiumed-forge-3.0.6+mc1.20-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/M8MasaZG/versions/LbWCNzST/noisiumed-forge-3.0.6%2Bmc1.20-1.20.1.jar"
+hash-format = "sha512"
+hash = "b0249eabccd3491532cc3c120f422e4a7f5a2ec9bb71bbcb65c62d89b7e89250156fb0e0e49d690fdf76a20b9c3b20524843c8cb496c2171bded11317d221661"
+
+[update.modrinth]
+mod-id = "M8MasaZG"
+version = "LbWCNzST"

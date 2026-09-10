@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "origins-plus-plus:giant/armor",
+    "origins-plus-plus:giant/big",
+    "origins-plus-plus:giant/bow",
+    "origins-plus-plus:giant/crossbow",
+    "origins-plus-plus:giant/breath",
+    "origins-plus-plus:giant/health",
+    "origins-plus-plus:giant/item",
+    "origins-plus-plus:giant/limbs",
+    "origins-plus-plus:giant/mount",
+    "origins-plus-plus:giant/no_elytra",
+    "origins-plus-plus:giant/prevent_mount",
+    "origins-plus-plus:giant/slam",
+    "origins-plus-plus:giant/strong",
+    "origins-plus-plus:giant/sturdy",
+    "origins-plus-plus:giant/swim"
+  ],
+  "icon": "minecraft:leather_chestplate",
+  "impact": 3
+}

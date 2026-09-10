@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-plus-plus:beaver/aquatic",
+    "origins-plus-plus:beaver/logger",
+    "origins-plus-plus:beaver/rage",
+    "origins-plus-plus:beaver/razor_teeth",
+    "origins-plus-plus:beaver/storage"
+  ],
+  "icon": "minecraft:brown_wool",
+  "impact": 2
+}

@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins:throw_ender_pearl",
+    "origins-plus-plus:zero-aizawa/acrobatics",
+    "origins-plus-plus:zero-aizawa/long_arms",
+    "origins-plus-plus:zero-aizawa/nice_mobs",
+    "origins-plus-plus:zero-aizawa/nice_villager_prices",
+    "origins-plus-plus:zero-aizawa/super_sane"
+  ],
+  "icon": "minecraft:black_stained_glass",
+  "impact": 2
+}

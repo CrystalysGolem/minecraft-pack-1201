@@ -1,0 +1,12 @@
+{
+  "powers": [
+    "origins-plus-plus:enigma/clone",
+    "origins-plus-plus:enigma/behind_you",
+    "origins-plus-plus:enigma/hated",
+    "origins-plus-plus:enigma/phase",
+    "origins-plus-plus:enigma/sight",
+    "origins-plus-plus:enigma/staring"
+  ],
+  "icon": "minecraft:jigsaw",
+  "impact": 2
+}

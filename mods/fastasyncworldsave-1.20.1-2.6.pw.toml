@@ -1,0 +1,8 @@
+name = "fastasyncworldsave-1.20.1-2.6"
+filename = "fastasyncworldsave-1.20.1-2.6.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/fastasyncworldsave-1.20.1-2.6.jar"
+hash-format = "sha512"
+hash = "c0c051c8973d50a1cc7a5b685fbb88c55e4c825a00b70f06b41e1a0b63431446b3bee9136b7bea9002605da8cab6c39241efc50b6c0dc60130eecc6d8a04fbf6"

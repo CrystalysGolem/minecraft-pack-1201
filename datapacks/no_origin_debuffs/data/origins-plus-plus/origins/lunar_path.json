@@ -1,0 +1,16 @@
+{
+  "powers": [
+    "origins-plus-plus:lunar-path/chains_of_death",
+    "origins-plus-plus:lunar-path/cursed_being",
+    "origins-plus-plus:lunar-path/exiled",
+    "origins-plus-plus:lunar-path/explosion_immune",
+    "origins-plus-plus:lunar-path/from_beyond_the_grave",
+    "origins-plus-plus:lunar-path/great_deal",
+    "origins-plus-plus:lunar-path/night_boost",
+    "origins-plus-plus:lunar-path/pluck",
+    "origins-plus-plus:lunar-path/summon_fangs",
+    "origins-plus-plus:lunar-path/wither_immunity"
+  ],
+  "icon": "minecraft:sea_lantern",
+  "impact": 3
+}

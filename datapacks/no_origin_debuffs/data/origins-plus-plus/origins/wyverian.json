@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins-plus-plus:wyverian/claws",
+    "origins-plus-plus:wyverian/night_vision",
+    "origins-plus-plus:wyverian/poison_immune",
+    "origins-plus-plus:wyverian/projectile",
+    "origins-plus-plus:wyverian/size",
+    "origins-plus-plus:wyverian/wind"
+  ],
+  "icon": "minecraft:ender_eye",
+  "impact": 3
+}

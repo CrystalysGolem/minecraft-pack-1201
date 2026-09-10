@@ -1,0 +1,8 @@
+name = "dragonfight-1.20.1-4.7"
+filename = "dragonfight-1.20.1-4.7.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/dragonfight-1.20.1-4.7.jar"
+hash-format = "sha512"
+hash = "a674c400a22956cb54e634bffba1d7acf135f587acef0a060706249142935304dc389bf3919fc3be09a500d5331c83e5712600134ef0d18de4a89cce40d4747c"

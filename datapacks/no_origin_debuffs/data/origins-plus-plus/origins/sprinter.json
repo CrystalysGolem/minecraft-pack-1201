@@ -1,0 +1,10 @@
+{
+  "powers": [
+    "origins:cat_vision",
+    "origins-plus-plus:sprinter/adrenaline_boost",
+    "origins-plus-plus:sprinter/light_feet",
+    "origins-plus-plus:sprinter/nimble"
+  ],
+  "icon": "minecraft:leather_boots",
+  "impact": 2
+}

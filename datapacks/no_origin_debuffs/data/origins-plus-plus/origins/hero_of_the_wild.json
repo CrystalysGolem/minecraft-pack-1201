@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:elytra",
+    "origins:climbing",
+    "origins-plus-plus:hero-of-the-wild/energy_wave",
+    "origins-plus-plus:hero-of-the-wild/epona",
+    "origins-plus-plus:hero-of-the-wild/roll",
+    "origins-plus-plus:hero-of-the-wild/sink",
+    "origins-plus-plus:hero-of-the-wild/sword"
+  ],
+  "icon": "minecraft:iron_sword",
+  "impact": 2
+}

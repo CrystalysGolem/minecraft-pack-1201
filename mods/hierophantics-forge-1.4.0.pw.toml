@@ -1,0 +1,12 @@
+name = "Hierophantics"
+filename = "hierophantics-forge-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ybwf7iLN/versions/B28zRkV6/hierophantics-forge-1.4.0.jar"
+hash-format = "sha512"
+hash = "4e9873c43b3963ab092bb6c9c9261c371d572051ebcf06d6e1026d4f4e75f28af13987d7265a0121659db0b212a0fed4e92e7966f9bebf922c373e3ec2eb6c97"
+
+[update.modrinth]
+mod-id = "ybwf7iLN"
+version = "B28zRkV6"

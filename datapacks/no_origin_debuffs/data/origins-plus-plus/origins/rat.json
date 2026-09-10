@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins:climbing",
+    "origins-plus-plus:rat/nimble_limbs",
+    "origins-plus-plus:rat/one_block_height",
+    "origins-plus-plus:rat/rats_eyes",
+    "origins-plus-plus:rat/scavenger",
+    "origins-plus-plus:rat/tail_whip",
+    "origins-plus-plus:rat/toxicity_evolved",
+    "origins-plus-plus:rat/vicious_bite"
+  ],
+  "icon": "minecraft:rotten_flesh",
+  "impact": 2
+}

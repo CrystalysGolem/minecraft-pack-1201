@@ -1,0 +1,7 @@
+
+["Better Combat Reach Fix Settings"]
+	#是否保留Better Combat为不同武器设计的攻击距离差异
+	#true: 保留差异（长矛比剑远），entity_reach加成会叠加在武器基础距离上
+	#false: 完全覆盖（所有武器攻击距离相同），最终距离等于entity_reach属性值
+	preserveWeaponRangeDifferences = true
+

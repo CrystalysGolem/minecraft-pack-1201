@@ -1,0 +1,19 @@
+{
+  "powers": [
+    "origins-plus-plus:spectre/archangel_size",
+    "origins-plus-plus:spectre/demonic",
+    "origins-plus-plus:spectre/ethereal",
+    "origins-plus-plus:spectre/respawn",
+    "origins-plus-plus:spectre/rotten_flesh",
+    "origins-plus-plus:spectre/soul_devourer",
+    "origins-plus-plus:spectre/soul_sacrifice",
+    "origins-plus-plus:spectre/spectre_infinite",
+    "origins-plus-plus:spectre/spectre_terror",
+    "origins-plus-plus:spectre/spectre_terror_toggle",
+    "origins-plus-plus:spectre/translucent",
+    "origins-plus-plus:spectre/water_loathing",
+    "origins-plus-plus:spectre/weakened"
+  ],
+  "icon": "minecraft:blackstone",
+  "impact": 3
+}

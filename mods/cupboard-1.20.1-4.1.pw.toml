@@ -1,0 +1,8 @@
+name = "cupboard-1.20.1-4.1"
+filename = "cupboard-1.20.1-4.1.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/cupboard-1.20.1-4.1.jar"
+hash-format = "sha512"
+hash = "ac0ea3d5fe01f758c7850e3a82b868386f9b3b29701e8f5fad54abe7915d02899d41760893425d7bf6ab4636a245d39b95ac8f04f64635c10d87305a170b6355"

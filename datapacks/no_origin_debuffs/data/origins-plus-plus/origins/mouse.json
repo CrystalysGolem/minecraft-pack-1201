@@ -1,0 +1,11 @@
+{
+  "powers": [
+    "origins-plus-plus:mouse/mischievous",
+    "origins-plus-plus:mouse/mob_ally",
+    "origins-plus-plus:mouse/mouse_sized",
+    "origins-plus-plus:mouse/ride",
+    "origins-plus-plus:mouse/yoink"
+  ],
+  "icon": "minecraft:beef",
+  "impact": 3
+}

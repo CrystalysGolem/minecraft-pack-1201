@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "origins:fall_immunity",
+    "origins:fire_immunity",
+    "origins-plus-plus:ninetails/fire_particles",
+    "origins-plus-plus:ninetails/firebody",
+    "origins-plus-plus:ninetails/launch",
+    "origins-plus-plus:ninetails/pocket",
+    "origins-plus-plus:ninetails/willow"
+  ],
+  "icon": "minecraft:blaze_powder",
+  "impact": 3
+}

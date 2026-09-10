@@ -1,0 +1,14 @@
+{
+  "powers": [
+    "origins-plus-plus:artificial-construct/battery",
+    "origins-plus-plus:artificial-construct/battery_resource",
+    "origins-plus-plus:artificial-construct/dispenser",
+    "origins-plus-plus:artificial-construct/heal",
+    "origins-plus-plus:artificial-construct/metal_shell",
+    "origins-plus-plus:artificial-construct/no_hunger",
+    "origins-plus-plus:artificial-construct/reach",
+    "origins-plus-plus:artificial-construct/storage"
+  ],
+  "icon": "minecraft:redstone_torch",
+  "impact": 3
+}
