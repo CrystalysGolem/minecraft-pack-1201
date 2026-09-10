@@ -1,0 +1,12 @@
+name = "Macaw's Betters"
+filename = "mcwbetters-forge-1.20.1-1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YwnqoRu0/versions/vtWrNfCd/mcwbetters-forge-1.20.1-1.6.jar"
+hash-format = "sha512"
+hash = "1209f2a201df8d4e328366aba09676d0e32e710f039f075ac14a5c1f2bdc00a22fa89bf1a4125d8b5707e6085856754f7c8fcdf4b8a533ca4545230e3ae1c809"
+
+[update.modrinth]
+mod-id = "YwnqoRu0"
+version = "vtWrNfCd"

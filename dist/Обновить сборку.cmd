@@ -117,6 +117,7 @@ for /l %%I in (1,1,!N!) do (
 
 if defined USED (
   set "BASE=!USED:/pack.toml=!"
+  call :fixpacks
   call :seed "!BASE!"
 )
 
@@ -133,6 +134,14 @@ echo Проверь интернет (или чтобы хост был включён) и попробуй снова.
 echo Уже скачанное не потеряется: следующий запуск продолжит с того же места.
 pause
 exit /b 1
+
+:fixpacks
+rem Включает наши ресурспаки с фиксами: игра их видит только если они в options.txt.
+if not exist "options.txt" exit /b 0
+findstr /c:"mcwbetters-fix" "options.txt" >nul 2>nul
+if not errorlevel 1 exit /b 0
+powershell -NoProfile -Command "$f='options.txt';if(Test-Path $f){$t=[IO.File]::ReadAllText($f);if($t -notlike '*mcwbetters-fix*'){$i='{0}{1}{2}{3}{4}' -f 'resourcePacks:[',[char]34,'file/mcwbetters-fix.zip',[char]34,',';$t=$t -replace '(?<![\w])resourcePacks:\[',$i;[IO.File]::WriteAllText($f,$t,(New-Object System.Text.UTF8Encoding($false)))}}" >nul 2>nul
+exit /b 0
 
 rem ---------------- установка пакета ----------------
 :install

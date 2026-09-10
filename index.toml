@@ -4254,8 +4254,8 @@ hash = "2cc29ce063d4bd5291993ce852b9b1058e018b889ca0ea4b3708de839147458d"
 metafile = true
 
 [[files]]
-file = "mods/mcwbetters-forge-1.20.1-1.6-fix1.pw.toml"
-hash = "f2cd86a4be097804fd05631149c1ba1fc95d1b79341f4dce655346f3c3e4e0da"
+file = "mods/mcwbetters-forge-1.20.1-1.6.pw.toml"
+hash = "14a17c5d2621fb5a37462fba0fa18b647fd15952d317f6edef271b09bc35f146"
 metafile = true
 
 [[files]]
@@ -4594,6 +4594,10 @@ hash = "e2c8fd2cd977899febcfb09e96957097eacb8d265666793c8a2bedc8f71b9c4d"
 [[files]]
 file = "resourcepacks/enchant-icons-1.21.5-v1.3.zip"
 hash = "1bf4d6383749e78d58b905a2a8c48326cc9e2ce177d586ec48038401b7c5933c"
+
+[[files]]
+file = "resourcepacks/mcwbetters-fix.zip"
+hash = "296327490eb06f2d5a90cff9e12f6f722255741623062dc40f230a31a51690bc"
 
 [[files]]
 file = "resourcepacks/§5§lNo Enchant Glint §f§l26.2.zip"
