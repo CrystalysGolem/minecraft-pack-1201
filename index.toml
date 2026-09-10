@@ -981,6 +981,10 @@ file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
 [[files]]
+file = "config/global_packs.toml"
+hash = "c020f392032f601a59eff3309d6d613b72fdb2f1fe8802ee714488049efd9024"
+
+[[files]]
 file = "config/guideme.toml"
 hash = "89a3f43b3cb90476c75121fecdd5f77375e6a95bfbd7f8bb057574e70cec660c"
 
@@ -3461,6 +3465,118 @@ file = "datapacks/no_origin_debuffs/pack.mcmeta"
 hash = "bad1af41b12b3d0412b35157b9f8da07d0c75e1e7bb69989b22932ec7ae8e801"
 
 [[files]]
+file = "datapacks/pack_fixes/data/create/recipes/crushing/compat/biomeswevegone/blue_nether_gold_ore.json"
+hash = "0fb29391fa3f36c6855039ec76bf200ede007daf913603148ed3ecd86712689c"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/crushing/compat/biomeswevegone/blue_nether_quartz_ore.json"
+hash = "e20e9b252e67c5b2d9df67cae56e61d54dfaf8cba6542709fd6475e12a9b6591"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/crushing/compat/biomeswevegone/brimstone_nether_gold_ore.json"
+hash = "d8db79e042c6fc5cd72deb7733e96e0b91243e5a3323eb8bcf2dfd898fd021c9"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/crushing/compat/biomeswevegone/brimstone_nether_quartz_ore.json"
+hash = "ba674ae46e38e2e31185b0734593c198c3e7e68ed88004241567b0caf17576bd"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/crushing/compat/biomeswevegone/cryptic_redstone_ore.json"
+hash = "a64dfea2f48288453102171030d9c7ff6d6ff036ac4bd9c090b9b2be440b1cdc"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/compat/biomeswevegone/white_sage.json"
+hash = "18d07f0bd68ef29dd8bd794b191c41c07f7ddaa23fc89f8291fee7cf5a3a2f49"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/compat/biomeswevegone/winter_cyclamen.json"
+hash = "91acc342d8e2c3fb92a74e83f561892eb40498a7ffa13d82f127cd472bfa0d37"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/lolipop_flower.json"
+hash = "af33e643871082c874283c151e99205583d83ba5808975051ee924b9ebb01567"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/orchid.json"
+hash = "5a2b93d7dbb2a543d206f6f4f62540571d8c5f5d8aebea780598c08e09a09ee7"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/purple_rose.json"
+hash = "f33ffe49ddff01d3f7da0e28c33878162302a875adbd2ea33d7a4f6497c103ca"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/torch_ginger.json"
+hash = "3fe542c419b227ac6aadd2489311c8aa8204502aac2afe426dfc8e6feddf409a"
+
+[[files]]
+file = "datapacks/pack_fixes/data/create/recipes/pressing/compat/biomeswevegone/lush_grass_path.json"
+hash = "553a7170faec92e323f648e4fa6227d4b4b0849508479fe3cd38afa44ae0a1d9"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/bee_conversion/create_enchantment_industry/hyper_experience_bee.json"
+hash = "149c247e76a4c27b1f6777c05a14a97abd0b0e53e1ba3076a9d460c22a49b34c"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/create/mixing/create_enchantment_industry/honeycomb_hyper_experience.json"
+hash = "c21963593ba2ea2d63a7b9f587993571da54ee9053ca0f21653667fea52a2ff3"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/amethyst_bronze_bee.json"
+hash = "df35f06e2d11f3b9998f5b1b5c63a0712b9c644a4fb94b1814bcd27899369551"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/cobalt_bee.json"
+hash = "03cf5074be3314ce8a562e773cafa2653aa90394832db833f08ec0989632a207"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/ender_slimy_bee.json"
+hash = "2b118087b3167ad7e061dad58051c5934814549b9e16e9c9ffe816ae31ea894c"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/hepatizon_bee.json"
+hash = "88354fc7a9810970a6129edd078675087e81ce97917bd7d88162a740d9ab2a2c"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/honey_to_block.json"
+hash = "9d49a4dccbfa1821dc7fc5f717fc0507b50701a1ee7966764bdc5e512656b5a1"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/ichor_slimy_bee.json"
+hash = "5666207728a1304baeca7fcf3f0d4f596409987d972cb0998f345500314eec3b"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/knightslime_bee.json"
+hash = "4077afcffc72baedfe12646715a4c2b150680eb477f19a6ba44d32d8049a662b"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/manyullyn_bee.json"
+hash = "0a466e29f1f857c74188777abc628ab1b4201a11c6df5fe8fe4af62aae56a831"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/pig_iron_bee.json"
+hash = "0679cbdfe2171b5b791ed13425bfebd558b22f5cac4abe9a0d722258c00695ee"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/queens_slime_bee.json"
+hash = "5369c462ad0d2b1b69615caf2112e79b8e532b67f90d244e768c581ed09f581b"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/rose_gold_bee.json"
+hash = "78d1a0a732d12845d6a460abe5dae51ecc0189ee2fe789f092aa7d4fc65131cf"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/slimesteel_bee.json"
+hash = "26d575710005531d9c9bbaad8dcaa3422f5d70278423dbb945696cf0349ccfd3"
+
+[[files]]
+file = "datapacks/pack_fixes/data/productivebees/recipes/tconstruct/soulsteel_bee.json"
+hash = "8117b1e248081797ea6fe6df7a2ab6984828b2c9acdc0bb864cbaf9af9ae17ad"
+
+[[files]]
+file = "datapacks/pack_fixes/pack.mcmeta"
+hash = "e959d15bc4a6cebed22164e83f14df4c720e534b6fb83609a30285f432e2eb04"
+
+[[files]]
 file = "defaultconfigs/solcarrot-server.toml"
 hash = "f5122a6b8afe20c1df8ff96dd286305b0b9d0f379a3e9acf347ae35a2059dc59"
 
@@ -4181,6 +4297,11 @@ metafile = true
 [[files]]
 file = "mods/geckolib-forge-1.20.1-4.8.4.pw.toml"
 hash = "a3fd8331ad484d83140bf156d8481e62e7f89831dc06565c36ebcaacfd1704d1"
+metafile = true
+
+[[files]]
+file = "mods/globalpacks-forge-1.20.1-19.3.7.pw.toml"
+hash = "d40ef836bbf89f395851aacaf9a4007a184e43d5a4473cb0be46550b1900e139"
 metafile = true
 
 [[files]]

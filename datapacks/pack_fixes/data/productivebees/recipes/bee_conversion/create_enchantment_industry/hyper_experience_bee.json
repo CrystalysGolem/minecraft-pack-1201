@@ -1,0 +1,14 @@
+{
+  "type": "productivebees:bee_conversion",
+  "source": "productivebees:experience",
+  "result": "productivebees:hyper_experience",
+  "item": {
+    "item": "create_enchantment_industry:hyper_experience_bottle"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "__pack_fixes_disabled__"
+    }
+  ]
+}

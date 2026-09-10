@@ -1,0 +1,12 @@
+name = "Global Packs"
+filename = "globalpacks-forge-1.20.1-19.3.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NRLPy2mk/versions/ULFP5OQn/globalpacks-forge-1.20.1-19.3.7.jar"
+hash-format = "sha512"
+hash = "c011fa5e3e7c6f5431fe17980b2d9f5ab4e080351ff1a23e49a0419c6dbf4684c5f7461dd22b8bdb0ff1f674fa1f3d43d2ffb46dc146d3256d780d0d88b9c5af"
+
+[update.modrinth]
+mod-id = "NRLPy2mk"
+version = "ULFP5OQn"

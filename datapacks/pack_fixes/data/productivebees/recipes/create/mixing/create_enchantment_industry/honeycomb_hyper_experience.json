@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "type": "forge:nbt",
+      "item": "productivebees:configurable_honeycomb",
+      "nbt": {
+        "EntityTag": {
+          "type": "productivebees:hyper_experience"
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_enchantment_industry:hyper_experience",
+      "amount": 10
+    }
+  ],
+  "heatRequirement": "superheated",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "__pack_fixes_disabled__"
+    }
+  ]
+}
