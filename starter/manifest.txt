@@ -1,0 +1,16 @@
+#version=4a6d629f5b92
+# Настройки для первого запуска. Клиент скачивает их только если файла ещё нет.
+# Порядок строк = тот же список; правки владельца тут же попадают игрокам.
+options.txt
+config/embeddium-options.json
+config/oculus.properties
+config/sodiumextras-client.toml
+config/emi.css
+config/xaero/lib/client.cfg
+config/xaero/lib/common.cfg
+config/xaero/minimap/client.cfg
+config/xaero/minimap/common.cfg
+config/xaero/minimap/profiles/default.cfg
+config/xaero/world-map/client.cfg
+config/xaero/world-map/common.cfg
+config/xaero/world-map/profiles/default.cfg

@@ -4,17 +4,23 @@ title Обновление сборки Minecraft Pack 1.20.1
 setlocal enabledelayedexpansion
 
 rem ---------------------------------------------------------------
-rem  Кнопка обновления. Сначала читает ИНСТРУКЦИЮ ЗАГРУЗКИ (bootstrap.txt),
-rem  затем качает пак по перечисленным в ней источникам (порядок = приоритет).
-rem  Меняешь инструкцию на сервере - друзьям обновлять свои файлы не нужно.
+rem  Кнопка обновления. Читает ИНСТРУКЦИЮ ЗАГРУЗКИ (bootstrap.txt),
+rem  качает пак с первого доступного источника (с повторами при обрывах связи)
+rem  и один раз докладывает настройки/конфиги тем, у кого их ещё нет.
+rem  Меняешь инструкцию на сервере - игрокам обновлять свои файлы не нужно.
 rem  Аргумент dry: показать, что нашлось, и выйти.
 rem ---------------------------------------------------------------
 
 set "PTR_HOST=http://26.26.205.227:8787/bootstrap.txt"
 set "PTR_NET=https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/bootstrap.txt"
 set "FALLBACK_PACK=https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/pack.toml"
-
 set "BOOTFILE=%TEMP%\mcp1201_%RANDOM%.txt"
+set "STARTER=%TEMP%\mcp1201_starter_%RANDOM%.txt"
+set "ATTEMPTS=4"
+
+set "TIMEOUT=30"
+set "INSTALL_TRIES=4"
+set "WAIT=8"
 set "MODE=%~1"
 
 set "JAVA="
@@ -27,11 +33,11 @@ set "BOOTSRC="
 set "BOOT="
 ping -n 1 -w 700 26.26.205.227 >nul 2>nul
 if not errorlevel 1 (
-  call :fetch "%PTR_HOST%"
+  call :fetch "%PTR_HOST%" "%BOOTFILE%" "pack=" 2
   if not errorlevel 1 (set "BOOT=%BOOTFILE%" & set "BOOTSRC=хост (Radmin)")
 )
 if not defined BOOT (
-  call :fetch "%PTR_NET%"
+  call :fetch "%PTR_NET%" "%BOOTFILE%" "pack=" 2
   if not errorlevel 1 (set "BOOT=%BOOTFILE%" & set "BOOTSRC=GitHub")
 )
 
@@ -56,6 +62,19 @@ if /i "%MODE%"=="dry" (
   echo Инструкция загрузки: !BOOTSRC!
   echo Источников пака: !N!
   for /l %%I in (1,1,!N!) do echo   %%I^) !SRC%%I!
+  set "D=!SRC1!"
+  set "D=!D:/pack.toml=!"
+  call :fetch "!D!/starter/manifest.txt" "%STARTER%" "#version=" 2
+  if not errorlevel 1 (
+    set "SV="
+    for /f "tokens=1,* delims==" %%A in ('type "%STARTER%" 2^>nul') do if /i "%%~A"=="#version" if not defined SV set "SV=%%~B"
+    set "SC=0"
+    for /f "usebackq tokens=* delims=" %%L in ("%STARTER%") do if not "%%L"=="" if not "%%~L:~0,1!"=="#" set /a SC+=1
+    echo Настройки первого запуска: доступны, версия !SV!, файлов !SC!
+    del "%STARTER%" >nul 2>nul
+  ) else (
+    echo Настройки первого запуска: недоступны по адресу источника
+  )
   echo Java: !JAVA!
   exit /b 0
 )
@@ -76,6 +95,7 @@ if not exist "%~dp0minecraft" (
 cd /d "%~dp0minecraft"
 
 set "OK="
+set "USED="
 for /l %%I in (1,1,!N!) do (
   if not defined OK (
     set "U=!SRC%%I!"
@@ -83,14 +103,23 @@ for /l %%I in (1,1,!N!) do (
       call :reachable "!U!"
       if not errorlevel 1 (
         echo Источник %%I из !N!: !U!
-        "%JAVA%" -jar packwiz-installer-bootstrap.jar "!U!"
-        if not errorlevel 1 set "OK=1"
+        call :install "!U!"
+        if not errorlevel 1 (
+          set "OK=1"
+          set "USED=!U!"
+        )
       ) else (
         echo Источник %%I недоступен, пробую следующий...
       )
     )
   )
 )
+
+if defined USED (
+  set "BASE=!USED:/pack.toml=!"
+  call :seed "!BASE!"
+)
+
 del "%BOOTFILE%" >nul 2>nul
 if defined OK (
   echo.
@@ -101,34 +130,114 @@ if defined OK (
 echo.
 echo Не удалось обновить сборку ни с одного источника.
 echo Проверь интернет (или чтобы хост был включён) и попробуй снова.
+echo Уже скачанное не потеряется: следующий запуск продолжит с того же места.
 pause
 exit /b 1
 
+rem ---------------- установка пакета ----------------
+:install
+set "URL=%~1"
+set "TRY=0"
+:install_again
+set /a TRY+=1
+"%JAVA%" -jar packwiz-installer-bootstrap.jar "%URL%"
+if not errorlevel 1 exit /b 0
+if %TRY% GEQ %INSTALL_TRIES% exit /b 1
+call :reachable "%URL%"
+if errorlevel 1 exit /b 1
+echo.
+echo   !!! Связь оборвалась. Жду %WAIT% секунд и пробую снова (%TRY%/%INSTALL_TRIES%)...
+echo.
+call :sleep %WAIT%
+goto :install_again
+
+rem ---------------- настройки первого запуска ----------------
+:seed
+set "SBASE=%~1"
+if not exist "packwiz-installer-bootstrap.jar" exit /b 0
+call :fetch "%SBASE%/starter/manifest.txt" "%STARTER%" "#version="
+if errorlevel 1 exit /b 0
+set "SVER="
+for /f "tokens=1,* delims==" %%A in ('type "%STARTER%" 2^>nul') do (
+  if /i "%%~A"=="#version" if not defined SVER set "SVER=%%~B"
+)
+set "SOLD="
+if exist ".pack_starter" for /f "usebackq tokens=* delims=" %%L in (".pack_starter") do if not defined SOLD set "SOLD=%%L"
+if defined SVER if "!SVER!"=="!SOLD!" (
+  echo Настройки первого запуска: уже применены, не трогаю.
+  del "%STARTER%" >nul 2>nul
+  exit /b 0
+)
+echo.
+echo Настройки первого запуска (выдаются один раз, только отсутствующие файлы):
+set "SEEDED=0"
+for /f "usebackq tokens=* delims=" %%L in ("%STARTER%") do (
+  set "LINE=%%L"
+  if not "!LINE!"=="" if not "!LINE:~0,1!"=="#" call :seed_one "!SBASE!" "!LINE!"
+)
+echo   выдано файлов: !SEEDED!
+if defined SVER echo !SVER!> ".pack_starter"
+del "%STARTER%" >nul 2>nul
+exit /b 0
+
+:seed_one
+set "REL=%~2"
+if exist "%REL%" exit /b 0
+for %%D in ("%REL%") do if not "%%~dpD"=="" if not exist "%%~dpD" mkdir "%%~dpD" >nul 2>nul
+call :fetch "%~1/starter/%REL%" "%REL%" ""
+if not errorlevel 1 (
+  set /a SEEDED+=1
+  echo   + %REL%
+) else (
+  echo   ! не удалось получить %REL%
+)
+exit /b 0
+
 rem ---------------- вспомогательные ----------------
+:sleep
+set /a "SL=%~1"
+if %SL% LSS 1 set "SL=1"
+ping -n %SL% 127.0.0.1 >nul 2>nul
+exit /b 0
+
 :fetch
-rem %~1 = URL инструкции. Скачиваем напрямую (без прокси), проверяем содержимое.
-call :direct "%~1"
-if exist "%BOOTFILE%" (
-  findstr /b /c:"pack=" "%BOOTFILE%" >nul 2>nul
+set "FURL=%~1"
+set "FDST=%~2"
+set "FMARK=%~3"
+
+set "FMAX=%~4"
+
+if not defined FMAX set "FMAX=%ATTEMPTS%"
+set "FTRY=0"
+:fetch_again
+set /a FTRY+=1
+call :direct "%FURL%" "%FDST%"
+if not errorlevel 1 (
+  call :looks_ok "%FDST%" "%FMARK%"
   if not errorlevel 1 exit /b 0
 )
-exit /b 1
+if exist "%FDST%" del "%FDST%" >nul 2>nul
+if %FTRY% GEQ %FMAX% exit /b 1
+if not "%MODE%"=="quiet" echo     сеть не ответила, повтор %FTRY%/%ATTEMPTS%...
+call :sleep 3
+goto :fetch_again
 
 :direct
-curl.exe -fsS --noproxy "*" -m 25 -o "%BOOTFILE%" "%~1" >nul 2>nul
-if exist "%BOOTFILE%" (
-  findstr /b /c:"pack=" "%BOOTFILE%" >nul 2>nul
-  if not errorlevel 1 exit /b 0
-)
-powershell -NoProfile -Command "try{$w=New-Object Net.WebClient;$w.Proxy=$null;$w.DownloadFile('%~1','%BOOTFILE%')}catch{exit 1}" >nul 2>nul
-if exist "%BOOTFILE%" (
-  findstr /b /c:"pack=" "%BOOTFILE%" >nul 2>nul
-  if not errorlevel 1 exit /b 0
-)
+curl.exe -fsS --noproxy "*" -m %TIMEOUT% -o "%~2" "%~1" >nul 2>nul
+if exist "%~2" for %%F in ("%~2") do if %%~zF GTR 0 exit /b 0
+powershell -NoProfile -Command "try{$w=New-Object Net.WebClient;$w.Proxy=$null;$w.DownloadFile('%~1','%~2')}catch{exit 1}" >nul 2>nul
+if exist "%~2" for %%F in ("%~2") do if %%~zF GTR 0 exit /b 0
 exit /b 1
 
+:looks_ok
+if not exist "%~1" exit /b 1
+for %%F in ("%~1") do if %%~zF LSS 1 exit /b 1
+if "%~2"=="" exit /b 0
+findstr /b /c:"%~2" "%~1" >nul 2>nul
+if errorlevel 1 exit /b 1
+exit /b 0
+
 :reachable
-rem %~1 = URL источника. Для адресов-по-IP быстрый ping (иначе TCP-таймаут ~20 c).
 set "H=%1"
 set "HOST="
 for /f "tokens=1,2,3 delims=:/" %%a in ("%H%") do set "HOST=%%b"

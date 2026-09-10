@@ -682,7 +682,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -922,7 +922,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "539c28e012203e91048b7b53bb8115086b948403c4a3c16a02c49ec6cf2cdda3"
+hash = "103aec766f3c596ba03399a08a796da76b1111e110c058a74fd8c988f36209c6"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1366,7 +1366,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "91f6b4ac1a2b1476d41299400df0756e684b1a7b0eff688227e52d10a5758468"
+hash = "9d69ced0d141b0918167d6e33f6943f4ec9e961128a13fb49b4274ac231d9db1"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -4609,7 +4609,7 @@ hash = "3f1cd389e717b2e62f58edff222059b9c60de71b14bb49b517eb58318ce35b15"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1.zip.txt"
-hash = "ffdc97156f1ee40ce7b749bc7211351ff05d6eb4154c128fdc33c306cb011ea3"
+hash = "c1daf47cd5e8a78ec3cf6b6acaad5ef6a0fa0f02bda9d817ae8c53734de9ef0e"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
