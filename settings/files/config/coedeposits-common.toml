@@ -1,0 +1,132 @@
+#Base radius (blocks) for the distance-gradient log curve.
+#Range: 1.0 ~ 1000000.0
+base_radius = 1000.0
+#Saturation radius (blocks). At and beyond this distance tier ~= 1.0.
+#Range: 1.0 ~ 1.0E7
+max_radius = 25000.0
+#Per-chunk probability of triggering a new deposit core candidate.
+#Default 0.0005 — 1 candidate roll per ~2000 chunks. After biome + distance
+#filters reject most candidates and the surviving ones expand into 4-30-chunk
+#blobs, expect roughly:
+#  • 1 placed deposit per ~5,000-10,000 explored chunks
+#  • ~1 chunk in ~300-500 ends up belonging to some deposit
+#Bump up to 0.005-0.05 for denser maps; drop to 0.0001 for true-rarity worlds.
+#Range: 0.0 ~ 1.0
+core_spawn_probability = 5.0E-4
+#Per-chunk gradient — core uses the deposit's full amountMul, 
+#outer chunks lerp down to (amountMul × edge_amount_mul). Default 0.3 
+#means edges have 30% of the core's richness.
+#Range: 0.0 ~ 1.0
+edge_amount_mul = 0.3
+#Block radius around spawn pre-scanned for deposits on server start. 
+#All deposits in this radius are materialized in SavedData immediately so 
+#they show on the world map without players needing to walk there. 
+#Set to 0 to disable (deposits only appear after chunk-load). 
+#Cost ≈ (radius/16)² tryPick calls per start, ~10µs each. 
+#Upper bound capped at 16000 (≈1M chunks, ~10s) to keep server start responsive. 
+#Default 2000 (≈62k chunks, sub-second).
+#Range: 0 ~ 16000
+prospect_radius = 2000
+#Maximum number of pending deposit placements materialized on the server 
+#thread per tick. The dry-run pick runs off-thread; this only throttles the 
+#hand-off (SavedData.add + OreData apply on loaded blob chunks). Raise to drain 
+#the queue faster after a large /coedeposits regenerate or fresh-world prospect; 
+#lower if you see tick spikes on weak CPUs. Default 256 ≈ ~3ms/tick worst case.
+#Range: 16 ~ 4096
+prospect_chunks_per_tick = 256
+#Growth coefficient when a deposit_type's per_chunk_units.max is absent. 
+#Formula: target = min × (1 + tier × unbounded_growth). At tier=1 this 
+#yields (1 + unbounded_growth) × min. Default 50 means tier=1 deposits 
+#have 51× the min units of tier=0. Crank up for richer far-away veins.
+#Range: 0.0 ~ 100000.0
+unbounded_growth = 50.0
+#Default reveal policy when a deposit_type doesn't override `reveal`.
+#  ALWAYS       — visible to everyone immediately + chat notification.
+#  ON_DISCOVERY — hidden until the player walks into the deposit; per-player.
+#  ON_PROXIMITY — visible only while player is within proximity_reveal_blocks.
+#  ON_PROSPECT  — hidden until the player uses a Vein Finder that resolves to it.
+#Allowed Values: ALWAYS, ON_DISCOVERY, ON_PROXIMITY, ON_PROSPECT
+reveal_mode = "ALWAYS"
+#Scope of a per-player reveal (ON_DISCOVERY / ON_PROSPECT):
+#  PER_PLAYER — each player must discover/prospect a deposit themselves (COE-like).
+#  TEAM       — a discovery is shared with the discoverer's party/team
+#               (Open Parties and Claims, else FTB Teams, else the vanilla scoreboard team).
+#  GLOBAL     — the first player to discover/prospect it reveals it for everyone.
+#No effect on ALWAYS (already global) or ON_PROXIMITY (client-side distance filter).
+#Allowed Values: PER_PLAYER, TEAM, GLOBAL
+reveal_scope = "PER_PLAYER"
+#Show a chat message when a deposit is discovered.
+#Off = no chat line (the map marker / waypoint still appears). Default on.
+discovery_chat = true
+#Discovery chat message template. Placeholders:
+#  %name% — friendly name (display_name or prettified id)
+#  %pos%  — clickable coordinate (suggests /tp)
+#  %x% %y% %z% — raw coordinate numbers
+#  %type% — raw type id (e.g. createoreexcavation:ore_vein_type/iron)
+#  %player% — discoverer's name (only for GLOBAL reveal_scope; empty otherwise)
+#  %% — a literal percent sign. § colour codes are supported.
+discovery_message_format = "Discovered %name% at %pos%"
+#Block-radius for ON_PROXIMITY reveal mode. Default 256 blocks ≈ 16 chunks.
+#Deposit becomes visible on the world map when the player is within this 
+#distance of any of its chunks. Has no effect on other reveal modes.
+#Range: 16 ~ 100000
+proximity_reveal_blocks = 256
+#Block-radius around the player checked for ON_DISCOVERY reveals on tick.
+#Default 24 blocks ≈ 1.5 chunks — roughly 'stand on top of a chunk of it'. 
+#Has no effect on other reveal modes.
+#Range: 8 ~ 1024
+discovery_radius_blocks = 24
+#Dimensions where coedeposits is active.
+#Format: list of namespaced dimension ids. Default: vanilla overworld + nether + end.
+#Each enabled dimension keeps its own DepositSavedData and runs its own prospect scan.
+#Per-type targeting is controlled by the `dimensions` field in deposits.json.
+#Dimensions not in this list are left to vanilla COE (no managed generation, no map tracking).
+enabled_dimensions = ["minecraft:overworld", "minecraft:the_nether", "minecraft:the_end"]
+#Adopt COE vein recipes that have no coedeposits deposit_type (e.g. from
+#Create Ore Excavation Plus, the CoE x Mekanism datapack, OreCompatCreate, or
+#any datapack) onto the world map: we synthesise an implicit COE-placement type,
+#own its OreData and track it like a declared deposit. OFF = foreign veins stay
+#pure vanilla COE (generate but invisible to our map/finder). Default ON.
+auto_adopt_coe_veins = true
+#COE vein recipe ids to suppress — they won't generate or be adopted.
+#Managed coedeposits ores are turned off by disabling their deposit_type instead.
+#Format: list of vein recipe ids, e.g. "createoreexcavation:ore_vein_type/water".
+#Usually managed via the in-game editor (Deposits tab -> adopted -> Disable).
+disabled_veins = []
+#Disable the BASE Create Ore Excavation mod's bundled veins (createoreexcavation:*)
+#by default — coedeposits' managed deposits replace them, so both generating would
+#duplicate every ore. Veins from add-ons/datapacks (other namespaces) are unaffected
+#and still auto-adopt. Re-enable single base veins via enabled_veins / the in-game
+#editor's Enable button, or set this to false to bring them all back. Default true.
+coe_veins_disabled_by_default = true
+#Base-COE vein recipe ids re-enabled despite coe_veins_disabled_by_default.
+#Format: list of vein recipe ids, e.g. "createoreexcavation:ore_vein_type/water".
+#Usually managed via the in-game editor (Deposits tab -> disabled vein -> Enable).
+enabled_veins = []
+#Log when a new deposit is placed (managed blob or COE-tracked single chunk).
+#One line per placement. Useful for verifying density / type distribution.
+log_placement = true
+#Log when a player triggers a reveal — ON_DISCOVERY walk-into or ON_PROSPECT
+#vein finder use. One line per reveal. Off if you want chat-only feedback.
+log_discovery = true
+#Log when a chunk's vein is fully extracted and its OreData is wiped.
+#One line per chunk. Off can quiet very active server with many drills.
+log_depletion = true
+#Log when the replenish sweep restores units on a chunk. One line per
+#(deposit, chunk) where units actually changed each tick — VERY noisy on
+#servers with many replenishing deposits. Default off; flip on briefly to
+#confirm replenish is firing for a specific deposit.
+log_replenish_actions = false
+#Log a one-line summary at the end of each prospect scan job.
+#Includes scan centre, radius, chunks scanned, placements queued, and elapsed
+#time. Useful for performance tuning prospect_radius.
+log_scan_summary = true
+#Log per-chunk diagnostics when a chunk passed the spawn-probability roll
+#but no eligible deposit type matched. Shows which filter (placement / dimension /
+#distance / biome) rejected each type. Default off.
+log_scan_rejections = false
+#Log mod lifecycle events: picker installed on COE, deposit types loaded
+#(datapack + config-overlay counts), scan-queue shutdown drain on server stop.
+#Sparse — only a handful of lines per server cycle.
+log_lifecycle = true
+

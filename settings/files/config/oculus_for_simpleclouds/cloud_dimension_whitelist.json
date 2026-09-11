@@ -1,0 +1,29 @@
+{
+  "_comment": "Cloud type -> allowed dimensions. Defaults to minecraft:overworld.",
+  "clouds": {
+    "simpleclouds:cumulonimbus": [
+      "minecraft:overworld"
+    ],
+    "simpleclouds:cumulus": [
+      "minecraft:overworld"
+    ],
+    "simpleclouds:empty": [
+      "minecraft:overworld"
+    ],
+    "simpleclouds:itty_bitty": [
+      "minecraft:overworld"
+    ],
+    "simpleclouds:nimbostratus": [
+      "minecraft:overworld"
+    ],
+    "simpleclouds:small_cumulus": [
+      "minecraft:overworld"
+    ],
+    "simpleclouds:stratocumulus": [
+      "minecraft:overworld"
+    ],
+    "simpleclouds:stratus": [
+      "minecraft:overworld"
+    ]
+  }
+}

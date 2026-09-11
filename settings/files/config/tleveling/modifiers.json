@@ -1,0 +1,143 @@
+{
+  "values": [
+    {
+      "item": "tconstruct:pickaxe",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:sledge_hammer",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:vein_hammer",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:mattock",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:pickadze",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:excavator",
+      "source": [
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:hand_axe",
+      "source": [
+        "tleveling:break_block",
+        "tleveling:damage_entity"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:broad_axe",
+      "source": [
+        "tleveling:break_block",
+        "tleveling:damage_entity"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:kama",
+      "source": [
+        "tleveling:till",
+        "tleveling:shear",
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:scythe",
+      "source": [
+        "tleveling:till",
+        "tleveling:shear",
+        "tleveling:break_block"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:dagger",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:sword",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:cleaver",
+      "source": [
+        "tleveling:damage_entity"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:crossbow",
+      "source": [
+        "tleveling:ranged_damage_entity"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:longbow",
+      "source": [
+        "tleveling:ranged_damage_entity"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:plate_helmet",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:plate_chestplate",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:plate_leggings",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": []
+    },
+    {
+      "item": "tconstruct:plate_boots",
+      "source": [
+        "tleveling:take_damage"
+      ],
+      "modifiers": []
+    }
+  ]
+}

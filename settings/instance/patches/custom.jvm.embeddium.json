@@ -1,0 +1,10 @@
+{
+    "formatVersion": 1,
+    "name": "Embeddium C2 workaround",
+    "uid": "custom.jvm.embeddium",
+    "version": "1.0.0",
+    "order": 200,
+    "+jvmArgs": [
+        "-XX:CompileCommand=exclude,me.jellysquid.mods.sodium.client.world.cloned.ClonedChunkSectionCache::*"
+    ]
+}

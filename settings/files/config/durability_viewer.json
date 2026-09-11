@@ -1,0 +1,112 @@
+{
+  "durability_viewer.config.mindurability": {
+    "key": "durability_viewer.config.mindurability",
+    "toolTip": "durability_viewer.config.tt.mindurability",
+    "value": 100,
+    "defaultValue": 100,
+    "minValue": 1,
+    "maxValue": 1500
+  },
+  "durability_viewer.config.setwindowtitle": {
+    "key": "durability_viewer.config.setwindowtitle",
+    "toolTip": "durability_viewer.config.tt.setwindowtitle",
+    "value": true,
+    "defaultValue": true
+  },
+  "durability_viewer.config.showalltrinkets": {
+    "key": "durability_viewer.config.showalltrinkets",
+    "toolTip": "durability_viewer.config.tt.showalltrinkets",
+    "value": true,
+    "defaultValue": true
+  },
+  "durability_viewer.config.hidedamagepercent": {
+    "key": "durability_viewer.config.hidedamagepercent",
+    "toolTip": "durability_viewer.config.tt.hidedamagepercent",
+    "value": 100,
+    "defaultValue": 100,
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "durability_viewer.config.showfreeslots": {
+    "key": "durability_viewer.config.showfreeslots",
+    "toolTip": "durability_viewer.config.tt.showfreeslots",
+    "value": true,
+    "defaultValue": true
+  },
+  "durability_viewer.config.warnmode": {
+    "options": [
+      "durability_viewer.config.warnmode.none",
+      "durability_viewer.config.warnmode.sound",
+      "durability_viewer.config.warnmode.visual",
+      "durability_viewer.config.warnmode.both"
+    ],
+    "key": "durability_viewer.config.warnmode",
+    "toolTip": "durability_viewer.config.tt.warnmode",
+    "value": 2,
+    "defaultValue": 1,
+    "minValue": 0,
+    "maxValue": 3
+  },
+  "durability_viewer.config.minpercent": {
+    "key": "durability_viewer.config.minpercent",
+    "toolTip": "durability_viewer.config.tt.minpercent",
+    "value": 10,
+    "defaultValue": 10,
+    "minValue": 1,
+    "maxValue": 100
+  },
+  "durability_viewer.config.effectduration": {
+    "key": "durability_viewer.config.effectduration",
+    "toolTip": "durability_viewer.config.tt.effectduration",
+    "value": true,
+    "defaultValue": true
+  },
+  "durability_viewer.config.showitemdurability": {
+    "key": "durability_viewer.config.showitemdurability",
+    "toolTip": "durability_viewer.config.tt.showitemdurability",
+    "value": true,
+    "defaultValue": true
+  },
+  "durability_viewer.config.armorhotbar": {
+    "key": "durability_viewer.config.armorhotbar",
+    "toolTip": "durability_viewer.config.tt.armorhotbar",
+    "value": false,
+    "defaultValue": false
+  },
+  "durability_viewer.config.corner": {
+    "options": [
+      "durability_viewer.config.bottom_right",
+      "durability_viewer.config.bottom_left",
+      "durability_viewer.config.top_right",
+      "durability_viewer.config.top_left"
+    ],
+    "key": "durability_viewer.config.corner",
+    "toolTip": "durability_viewer.config.tt.corner",
+    "value": 0,
+    "defaultValue": 0,
+    "minValue": 0,
+    "maxValue": 3
+  },
+  "durability_viewer.config.tooltipcolor": {
+    "key": "durability_viewer.config.tooltipcolor",
+    "toolTip": "durability_viewer.config.tt.tooltipcolor",
+    "value": 5,
+    "defaultValue": 5,
+    "minValue": 0,
+    "maxValue": 15
+  },
+  "durability_viewer.config.showdamagepercent": {
+    "key": "durability_viewer.config.showdamagepercent",
+    "toolTip": "durability_viewer.config.tt.showdamagepercent",
+    "value": 80,
+    "defaultValue": 80,
+    "minValue": 0,
+    "maxValue": 100
+  },
+  "durability_viewer.config.percentvalues": {
+    "key": "durability_viewer.config.percentvalues",
+    "toolTip": "durability_viewer.config.tt.percentvalues",
+    "value": false,
+    "defaultValue": false
+  }
+}
