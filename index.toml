@@ -1,8 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
+file = "_packwiz_run.cmd"
+hash = "dba7eb8d2fb08c60a2e1eed77c7746df0b2d5f6920facf28250b9c0dfa329bc8"
+
+[[files]]
 file = "_packwiz_update.new"
-hash = "cb788269394a0fc7261a95a47d134a9790af93fc8e06c4cbe80c1055ea30fe3f"
+hash = "39a8d28dd8827814060c773dcd74103d7dbad2c9b20ae1b57c518a3e1fcd544d"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -6572,7 +6576,3 @@ hash = "1567011c61adeb223e3bc5dced9f4eecada2ef2bb57e123a8a861bc22b4fbc60"
 [[files]]
 file = "shaderpacks/superDuperVanilla.zip"
 hash = "c1cd481ac7ec81b6cb82f162b235509568f6f1ab9e416ccfedaee15e79e1a795"
-
-[[files]]
-file = "Обновить сборку.new"
-hash = "3d7ce1b540cb767ca86447bf4f3d3d55c7e8abf269b119c384cc6d2412230320"
