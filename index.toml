@@ -574,7 +574,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "57934ff4db36d2e477b1dd0af294f328f0297b0bea5a77f4f8f9b30408134bc8"
+hash = "dd60bf835167002aedc7d4cce32523644358faba651d03c508e8453684c3325d"
 
 [[files]]
 file = "config/betterdeserttemples-forge-1_20.toml"
@@ -690,7 +690,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -938,7 +938,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "e8727d5a72f50ea4eb9897635663117d83bfab30bb18ff8e1152cbd76bd3a601"
+hash = "603e7dcf1ae361a7e4185e7b7ade84fca6267fe44e171381a977e3e2a8f518a5"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1362,7 +1362,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "16976e41d960d4710955ecddf01f52a747a680695672560200c45ab8c9056771"
+hash = "b377e917e657f8294398c582627ec6d5a047767cde8da45f30d7593f24103a25"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1378,7 +1378,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "c118a200bf2688ac8f4cf801e2b436b1197b195e48e5a0e01647ad1be564f415"
+hash = "2566682755b60bdddfc038dc0ada995395db6159fada15f540baa47a65f8e4a1"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -2137,6 +2137,10 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/alien-axolotl/
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/alien-axolotl/dried_kelp.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/alien-axolotl/fire.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
@@ -2186,7 +2190,15 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/artificial-construct/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/artificial-construct/no_hunger.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/automaton/no_hunger.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/automaton/unnatural.json"
@@ -2210,7 +2222,11 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/bedrockean/no_food_bar.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/bedrockean/potion.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/bedrockean/sleep.json"
@@ -2237,6 +2253,10 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/binturong/flam
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/binturong/sugar_rush.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/binturong/too_heavy.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
@@ -2250,7 +2270,11 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/birb/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/birb/smaller_appetite.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/birb/smaller_body.json"
@@ -2289,6 +2313,10 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/boarling/delic
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/boarling/gluttonous.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/boarling/hoofed.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
@@ -2301,12 +2329,16 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/calamitous-rog
 hash = "442ce551bea42b8bd0ad48fe949a834129c710ea8959849066a4ff27f6b5f0a3"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/candyperson/favorite_food.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/candyperson/sugar_addict.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/child-of-cthulhu/exhaust.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/child-of-cthulhu/fire_weakness.json"
@@ -2326,7 +2358,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/chimaera/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/chimaera/unstable.json"
@@ -2338,11 +2370,11 @@ hash = "dfeb0f7f26a9510f97f74cdb83c2712aa454181fad0885be0f8280c10a415dfa"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/copper-golem/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/corrupted-wither/hunger.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/corrupted-wither/skirmish.json"
@@ -2406,7 +2438,11 @@ hash = "6464ea6e7b008f28f8f107589cfb515c6bf3b8bf34405d73417b485178282fa7"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/demi-god/raw_diet.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/demi-god/raw_meat_buff.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/deranged/nightmares.json"
@@ -2425,8 +2461,12 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/devine-archite
 hash = "f584e11f9276bcb9a1abd57e8b3aa02f94425781d9d6a44e6d4a37b0fa464c8e"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/dolphin/fish_buff.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/dolphin/fish_diet.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/dolphin/slow_land.json"
@@ -2434,7 +2474,11 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/dullahan/buffs/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/dullahan/buffs/soul.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/dullahan/debuffs/day_debuffs.json"
@@ -2454,7 +2498,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/emblazing-warrior/exhaustion.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/emblazing-warrior/injury_lover.json"
@@ -2497,6 +2541,10 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/flea/antivore.
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/flea/bloodsucking.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/flea/small_heart.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
@@ -2507,6 +2555,10 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/frog/burn.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/gaia/floral_superiority.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/gaia/floral_teaming_levitation.json"
@@ -2550,7 +2602,7 @@ hash = "45b16645c9a199acbb14b1b829a73d380dc24eb40822e235857b1e5590841184"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/giant/hunger.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/giant/item.json"
@@ -2589,6 +2641,14 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/glacier/overhe
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/gnoll/carrion_eater.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/gnoll/carrion_saturation.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/golden-golem/slower.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
@@ -2610,7 +2670,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/goolien/stomach_body.json"
-hash = "cd1e681fa5b7d163263fe9c2dfce7e8d747ca1a500bf5304e1090e35d34a5acd"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/goolien/unwieldy.json"
@@ -2618,7 +2678,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/half-wither/exhaust.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/hellforged/heat_powered.json"
@@ -2630,7 +2690,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/hero-of-the-wild/exhaust.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/ice-king/hot_biome.json"
@@ -2655,6 +2715,10 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/iceling/hot_biome.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/iceling/no_hunger.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/ignisian/heavyweight.json"
@@ -2693,6 +2757,10 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/insect/water_s
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/jellyfish/aquatic_agriculture.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/jellyfish/dry.json"
 hash = "57163477b23a3cb1f6ca20a3c792d1361a8fc35c8ce1cc980d56dd93ccbb522d"
 
@@ -2710,7 +2778,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/kirin/exhaustion.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/land-shark/fins.json"
@@ -2821,12 +2889,20 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/moth/flammable
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/moth/light_affinity.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/moth/overwhelming_light.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/mothling/leather_diet.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/mothling/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/mothling/zapper.json"
@@ -2865,8 +2941,20 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/part-robot/alr
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/part-robot/effect_immune.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/part-robot/overheat.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/part-robot/repair.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/part-robot/unexhausted.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/pixie/no_fireworks.json"
@@ -2874,11 +2962,11 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/ram/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/ram/no_food_eat.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/raptus/light_armor.json"
@@ -2897,12 +2985,16 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/rat/slow_swimm
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/rat/toxicity_evolved.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/ravager/clumsy.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/ravager/exhaust.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/ravager/heavy_armor.json"
@@ -2914,7 +3006,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/red-panda/diet.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/red-panda/flammable.json"
@@ -2942,7 +3034,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/rift-mage/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/rift-mage/no_pearls.json"
@@ -2961,12 +3053,28 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/sand-walker/co
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/sand-walker/flesh_eater.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/sand-walker/no_hunger.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/sand-walker/worse_steak.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow-crawler/blinding_light.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow-crawler/day_weakness.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow-crawler/no_exhaustion.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow-crawler/shadow_warp.json"
@@ -2981,8 +3089,12 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow/fragile
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow/hunger.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shadow/sun_weakness.json"
@@ -2990,7 +3102,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shifter/arachnid/carnivore.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shifter/avian/fresh_air.json"
@@ -2998,7 +3110,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shifter/avian/vegetarian.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shifter/blazeborn/hydrophobia.json"
@@ -3054,7 +3166,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shifter/shulk/exhaustion.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/shifter/shulk/no_shield.json"
@@ -3093,6 +3205,10 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/spectre/raveno
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/spectre/rotten_flesh.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/spectre/spectre_terror.json"
 hash = "5d0eaa6b50acfe5a2566c979f9cbfbcba944ea6edf7f2364c35a4a12d6be0bdc"
 
@@ -3107,6 +3223,10 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/spirit-ram/phase.json"
 hash = "27191700dd8bdd53b1dcef7af94a3b42b685b27663d8a65c555af31190c3f373"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/sporeling/decomposer.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/sporeling/fire_damage.json"
@@ -3177,16 +3297,28 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/thornling/punc
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/vishaichian/chicken_status_clear.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/vishaichian/fire_weakness.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/vishaichian/raw_diet.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/vishaichian/saturation.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/void-samurai/armor.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/void-samurai/channel.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/void-samurai/curse.json"
@@ -3198,7 +3330,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/void-samurai/no_food.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/void-samurai/no_potion.json"
@@ -3253,6 +3385,18 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/volcanic-drago
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/wailing-one/deathly_diet_health_gain_on_hit.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/wailing-one/deathly_diet_hunger_gain_on_kill.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/wailing-one/deathly_diet_rotten_flesh_eat.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/wailing-one/float.json"
 hash = "ff79e0611c73da9f1c5d953e23a221d3567732584de39024f6ec443d051725ad"
 
@@ -3271,6 +3415,10 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/wanderer/cross.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/wanderer/healing_warmth.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/wanderer/night.json"
@@ -3333,8 +3481,16 @@ file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/witch-of-ink/f
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/witch-of-ink/no_eat.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/witch-of-ink/painted_armor.json"
 hash = "6bc4e1f3ab2c458bc19725a9026db2e73711f47a990b7942ec012277f02632ac"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/withered-fox/berry_sat.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/powers/withered-fox/float.json"
@@ -3422,7 +3578,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/carnivore.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/claustrophobia.json"
@@ -3445,8 +3601,12 @@ file = "datapacks/no_origin_debuffs/data/origins/powers/fresh_air.json"
 hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
+file = "datapacks/no_origin_debuffs/data/origins/powers/hotblooded.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/hunger_over_time.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/lay_eggs.json"
@@ -3466,7 +3626,7 @@ hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/more_exhaustion.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/more_kinetic_damage.json"
@@ -3490,7 +3650,7 @@ hash = "31a56736fc6f7dff63763701338a5f1a629ea9907f667d039f1affa67e7490bf"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/vegetarian.json"
-hash = "0e5f47464b31a7dddb314996351cdf101e4e29232631ec3268c1b46cb8c403f6"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins/powers/water_breathing.json"
@@ -3523,6 +3683,14 @@ hash = "349e1c3ad4b0c27216aea5d2f549d133c972764296242975272ba2ae2d41e311"
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins_minus/powers/brace.json"
 hash = "ae630c43ac2e41d751134746583518f15fe8b380f21f96a922ee1b829ccf9cb8"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins_minus/powers/buffet_strategy.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
+
+[[files]]
+file = "datapacks/no_origin_debuffs/data/origins_minus/powers/no_hunger.json"
+hash = "89e7871e7a911726e13fea1375e7b03c76433f129f5e9f9baac73fbf778e7736"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins_minus/powers/sunlight.json"
@@ -3670,7 +3838,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "emi.json"
-hash = "6aa039d01ea01658560a7f332d4e9749d3fe2f04acfc16af666fa661bca23beb"
+hash = "762ef01bdf07f619374ecc2a31dcd6a969a7f38431d1407861edf41a3fed5164"
 
 [[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
@@ -5389,7 +5557,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "settings/files/config/betterdays-common.toml"
-hash = "57934ff4db36d2e477b1dd0af294f328f0297b0bea5a77f4f8f9b30408134bc8"
+hash = "dd60bf835167002aedc7d4cce32523644358faba651d03c508e8453684c3325d"
 
 [[files]]
 file = "settings/files/config/betterdeserttemples-forge-1_20.toml"
@@ -5505,7 +5673,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "settings/files/config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "settings/files/config/blueprint-client.toml"
@@ -5761,7 +5929,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "settings/files/config/fabric/indigo-renderer.properties"
-hash = "e8727d5a72f50ea4eb9897635663117d83bfab30bb18ff8e1152cbd76bd3a601"
+hash = "603e7dcf1ae361a7e4185e7b7ade84fca6267fe44e171381a977e3e2a8f518a5"
 
 [[files]]
 file = "settings/files/config/fallingleaves-client.toml"
@@ -6185,7 +6353,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "settings/files/config/oculus.properties"
-hash = "16976e41d960d4710955ecddf01f52a747a680695672560200c45ab8c9056771"
+hash = "b377e917e657f8294398c582627ec6d5a047767cde8da45f30d7593f24103a25"
 
 [[files]]
 file = "settings/files/config/oculus_for_simpleclouds-client.toml"
@@ -6201,7 +6369,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "settings/files/config/packetfixer.properties"
-hash = "c118a200bf2688ac8f4cf801e2b436b1197b195e48e5a0e01647ad1be564f415"
+hash = "2566682755b60bdddfc038dc0ada995395db6159fada15f540baa47a65f8e4a1"
 
 [[files]]
 file = "settings/files/config/patchouli-client.toml"
@@ -6533,7 +6701,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "settings/files/emi.json"
-hash = "6aa039d01ea01658560a7f332d4e9749d3fe2f04acfc16af666fa661bca23beb"
+hash = "762ef01bdf07f619374ecc2a31dcd6a969a7f38431d1407861edf41a3fed5164"
 
 [[files]]
 file = "settings/files/options.txt"
@@ -6549,7 +6717,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "7e99a9fc27ba0875cfcc9116929b33a6f8442b55619af0b40fe3a783ce8ce16e"
+hash = "404b9f25f750c2fab69948fd76343a1c27ea9f99afb03660ca9b216a23cbe7ac"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6561,7 +6729,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "a7af4db58428bb8ba92d348308936f698a791055ef02a4e198186735b791673b"
+hash = "d51aa97e7aab77873eb6592ae7d63a98a8d7d65a370bcbf1d4f384afcf16cabe"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
