@@ -1693,20 +1693,8 @@ file = "config/xaerohud.txt"
 hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
 
 [[files]]
-file = "config/xaerominimap-common.txt.backup0"
-hash = "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2"
-
-[[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/xaeroworldmap-common.txt.backup0"
-hash = "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c"
-
-[[files]]
-file = "config/xaeroworldmap.txt.backup0"
-hash = "6028733f967d0d0f6a80dd236d3dcc7d2446912c719ab9a7d3f83d8624d9b92d"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/functions/wyverian/size.mcfunction"
@@ -6521,20 +6509,8 @@ file = "settings/files/config/xaerohud.txt"
 hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
 
 [[files]]
-file = "settings/files/config/xaerominimap-common.txt.backup0"
-hash = "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2"
-
-[[files]]
 file = "settings/files/config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "settings/files/config/xaeroworldmap-common.txt.backup0"
-hash = "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c"
-
-[[files]]
-file = "settings/files/config/xaeroworldmap.txt.backup0"
-hash = "6028733f967d0d0f6a80dd236d3dcc7d2446912c719ab9a7d3f83d8624d9b92d"
 
 [[files]]
 file = "settings/files/defaultconfigs/solcarrot-server.toml"
@@ -6562,7 +6538,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "5e0a536fd750e694b34cc58fd3e5f314d27a8e935a80b7b0b4ce1ebb47554b17"
+hash = "f295fade78c591b5f5c46f5fda4c6cdc8ececb55b5558770f4ec433263992436"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"

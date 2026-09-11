@@ -1,4 +1,4 @@
-#version=9a55a22410be
+#version=fd3ccbe4bc30
 # НАБОР НАСТРОЕК ВЛАДЕЛЬЦА. Клиент раскладывает его ПОВЕРХ своих настроек
 # один раз на версию набора (маркер .pack_settings), затем не трогает.
 # Память Java, пути к java и имя инстанса не передаются никогда.
@@ -185,10 +185,7 @@ config/trender.json
 config/waystones-common.toml
 config/whitenoise-client.toml
 config/xaerohud.txt
-config/xaerominimap-common.txt.backup0
 config/xaeropatreon.txt
-config/xaeroworldmap-common.txt.backup0
-config/xaeroworldmap.txt.backup0
 config/YungsCaveBiomes-forge-1_20_1.toml
 config/ae2/client.json
 config/ae2/common.json
