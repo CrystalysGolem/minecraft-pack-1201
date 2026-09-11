@@ -47,11 +47,22 @@
 (маркер `.pack_settings`), затем не трогает. Меняешь настройки → публикуешь → у всех игроков
 они применяются на следующем запуске.
 
-**Никогда не передаются:** аргументы памяти Java (`MaxMemAlloc`/`MinMemAlloc`/`-Xmx`, `PermGen`),
-пути и версии Java (`JavaPath`, `JavaVersion`, `JvmArgs`), имя/иконка/id инстанса, личные счётчики
-и экспортные поля. Не едут также сейвы, `logs/`, `screenshots/`, `backups/`, `servers.dat`,
-`usercache.json`, точки и карты Xaero, кэши (`config/inventory-particles`, `config/emi-accelerator`),
-закладки и история поиска JEI (`config/jei/world/**`).
+**Память Java задаётся владельцем:** в наборе для друзей едут `MinMemAlloc=2048`,
+`MaxMemAlloc=6144` (6 ГБ) и `OverrideMemory=true`. **Никогда не передаются:** пути и версии Java,
+`JvmArgs` (в них у владельца его собственный абсолютный путь), имя/иконка/id инстанса, личные
+счётчики и экспортные поля. Не едут также сейвы, `logs/`, `screenshots/`, `backups/`, `servers.dat`,
+`usercache.json`, точки и карты Xaero (`xaero/` — это данные миров, а не настройки), кэши
+(`config/inventory-particles`, `config/emi-accelerator`), закладки и история поиска JEI
+(`config/jei/world/**`).
+
+**Часть настроек лежит прямо в паке** — её получают даже те, у кого ещё старый скрипт (игра сама
+прочитает их при запуске): `options.txt` (раскладка, видео, включённые ресурспаки, `lastServer`
+очищен), `emi.json`, `config/emi.css`, `config/oculus.properties`, `config/embeddium-options.json`,
+`config/sodiumextras-client.toml`, `config/xaero/**` (настройки карты и миникарты: клиент, common,
+профили `default`, категории радара) и настройки JEI. Пока файл в паке, установщик будет
+восстанавливать его версию владельца каждый запуск — это и есть «принудительная» передача.
+Настройки самого инстанса (память, консоль) паком доставить нельзя — они приезжают шагом
+`:settings` (нужен актуальный скрипт: один раз распаковать свежий zip).
 
 ## Первый запуск у новичка (`starter/`)
 
