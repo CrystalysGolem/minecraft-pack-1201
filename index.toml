@@ -3586,11 +3586,11 @@ hash = "5a2b93d7dbb2a543d206f6f4f62540571d8c5f5d8aebea780598c08e09a09ee7"
 
 [[files]]
 file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/purple_rose.json"
-hash = "f33ffe49ddff01d3f7da0e28c33878162302a875adbd2ea33d7a4f6497c103ca"
+hash = "390550b5770864f2231643826715be4581c00ed9bb525a15857817d8f465b9cc"
 
 [[files]]
 file = "datapacks/pack_fixes/data/create/recipes/milling/compat/biomeswevegone/torch_ginger.json"
-hash = "3fe542c419b227ac6aadd2489311c8aa8204502aac2afe426dfc8e6feddf409a"
+hash = "59dfcd2c067b599db35b5f3b37a1bf4c952010e49565977283732295a18e01d4"
 
 [[files]]
 file = "datapacks/pack_fixes/data/create/recipes/pressing/compat/biomeswevegone/lush_grass_path.json"
