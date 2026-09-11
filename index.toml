@@ -1277,50 +1277,6 @@ file = "config/jade/sort-order.json"
 hash = "e2384d33c0f36349a21df20e85ba59eddc3a98b32df20efd650a3d6d648fdfcb"
 
 [[files]]
-file = "config/jei.backup-20260911-002542/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/blacklist.json"
-hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/ingredient-list-mod-sort-order.ini"
-hash = "3079ab63c96b18135bc5168218e2a35848dfff5e46cb5e1c3063faa5951c45b7"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/ingredient-list-type-sort-order.ini"
-hash = "40159d9dcf1d5a4db8ff25aafbc748e00cbb61f915dea39612960a29e5a57f17"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/jei-client.ini"
-hash = "a74afa0aae880c89af589d1b008e1a2d1fa82c28dfce8594f8fe930a4a030893"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/jei-colors.ini"
-hash = "755f199a3868224bdccb2a8ffd8f1a4eb2d96140757f444ba31f8d677a66034f"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/jei-debug.ini"
-hash = "8bb0722d480964720a1500654493b5be225c74f7ff3f94e8658e39db5ab098ad"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/jei-mod-id-format.ini"
-hash = "0f7758b015952072ae6eb72f829f5be6530f81d79b190d3e45cd7955d201de85"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/recipe-category-sort-order.ini"
-hash = "09bfde77457f62e361c9ccacd8eaa750d99c0b0fdebf40ed19c9a68a2a0226a3"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/world/local/__-/bookmarks.ini"
-hash = "b2d68db5ed6449a61fe2152249051ffdab07f9a134c8c1d83784654e1d074d4f"
-
-[[files]]
-file = "config/jei.backup-20260911-002542/world/local/__-/lookupHistory.ini"
-hash = "72036b05209baee4ad7683f8113d39383a45ac14ba818fcf9f52f4aec59f4a6a"
-
-[[files]]
 file = "config/jei/blacklist.json"
 hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
@@ -6149,50 +6105,6 @@ file = "settings/files/config/jade/sort-order.json"
 hash = "e2384d33c0f36349a21df20e85ba59eddc3a98b32df20efd650a3d6d648fdfcb"
 
 [[files]]
-file = "settings/files/config/jei.backup-20260911-002542/blacklist.cfg"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/blacklist.json"
-hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/ingredient-list-mod-sort-order.ini"
-hash = "3079ab63c96b18135bc5168218e2a35848dfff5e46cb5e1c3063faa5951c45b7"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/ingredient-list-type-sort-order.ini"
-hash = "40159d9dcf1d5a4db8ff25aafbc748e00cbb61f915dea39612960a29e5a57f17"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/jei-client.ini"
-hash = "a74afa0aae880c89af589d1b008e1a2d1fa82c28dfce8594f8fe930a4a030893"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/jei-colors.ini"
-hash = "755f199a3868224bdccb2a8ffd8f1a4eb2d96140757f444ba31f8d677a66034f"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/jei-debug.ini"
-hash = "8bb0722d480964720a1500654493b5be225c74f7ff3f94e8658e39db5ab098ad"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/jei-mod-id-format.ini"
-hash = "0f7758b015952072ae6eb72f829f5be6530f81d79b190d3e45cd7955d201de85"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/recipe-category-sort-order.ini"
-hash = "09bfde77457f62e361c9ccacd8eaa750d99c0b0fdebf40ed19c9a68a2a0226a3"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/world/local/__-/bookmarks.ini"
-hash = "b2d68db5ed6449a61fe2152249051ffdab07f9a134c8c1d83784654e1d074d4f"
-
-[[files]]
-file = "settings/files/config/jei.backup-20260911-002542/world/local/__-/lookupHistory.ini"
-hash = "72036b05209baee4ad7683f8113d39383a45ac14ba818fcf9f52f4aec59f4a6a"
-
-[[files]]
 file = "settings/files/config/jei/blacklist.json"
 hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
 
@@ -6650,7 +6562,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "38aba3ea51c4327c7d53d048604f8e49ecf2d39159bc3b27a75934bd793eecbe"
+hash = "5e0a536fd750e694b34cc58fd3e5f314d27a8e935a80b7b0b4ce1ebb47554b17"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"

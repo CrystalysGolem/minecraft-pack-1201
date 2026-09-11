@@ -1,4 +1,4 @@
-#version=e49baa4d15e2
+#version=9a55a22410be
 # НАБОР НАСТРОЕК ВЛАДЕЛЬЦА. Клиент раскладывает его ПОВЕРХ своих настроек
 # один раз на версию набора (маркер .pack_settings), затем не трогает.
 # Память Java, пути к java и имя инстанса не передаются никогда.
@@ -390,17 +390,6 @@ config/jei/jei-colors.ini
 config/jei/jei-debug.ini
 config/jei/jei-mod-id-format.ini
 config/jei/recipe-category-sort-order.ini
-config/jei.backup-20260911-002542/blacklist.cfg
-config/jei.backup-20260911-002542/blacklist.json
-config/jei.backup-20260911-002542/ingredient-list-mod-sort-order.ini
-config/jei.backup-20260911-002542/ingredient-list-type-sort-order.ini
-config/jei.backup-20260911-002542/jei-client.ini
-config/jei.backup-20260911-002542/jei-colors.ini
-config/jei.backup-20260911-002542/jei-debug.ini
-config/jei.backup-20260911-002542/jei-mod-id-format.ini
-config/jei.backup-20260911-002542/recipe-category-sort-order.ini
-config/jei.backup-20260911-002542/world/local/__-/bookmarks.ini
-config/jei.backup-20260911-002542/world/local/__-/lookupHistory.ini
 config/Mekanism/client.toml
 config/Mekanism/common.toml
 config/Mekanism/gear.toml
