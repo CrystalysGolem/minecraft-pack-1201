@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "_packwiz_update.new"
-hash = "6c36c48d44c987f5720a97f1993273d32d2cb3109a718863d691c09488e0954d"
+hash = "f653ef11e1c38f235b409328372b2ab1bc3672b456e8499240b05bbdb519efbf"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -877,6 +877,14 @@ file = "config/ecologics-common.toml"
 hash = "a0f2c7cfac8f79d37fab4ff1a0fdef02e8f4ffca1f5b65daa28aa7b179342b5c"
 
 [[files]]
+file = "config/embeddium-options.json"
+hash = "3cea2bdbfe4136b91cff1da85b43bd3b6e6f7de6a413f86da91532f7d74c4835"
+
+[[files]]
+file = "config/emi.css"
+hash = "4e68cf76cd5a532e40cb61566ae776ea6226de825cb7ef862f1d5e5e84cdb1a2"
+
+[[files]]
 file = "config/emi_loot_config.toml"
 hash = "c234dbe2aaa3c87d45ed4596d60a8fb931324890d57646dae1b8459c5e032048"
 
@@ -1269,6 +1277,74 @@ file = "config/jade/sort-order.json"
 hash = "e2384d33c0f36349a21df20e85ba59eddc3a98b32df20efd650a3d6d648fdfcb"
 
 [[files]]
+file = "config/jei.backup-20260911-002542/blacklist.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/blacklist.json"
+hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/ingredient-list-mod-sort-order.ini"
+hash = "3079ab63c96b18135bc5168218e2a35848dfff5e46cb5e1c3063faa5951c45b7"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/ingredient-list-type-sort-order.ini"
+hash = "40159d9dcf1d5a4db8ff25aafbc748e00cbb61f915dea39612960a29e5a57f17"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/jei-client.ini"
+hash = "a74afa0aae880c89af589d1b008e1a2d1fa82c28dfce8594f8fe930a4a030893"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/jei-colors.ini"
+hash = "755f199a3868224bdccb2a8ffd8f1a4eb2d96140757f444ba31f8d677a66034f"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/jei-debug.ini"
+hash = "8bb0722d480964720a1500654493b5be225c74f7ff3f94e8658e39db5ab098ad"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/jei-mod-id-format.ini"
+hash = "0f7758b015952072ae6eb72f829f5be6530f81d79b190d3e45cd7955d201de85"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/recipe-category-sort-order.ini"
+hash = "09bfde77457f62e361c9ccacd8eaa750d99c0b0fdebf40ed19c9a68a2a0226a3"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/world/local/__-/bookmarks.ini"
+hash = "b2d68db5ed6449a61fe2152249051ffdab07f9a134c8c1d83784654e1d074d4f"
+
+[[files]]
+file = "config/jei.backup-20260911-002542/world/local/__-/lookupHistory.ini"
+hash = "72036b05209baee4ad7683f8113d39383a45ac14ba818fcf9f52f4aec59f4a6a"
+
+[[files]]
+file = "config/jei/blacklist.json"
+hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "a74afa0aae880c89af589d1b008e1a2d1fa82c28dfce8594f8fe930a4a030893"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+hash = "755f199a3868224bdccb2a8ffd8f1a4eb2d96140757f444ba31f8d677a66034f"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+hash = "8bb0722d480964720a1500654493b5be225c74f7ff3f94e8658e39db5ab098ad"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+hash = "0f7758b015952072ae6eb72f829f5be6530f81d79b190d3e45cd7955d201de85"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "482a527b68ce3c40b6bf593c0760f380a99ce1084b61f4de3da3c6476dd91190"
+
+[[files]]
 file = "config/jeresources-common.toml"
 hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
 
@@ -1323,6 +1399,10 @@ hash = "7dc017587f20452d0e06e4f3f7e0780d2fa3ac4d1c9f565886ac73ff9c23a5ee"
 [[files]]
 file = "config/notenoughanimations.json"
 hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
+
+[[files]]
+file = "config/oculus.properties"
+hash = "5fd8fccbf075e5f648183471dfc2c493b16ef860b8790cbdf512e5f1724c8742"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1439,6 +1519,10 @@ hash = "ac1a4e660c8a567b4c945962d063eeced1a0040615214ea4aebb947ff6af7d33"
 [[files]]
 file = "config/smoothswapping.json"
 hash = "d15110f71646c8b1e18a78483990691bbda1e9e687d39ac62cff0423375a4076"
+
+[[files]]
+file = "config/sodiumextras-client.toml"
+hash = "1a0a3bbe9ba9b9b0b8a041c0006bd955f3ce9f3af610d54dbf42b6898ec24632"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -1583,6 +1667,90 @@ hash = "c20b6848e660cb0a30d4e5d9945f98ddbf16b09929798a30dfc605b2e6958503"
 [[files]]
 file = "config/witherreincarnated/common.toml"
 hash = "14689cdebce6edfe21ec75ef3b0fb63df09a29ee7e637339d79b25b2b89ffe1d"
+
+[[files]]
+file = "config/xaero/lib/client.cfg"
+hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
+
+[[files]]
+file = "config/xaero/lib/common.cfg"
+hash = "98f698d96a6d21d830a455b4ad045b70516fa63c298021742d8499e7f0366cd2"
+
+[[files]]
+file = "config/xaero/lib/profiles/default.cfg"
+hash = "34ae854b17d896d7cb853bdc28c27231a3947e91cb9f0991f372846ee3c2a907"
+
+[[files]]
+file = "config/xaero/lib/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/minimap/client.cfg"
+hash = "c0915eff5d1a7905cd1038d646eb9086fd1a29e2f637d53535e4da161de17b9f"
+
+[[files]]
+file = "config/xaero/minimap/common.cfg"
+hash = "2b49df024c03a369c62a303c72755e7fedeb4f4653ff53a12fd37bd83ccd4ed0"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_client.json"
+hash = "94fc0e69a1754ef80c54e1f3c9193526c620b0ac646f94a4a0f560bcc58826a8"
+
+[[files]]
+file = "config/xaero/minimap/default_radar_categories_server.json"
+hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
+
+[[files]]
+file = "config/xaero/minimap/profiles/default.cfg"
+hash = "b50db0952c1bf2604c5b046dcbea5eb54887a51325182311d669e693a164b087"
+
+[[files]]
+file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
+hash = "a7d19d3917890b03ca471055d2441027d410b6a6abc1883ac16fc3c50245aeee"
+
+[[files]]
+file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
+hash = "2f1f762bcc5575488d1346c0b676eb4e5fe2a7185f6ec8c5b7d00461647b21aa"
+
+[[files]]
+file = "config/xaero/minimap/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaero/world-map/client.cfg"
+hash = "d0f079a8df083f6f60a0e0c1316a25fc841755a91bdcb2f86c66ead8e7d4d13d"
+
+[[files]]
+file = "config/xaero/world-map/common.cfg"
+hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
+
+[[files]]
+file = "config/xaero/world-map/profiles/default.cfg"
+hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+
+[[files]]
+file = "config/xaero/world-map/server_profiles/default.cfg"
+hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
+
+[[files]]
+file = "config/xaerohud.txt"
+hash = "6de57f88c55043cfafb952219205e2080da514284c822a277cd9f1ef804f0def"
+
+[[files]]
+file = "config/xaerominimap-common.txt.backup0"
+hash = "1dcee38470c2939f7265891203775b7631c81822bf2506a451727fcaaf2cc4a2"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/xaeroworldmap-common.txt.backup0"
+hash = "103979a8e59e396f99fb8646c4f8a690c2d743ca3744a2eb8f663b3102b7498c"
+
+[[files]]
+file = "config/xaeroworldmap.txt.backup0"
+hash = "6028733f967d0d0f6a80dd236d3dcc7d2446912c719ab9a7d3f83d8624d9b92d"
 
 [[files]]
 file = "datapacks/no_origin_debuffs/data/origins-plus-plus/functions/wyverian/size.mcfunction"
@@ -3553,6 +3721,10 @@ file = "defaultconfigs/tinkerslevellingaddon-server.toml"
 hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
+file = "emi.json"
+hash = "a8ff13167a378791c23ce7d53a6a30a2f4c220f2e2336389b5595d16540c9809"
+
+[[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
 hash = "f956160f30fd5ecb7f0c7be52397fc0263960f2a9c400dd455c2d1719933e45b"
 metafile = true
@@ -4631,6 +4803,10 @@ metafile = true
 file = "mods/xaeroworldmap-forge-1.20.1-1.46.0.pw.toml"
 hash = "d45165487138c63574204125b16d96ad9f01865e07454e2baba817a9b74a9d7e"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "242424cb34e956bf32577a3b6ed7bc6d3f69352dff2bb23c55141d12942cb91a"
 
 [[files]]
 file = "resourcepacks/+1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip"
@@ -6466,7 +6642,7 @@ hash = "242424cb34e956bf32577a3b6ed7bc6d3f69352dff2bb23c55141d12942cb91a"
 
 [[files]]
 file = "settings/instance/instance.cfg.overrides"
-hash = "31c82decf9f1c3f458d00046bcb27d9df9fd8e7257f6a97634344e85d3729cef"
+hash = "2a4e8509258f0b25691b26872bfdebed8581b44e76e0d5a1024ac67a68d3d366"
 
 [[files]]
 file = "settings/instance/patches/custom.jvm.embeddium.json"
@@ -6474,7 +6650,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "267891dacfd6dfea565f1c268d8adb60fa1ac70321e645a589c79591d9ac223e"
+hash = "38aba3ea51c4327c7d53d048604f8e49ecf2d39159bc3b27a75934bd793eecbe"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6514,4 +6690,4 @@ hash = "c1cd481ac7ec81b6cb82f162b235509568f6f1ab9e416ccfedaee15e79e1a795"
 
 [[files]]
 file = "Обновить сборку.new"
-hash = "0bf332995fc8b0a656d6a060403eb616a1c9f1bbb93ece7739789c049289370e"
+hash = "5757b8db71936d3e72b8a85c964bf238dbffa31335d0c2270d923901e5e13d91"

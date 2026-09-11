@@ -17,3 +17,6 @@ LowMemWarning=true
 LogPrePostOutput=true
 ModDownloadLoaders=[]
 OverrideModDownloadLoaders=false
+MinMemAlloc=2048
+MaxMemAlloc=6144
+OverrideMemory=true
