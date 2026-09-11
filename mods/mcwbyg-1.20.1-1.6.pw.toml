@@ -1,0 +1,12 @@
+name = "Macaw's Oh The Biomes You'll Go / We've Gone"
+filename = "mcwbyg-1.20.1-1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/s4B19O5h/versions/7jdQzcK3/mcwbyg-1.20.1-1.6.jar"
+hash-format = "sha512"
+hash = "d9612ea5193002caa57cfdf7ef5f173809b4e26187981f741adf84744a8c47b9b27cd27d56a53f311fda08268591ab119ffca911213589c004c28d2654fe5d87"
+
+[update.modrinth]
+mod-id = "s4B19O5h"
+version = "7jdQzcK3"

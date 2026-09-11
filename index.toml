@@ -690,7 +690,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -938,7 +938,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "2e66932094110b7fd64507221eeb0b78ebdd5c617a835f13736631deec88ff3d"
+hash = "e8727d5a72f50ea4eb9897635663117d83bfab30bb18ff8e1152cbd76bd3a601"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1362,7 +1362,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3aecae7d6473f65b40b76aaa88ba3f8764abc9b71549869f80181fe25dc1bef6"
+hash = "16976e41d960d4710955ecddf01f52a747a680695672560200c45ab8c9056771"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1378,7 +1378,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "d6e56f5063a8187df97af1b42850b64b7aa54f3fd4b1b5c448c48c384ee8181a"
+hash = "c118a200bf2688ac8f4cf801e2b436b1197b195e48e5a0e01647ad1be564f415"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -4478,6 +4478,11 @@ hash = "14a17c5d2621fb5a37462fba0fa18b647fd15952d317f6edef271b09bc35f146"
 metafile = true
 
 [[files]]
+file = "mods/mcwbyg-1.20.1-1.6.pw.toml"
+hash = "ddb3f8a548d2a5456f0f87f9f0fb02803f0cda0c956a808163a1e7d12df7400a"
+metafile = true
+
+[[files]]
 file = "mods/mining_dimension_1.20.1_1.0.69.pw.toml"
 hash = "dc570a2ea8da6c166f0ae5e583164223a2d5ab9a8b95eecee7e758738098757d"
 metafile = true
@@ -5500,7 +5505,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "settings/files/config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "settings/files/config/blueprint-client.toml"
@@ -5756,7 +5761,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "settings/files/config/fabric/indigo-renderer.properties"
-hash = "2e66932094110b7fd64507221eeb0b78ebdd5c617a835f13736631deec88ff3d"
+hash = "e8727d5a72f50ea4eb9897635663117d83bfab30bb18ff8e1152cbd76bd3a601"
 
 [[files]]
 file = "settings/files/config/fallingleaves-client.toml"
@@ -6180,7 +6185,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "settings/files/config/oculus.properties"
-hash = "3aecae7d6473f65b40b76aaa88ba3f8764abc9b71549869f80181fe25dc1bef6"
+hash = "16976e41d960d4710955ecddf01f52a747a680695672560200c45ab8c9056771"
 
 [[files]]
 file = "settings/files/config/oculus_for_simpleclouds-client.toml"
@@ -6196,7 +6201,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "settings/files/config/packetfixer.properties"
-hash = "d6e56f5063a8187df97af1b42850b64b7aa54f3fd4b1b5c448c48c384ee8181a"
+hash = "c118a200bf2688ac8f4cf801e2b436b1197b195e48e5a0e01647ad1be564f415"
 
 [[files]]
 file = "settings/files/config/patchouli-client.toml"
@@ -6544,7 +6549,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "121f9f4599dff4c9dfe11c6f4cf3aa0ebaf2e172f3400d78bc4a202d7a063714"
+hash = "7e99a9fc27ba0875cfcc9116929b33a6f8442b55619af0b40fe3a783ce8ce16e"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6556,7 +6561,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "0e12325387a1e96ed8f617c62cf7417518636261b24c4953157a7050a09c7033"
+hash = "a7af4db58428bb8ba92d348308936f698a791055ef02a4e198186735b791673b"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
