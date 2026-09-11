@@ -5,4 +5,4 @@ side = "both"
 [download]
 url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/origins_tweaks-1.20.1-1.0.0.jar"
 hash-format = "sha512"
-hash = "e12520a791b2164d09859a702fb44dc8eb9c92b7a27d726719b65ecab9fd8969148741b51b8dac9c68250087ae976864af49420f319659a28d4679f773b8036e"
+hash = "9c0ed85d89fb42707cab6067b6a8db1a8edd796583618d75851ab864d7a907e98707cf126df48d062757e09e2113f642d78d2a27f3b5bf3b1a109856d36316fe"

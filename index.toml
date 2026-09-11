@@ -1510,7 +1510,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "config/sophisticatedsorter-client.toml"
-hash = "d2e2d216ee47bd5a92473b444320f52549c2bf4368b545245d4e3c5c54ce2776"
+hash = "18b4263041b355affed24a21c47a058d8ac8d9705e3c86597ab1afde404a6ddf"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -3838,7 +3838,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "emi.json"
-hash = "762ef01bdf07f619374ecc2a31dcd6a969a7f38431d1407861edf41a3fed5164"
+hash = "782788e8eea6e2ae4837a2e32e0ea47371eaf5979ba73ebfe2e1a0da57abf597"
 
 [[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
@@ -4707,7 +4707,7 @@ metafile = true
 
 [[files]]
 file = "mods/origins_tweaks-1.20.1-1.0.0.pw.toml"
-hash = "716d4aa6b8da042c544e8f212240c59a0bdc45aa6d5668e81eddb5f0fe8b0846"
+hash = "fcee3626eb39ccc516f8d2d8520326a262d3e6ee4f6d3aed67244a8fba63075e"
 metafile = true
 
 [[files]]
@@ -6501,7 +6501,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "settings/files/config/sophisticatedsorter-client.toml"
-hash = "d2e2d216ee47bd5a92473b444320f52549c2bf4368b545245d4e3c5c54ce2776"
+hash = "18b4263041b355affed24a21c47a058d8ac8d9705e3c86597ab1afde404a6ddf"
 
 [[files]]
 file = "settings/files/config/sophisticatedstorage-client.toml"
@@ -6701,7 +6701,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "settings/files/emi.json"
-hash = "762ef01bdf07f619374ecc2a31dcd6a969a7f38431d1407861edf41a3fed5164"
+hash = "782788e8eea6e2ae4837a2e32e0ea47371eaf5979ba73ebfe2e1a0da57abf597"
 
 [[files]]
 file = "settings/files/options.txt"
@@ -6717,7 +6717,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "404b9f25f750c2fab69948fd76343a1c27ea9f99afb03660ca9b216a23cbe7ac"
+hash = "f62f898ff21e6ad59c5615371e5632ac220028a40baeed0878f61bc522aec481"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
