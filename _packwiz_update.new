@@ -1,44 +1,40 @@
 @echo off
-chcp 866 >nul
-title Обновление сборки Minecraft Pack 1.20.1
+rem ---------------------------------------------------------------
+rem  Тихая авто-синхронизация сборки перед запуском игры.
+rem  1) читает ИНСТРУКЦИЮ ЗАГРУЗКИ (bootstrap.txt) по двум неизменным адресам
+rem  2) качает пак с первого доступного источника (с повторами при обрывах)
+rem  3) один раз докладывает настройки/конфиги тем, у кого их ещё нет
+rem  Всегда возвращает 0, иначе PrismLauncher отменил бы запуск игры.
+rem ---------------------------------------------------------------
 setlocal enabledelayedexpansion
-
-rem ---------------------------------------------------------------
-rem  Кнопка обновления. Читает ИНСТРУКЦИЮ ЗАГРУЗКИ (bootstrap.txt),
-rem  качает пак с первого доступного источника (с повторами при обрывах связи)
-rem  и один раз докладывает настройки/конфиги тем, у кого их ещё нет.
-rem  Меняешь инструкцию на сервере - игрокам обновлять свои файлы не нужно.
-rem  Аргумент dry: показать, что нашлось, и выйти.
-rem ---------------------------------------------------------------
 
 set "PTR_HOST=http://26.26.205.227:8787/bootstrap.txt"
 set "PTR_NET=https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/bootstrap.txt"
 set "FALLBACK_PACK=https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/pack.toml"
 set "BOOTFILE=%TEMP%\mcp1201_%RANDOM%.txt"
 set "STARTER=%TEMP%\mcp1201_starter_%RANDOM%.txt"
-set "ATTEMPTS=4"
+set "ATTEMPTS=2"
 
-set "TIMEOUT=30"
-set "INSTALL_TRIES=4"
-set "WAIT=8"
-set "MODE=%~1"
+set "TIMEOUT=8"
+set "INSTALL_TRIES=2"
+set "WAIT=3"
 
 set "JAVA="
 for %%P in ("%APPDATA%\PrismLauncher\java\java-runtime-gamma\bin\java.exe") do if exist %%P set "JAVA=%%~P"
 if not defined JAVA for /d %%D in ("%APPDATA%\PrismLauncher\java\*") do if exist "%%D\bin\java.exe" set "JAVA=%%D\bin\java.exe"
 if not defined JAVA where java >nul 2>nul && set "JAVA=java"
+if not defined JAVA (echo [packwiz] Java не найдена - синхронизация пропущена. & exit /b 0)
 
-rem --- 1. инструкция загрузки
-set "BOOTSRC="
+rem --- 1. инструкция загрузки: сначала с хоста (Radmin), потом из сети
 set "BOOT="
 ping -n 1 -w 700 26.26.205.227 >nul 2>nul
 if not errorlevel 1 (
-  call :fetch "%PTR_HOST%" "%BOOTFILE%" "pack=" 2
-  if not errorlevel 1 (set "BOOT=%BOOTFILE%" & set "BOOTSRC=хост (Radmin)")
+  call :fetch "%PTR_HOST%" "%BOOTFILE%" "pack=" 1
+  if not errorlevel 1 set "BOOT=%BOOTFILE%"
 )
 if not defined BOOT (
-  call :fetch "%PTR_NET%" "%BOOTFILE%" "pack=" 2
-  if not errorlevel 1 (set "BOOT=%BOOTFILE%" & set "BOOTSRC=GitHub")
+  call :fetch "%PTR_NET%" "%BOOTFILE%" "pack=" 1
+  if not errorlevel 1 set "BOOT=%BOOTFILE%"
 )
 
 rem --- 2. список источников пака
@@ -53,47 +49,12 @@ if defined BOOT (
   )
 )
 if "!N!"=="0" (
+  echo [packwiz] Инструкция загрузки недоступна - использую GitHub напрямую.
   set "N=1"
   set "SRC1=%FALLBACK_PACK%"
-  set "BOOTSRC=нет (аварийный адрес GitHub)"
 )
 
-if /i "%MODE%"=="dry" (
-  echo Инструкция загрузки: !BOOTSRC!
-  echo Источников пака: !N!
-  for /l %%I in (1,1,!N!) do echo   %%I^) !SRC%%I!
-  set "D=!SRC1!"
-  set "D=!D:/pack.toml=!"
-  call :fetch "!D!/starter/manifest.txt" "%STARTER%" "#version=" 2
-  if not errorlevel 1 (
-    set "SV="
-    for /f "tokens=1,* delims==" %%A in ('type "%STARTER%" 2^>nul') do if /i "%%~A"=="#version" if not defined SV set "SV=%%~B"
-    set "SC=0"
-    for /f "usebackq tokens=* delims=" %%L in ("%STARTER%") do if not "%%L"=="" if not "%%~L:~0,1!"=="#" set /a SC+=1
-    echo Настройки первого запуска: доступны, версия !SV!, файлов !SC!
-    del "%STARTER%" >nul 2>nul
-  ) else (
-    echo Настройки первого запуска: недоступны по адресу источника
-  )
-  echo Java: !JAVA!
-  exit /b 0
-)
-
-echo.
-echo Инструкция загрузки: !BOOTSRC!
-echo.
-if not defined JAVA (
-  echo Не найдена Java. Запусти игру один раз через PrismLauncher - он скачает Java, после этого кнопка заработает.
-  pause
-  exit /b 1
-)
-if not exist "%~dp0minecraft" (
-  echo Не найден каталог minecraft рядом со скриптом.
-  pause
-  exit /b 1
-)
-cd /d "%~dp0minecraft"
-
+rem --- 3. установка: источники по порядку, каждый с повторами при обрыве
 set "OK="
 set "USED="
 for /l %%I in (1,1,!N!) do (
@@ -102,42 +63,40 @@ for /l %%I in (1,1,!N!) do (
     if defined U (
       call :reachable "!U!"
       if not errorlevel 1 (
-        echo Источник %%I из !N!: !U!
+        echo [packwiz] Источник %%I: !U!
         call :install "!U!"
         if not errorlevel 1 (
           set "OK=1"
           set "USED=!U!"
         )
       ) else (
-        echo Источник %%I недоступен, пробую следующий...
+        echo [packwiz] Источник %%I недоступен, пропускаю.
       )
     )
   )
 )
 
+rem --- 4. настройки владельца (принудительно, один раз на версию набора)
+call :settings
+
+rem --- 5. включить ресурспаки с фиксами (файл уже скачан вместе с паком)
+call :fixpacks
+
+rem --- 5. настройки для первого запуска (один раз, только отсутствующие файлы)
 if defined USED (
   set "BASE=!USED:/pack.toml=!"
-  rem настройки владельца: принудительно, один раз на версию набора
-  call :settings
-  call :fixpacks
   call :seed "!BASE!"
 )
 
-del "%BOOTFILE%" >nul 2>nul
 if defined OK (
-  echo.
-  echo Готово! Можно запускать игру в PrismLauncher.
   call :selfupdate
-  pause
+  del "%BOOTFILE%" >nul 2>nul
   exit /b 0
 )
-echo.
-echo Не удалось обновить сборку ни с одного источника.
-echo Проверь интернет (или чтобы хост был включён) и попробуй снова.
-echo Уже скачанное не потеряется: следующий запуск продолжит с того же места.
+echo [packwiz] Обновиться не удалось - игра запустится на текущих файлах.
 call :selfupdate
-pause
-exit /b 1
+del "%BOOTFILE%" >nul 2>nul
+exit /b 0
 
 :settings
 rem Набор настроек владельца кладём ПОВЕРХ настроек игрока - один раз на версию набора.
@@ -148,7 +107,7 @@ if not defined SVER exit /b 0
 set "SOLD="
 if exist ".pack_settings" for /f "usebackq delims=" %%X in (".pack_settings") do if not defined SOLD set "SOLD=%%X"
 if "!SOLD!"=="!SVER!" exit /b 0
-echo Настройки сборки: применяю настройки и конфиги владельца (набор !SVER!)
+echo [packwiz] Применяю настройки владельца (набор !SVER!)
 if not exist "settings\files" exit /b 0
 xcopy "settings\files\*" "." /E /I /Y /Q >nul 2>nul
 if exist "settings\instance\patches" xcopy "settings\instance\patches\*" "..\patches\" /E /I /Y /Q >nul 2>nul
@@ -168,18 +127,17 @@ set "URL=%~1"
 set "TRY=0"
 :install_again
 set /a TRY+=1
-"%JAVA%" -jar packwiz-installer-bootstrap.jar "%URL%"
+"%JAVA%" -jar packwiz-installer-bootstrap.jar -g -s client "%URL%"
 if %TRY% GEQ %INSTALL_TRIES% exit /b 1
 call :reachable "%URL%"
 if errorlevel 1 exit /b 1
-echo.
-echo   !!! Связь оборвалась. Жду %WAIT% секунд и пробую снова (%TRY%/%INSTALL_TRIES%)...
-echo.
+echo [packwiz] Обрыв связи. Повтор установки (%TRY%/%INSTALL_TRIES%) через %WAIT% c...
 call :sleep %WAIT%
 goto :install_again
 
 rem ---------------- настройки первого запуска ----------------
 :seed
+rem %~1 = базовый адрес источника (без /pack.toml)
 set "SBASE=%~1"
 if not exist "packwiz-installer-bootstrap.jar" exit /b 0
 call :fetch "%SBASE%/starter/manifest.txt" "%STARTER%" "#version="
@@ -190,44 +148,36 @@ for /f "tokens=1,* delims==" %%A in ('type "%STARTER%" 2^>nul') do (
 )
 set "SOLD="
 if exist ".pack_starter" for /f "usebackq tokens=* delims=" %%L in (".pack_starter") do if not defined SOLD set "SOLD=%%L"
-if defined SVER if "!SVER!"=="!SOLD!" (
-  echo Настройки первого запуска: уже применены, не трогаю.
-  del "%STARTER%" >nul 2>nul
-  exit /b 0
-)
-echo.
-echo Настройки первого запуска (выдаются один раз, только отсутствующие файлы):
+if defined SVER if "!SVER!"=="!SOLD!" exit /b 0
 set "SEEDED=0"
 for /f "usebackq tokens=* delims=" %%L in ("%STARTER%") do (
   set "LINE=%%L"
   if not "!LINE!"=="" if not "!LINE:~0,1!"=="#" call :seed_one "!SBASE!" "!LINE!"
 )
-echo   выдано файлов: !SEEDED!
+if not "!SEEDED!"=="0" echo [packwiz] Настройки первого запуска: выдано файлов !SEEDED!.
 if defined SVER echo !SVER!> ".pack_starter"
 del "%STARTER%" >nul 2>nul
 exit /b 0
 
 :seed_one
+rem %~1 = база, %~2 = путь относительно minecraft/
 set "REL=%~2"
 if exist "%REL%" exit /b 0
 for %%D in ("%REL%") do if not "%%~dpD"=="" if not exist "%%~dpD" mkdir "%%~dpD" >nul 2>nul
 call :fetch "%~1/starter/%REL%" "%REL%" ""
-if not errorlevel 1 (
-  set /a SEEDED+=1
-  echo   + %REL%
-) else (
-  echo   ! не удалось получить %REL%
-)
+if not errorlevel 1 set /a SEEDED+=1
 exit /b 0
 
 rem ---------------- вспомогательные ----------------
 :sleep
+rem %~1 = секунды (через ping - работает и без интерактивной консоли)
 set /a "SL=%~1"
 if %SL% LSS 1 set "SL=1"
 ping -n %SL% 127.0.0.1 >nul 2>nul
 exit /b 0
 
 :fetch
+rem %~1 = URL, %~2 = куда сохранить, %~3 = строка-признак (пусто = просто непустой файл)
 set "FURL=%~1"
 set "FDST=%~2"
 set "FMARK=%~3"
@@ -244,11 +194,11 @@ if not errorlevel 1 (
 )
 if exist "%FDST%" del "%FDST%" >nul 2>nul
 if %FTRY% GEQ %FMAX% exit /b 1
-if not "%MODE%"=="quiet" echo     сеть не ответила, повтор %FTRY%/%ATTEMPTS%...
 call :sleep 3
 goto :fetch_again
 
 :direct
+rem скачивание без прокси: curl.exe, иначе PowerShell (WebClient, Proxy=$null)
 curl.exe -fsS --noproxy "*" -m %TIMEOUT% -o "%~2" "%~1" >nul 2>nul
 if exist "%~2" for %%F in ("%~2") do if %%~zF GTR 0 exit /b 0
 powershell -NoProfile -Command "try{$w=New-Object Net.WebClient;$w.Proxy=$null;$w.DownloadFile('%~1','%~2')}catch{exit 1}" >nul 2>nul
@@ -256,6 +206,7 @@ if exist "%~2" for %%F in ("%~2") do if %%~zF GTR 0 exit /b 0
 exit /b 1
 
 :looks_ok
+rem %~1 = файл, %~2 = обязательная подстрока (пусто = достаточно непустого файла)
 if not exist "%~1" exit /b 1
 for %%F in ("%~1") do if %%~zF LSS 1 exit /b 1
 if "%~2"=="" exit /b 0
@@ -264,6 +215,7 @@ if errorlevel 1 exit /b 1
 exit /b 0
 
 :reachable
+rem %~1 = URL источника. Для адресов-по-IP быстрый ping (иначе TCP-таймаут ~20 c).
 set "H=%1"
 set "HOST="
 for /f "tokens=1,2,3 delims=:/" %%a in ("%H%") do set "HOST=%%b"
