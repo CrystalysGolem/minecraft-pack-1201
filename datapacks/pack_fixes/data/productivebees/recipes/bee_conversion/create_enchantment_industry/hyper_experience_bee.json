@@ -1,14 +1,31 @@
 {
-  "type": "productivebees:bee_conversion",
-  "source": "productivebees:experience",
-  "result": "productivebees:hyper_experience",
-  "item": {
-    "item": "create_enchantment_industry:hyper_experience_bottle"
-  },
-  "conditions": [
+  "type": "forge:conditional",
+  "recipes": [
     {
-      "type": "forge:mod_loaded",
-      "modid": "__pack_fixes_disabled__"
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "__pack_fixes_disabled__"
+        }
+      ],
+      "recipe": {
+        "type": "productivebees:bee_conversion",
+        "source": "productivebees:experience",
+        "result": "productivebees:hyper_experience",
+        "item": {
+          "item": "create_enchantment_industry:hyper_experience_bottle"
+        },
+        "conditions": [
+          {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:experience"
+          },
+          {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:hyper_experience"
+          }
+        ]
+      }
     }
   ]
 }
