@@ -938,7 +938,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "3d66fe4d70d41b9b33849af93caf327e5dc78829d92ef2fb5c0e7aa2d96f156f"
+hash = "561da28764d4d8fe7ca40460524bbd8d81315db7fda0eb44247ad62a0130c6fa"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1362,7 +1362,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "5fd8fccbf075e5f648183471dfc2c493b16ef860b8790cbdf512e5f1724c8742"
+hash = "d5fa27b266846b1cd2e2cad05429bf89fb11df760ca1d3035459d1718de52ea5"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1378,7 +1378,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "d47bd99d021821d7b51b299a91a4c92426517eff1bfcdfac14a5bc67037aad41"
+hash = "5c2d505967d0e3481c74fc066c55ff729590eaf4faee9b38fa76e39f2365f055"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -3670,7 +3670,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "emi.json"
-hash = "a8ff13167a378791c23ce7d53a6a30a2f4c220f2e2336389b5595d16540c9809"
+hash = "6aa039d01ea01658560a7f332d4e9749d3fe2f04acfc16af666fa661bca23beb"
 
 [[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
@@ -3760,6 +3760,11 @@ metafile = true
 [[files]]
 file = "mods/ElysiumAPI-1.20.1-1.1.3.pw.toml"
 hash = "05bf5f9b5267baaa0ab54f30e62eb7493b119be8de4420f2e2d14b8b6a45ec86"
+metafile = true
+
+[[files]]
+file = "mods/EnchantmentDescriptions-Forge-1.20.1-17.1.21.pw.toml"
+hash = "86fefa979fded5f77cdbd1b199980fd6df8c582b986f60e1ff8698d4f471d2c1"
 metafile = true
 
 [[files]]
@@ -4803,7 +4808,7 @@ hash = "1bf4d6383749e78d58b905a2a8c48326cc9e2ce177d586ec48038401b7c5933c"
 
 [[files]]
 file = "resourcepacks/enchant-icons-ru-fix.zip"
-hash = "4dbeebf49394bb2a4d725f523f9bd06447aafbf8a5b3b915f16b9eefca123434"
+hash = "50560d30b7f5b836f25ac47f636ded9f6f523dd16a5d8ef94c3dc53027770185"
 
 [[files]]
 file = "resourcepacks/mcwbetters-fix.zip"
@@ -5751,7 +5756,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "settings/files/config/fabric/indigo-renderer.properties"
-hash = "3d66fe4d70d41b9b33849af93caf327e5dc78829d92ef2fb5c0e7aa2d96f156f"
+hash = "561da28764d4d8fe7ca40460524bbd8d81315db7fda0eb44247ad62a0130c6fa"
 
 [[files]]
 file = "settings/files/config/fallingleaves-client.toml"
@@ -6175,7 +6180,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "settings/files/config/oculus.properties"
-hash = "5fd8fccbf075e5f648183471dfc2c493b16ef860b8790cbdf512e5f1724c8742"
+hash = "d5fa27b266846b1cd2e2cad05429bf89fb11df760ca1d3035459d1718de52ea5"
 
 [[files]]
 file = "settings/files/config/oculus_for_simpleclouds-client.toml"
@@ -6191,7 +6196,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "settings/files/config/packetfixer.properties"
-hash = "d47bd99d021821d7b51b299a91a4c92426517eff1bfcdfac14a5bc67037aad41"
+hash = "5c2d505967d0e3481c74fc066c55ff729590eaf4faee9b38fa76e39f2365f055"
 
 [[files]]
 file = "settings/files/config/patchouli-client.toml"
@@ -6523,7 +6528,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "settings/files/emi.json"
-hash = "a8ff13167a378791c23ce7d53a6a30a2f4c220f2e2336389b5595d16540c9809"
+hash = "6aa039d01ea01658560a7f332d4e9749d3fe2f04acfc16af666fa661bca23beb"
 
 [[files]]
 file = "settings/files/options.txt"
@@ -6539,7 +6544,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "d3f2ea6e0dfc3515f76e7e59f6252eda58fd05bedf5f1f51cfad3d538132b80c"
+hash = "1cc3b2edbe91ee571c440e2690dc9ea023b86ecc76138a9826c04829bc145647"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6551,7 +6556,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "20aa908c73a4d65cf23d135a8ae50b9f4f6d54595c6b5398c829fc9cb5ceeb3d"
+hash = "4f6dc7c6bde53203f05a8b0a0f934d08a7dcc60ed838dd62d2b7dd402faa3b39"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
