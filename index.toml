@@ -4766,10 +4766,6 @@ file = "resourcepacks/.index/enchant-icons-countxd.pw.toml"
 hash = "d04b36bde12340f81e529bc3f605d437d2d52cdb80b7e5e0637779102400038e"
 
 [[files]]
-file = "resourcepacks/.index/enchantment-descriptions-compat.pw.toml"
-hash = "b5d3711ad05897c03e36890f7bcc8c7ee09824df8a97be233a3410b3df023cb7"
-
-[[files]]
 file = "resourcepacks/.index/ender-dragon-reborn.pw.toml"
 hash = "38cfcde8a6a4d2e2400d06d2740b48c53ad0b69846426026af6d0a56527c60a9"
 
@@ -4784,10 +4780,6 @@ hash = "7c209ce90eb1bc240f1b7d72b8e3d24e12de7fe3ac4dc279caf2c8751128cda1"
 [[files]]
 file = "resourcepacks/Enchant Description.zip"
 hash = "4133298fe73817c683448093c1678359d90867c2adbd00cb5507bd724d187eb4"
-
-[[files]]
-file = "resourcepacks/Enchantment Descriptions Compat 1.3.zip"
-hash = "2296c679270c8c2c37f849c7177d90aa229f03caed55adbe1f3f8b2f232ea713"
 
 [[files]]
 file = "resourcepacks/Ender_Dragon_Reborn-1.0.zip"
@@ -4807,7 +4799,7 @@ hash = "1bf4d6383749e78d58b905a2a8c48326cc9e2ce177d586ec48038401b7c5933c"
 
 [[files]]
 file = "resourcepacks/enchant-icons-ru-fix.zip"
-hash = "f98f9024e404c599e1b46b8b51f34e7e31d6a2fcdbdd3efa85cb81d1a1b58b48"
+hash = "4dbeebf49394bb2a4d725f523f9bd06447aafbf8a5b3b915f16b9eefca123434"
 
 [[files]]
 file = "resourcepacks/mcwbetters-fix.zip"
