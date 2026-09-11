@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "_packwiz_update.new"
-hash = "f653ef11e1c38f235b409328372b2ab1bc3672b456e8499240b05bbdb519efbf"
+hash = "cb788269394a0fc7261a95a47d134a9790af93fc8e06c4cbe80c1055ea30fe3f"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -4750,7 +4750,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "242424cb34e956bf32577a3b6ed7bc6d3f69352dff2bb23c55141d12942cb91a"
+hash = "a94f3e7a9bb8a3ab970953ec0b9d99811b3e1ab5e0a48b040928bd999eee1f4d"
 preserve = true
 
 [[files]]
@@ -4804,6 +4804,10 @@ hash = "e2c8fd2cd977899febcfb09e96957097eacb8d265666793c8a2bedc8f71b9c4d"
 [[files]]
 file = "resourcepacks/enchant-icons-1.21.5-v1.3.zip"
 hash = "1bf4d6383749e78d58b905a2a8c48326cc9e2ce177d586ec48038401b7c5933c"
+
+[[files]]
+file = "resourcepacks/enchant-icons-ru-fix.zip"
+hash = "f98f9024e404c599e1b46b8b51f34e7e31d6a2fcdbdd3efa85cb81d1a1b58b48"
 
 [[files]]
 file = "resourcepacks/mcwbetters-fix.zip"
@@ -6527,7 +6531,7 @@ hash = "a8ff13167a378791c23ce7d53a6a30a2f4c220f2e2336389b5595d16540c9809"
 
 [[files]]
 file = "settings/files/options.txt"
-hash = "242424cb34e956bf32577a3b6ed7bc6d3f69352dff2bb23c55141d12942cb91a"
+hash = "a94f3e7a9bb8a3ab970953ec0b9d99811b3e1ab5e0a48b040928bd999eee1f4d"
 
 [[files]]
 file = "settings/instance/instance.cfg.overrides"
@@ -6539,7 +6543,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "f295fade78c591b5f5c46f5fda4c6cdc8ececb55b5558770f4ec433263992436"
+hash = "d3f2ea6e0dfc3515f76e7e59f6252eda58fd05bedf5f1f51cfad3d538132b80c"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6579,4 +6583,4 @@ hash = "c1cd481ac7ec81b6cb82f162b235509568f6f1ab9e416ccfedaee15e79e1a795"
 
 [[files]]
 file = "Обновить сборку.new"
-hash = "5757b8db71936d3e72b8a85c964bf238dbffa31335d0c2270d923901e5e13d91"
+hash = "3d7ce1b540cb767ca86447bf4f3d3d55c7e8abf269b119c384cc6d2412230320"

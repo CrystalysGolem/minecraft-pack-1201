@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:0
 renderClouds:"false"
-resourcePacks:["vanilla","serilum_mod_translations","mod_resources","file/Ender_Dragon_Reborn-1.0.zip","file/§5§lNo Enchant Glint §f§l26.2.zip","file/+1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip","file/FreshMoves-no-vanilla-overlay.zip","file/OriginsRu.zip","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures","file/enchant-icons-1.21.5-v1.3.zip","file/mcwbetters-fix.zip"]
+resourcePacks:["vanilla","serilum_mod_translations","mod_resources","file/Ender_Dragon_Reborn-1.0.zip","file/§5§lNo Enchant Glint §f§l26.2.zip","file/+1.21.3 Fresh Moves v3.1.1 (With Animated Eyes).zip","file/FreshMoves-no-vanilla-overlay.zip","file/OriginsRu.zip","Moonlight Mods Dynamic Assets","fabric","netherexp:jne_emissive","netherexp:jne_retextures","file/enchant-icons-1.21.5-v1.3.zip","file/mcwbetters-fix.zip","file/enchant-icons-ru-fix.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:ru_ru
