@@ -566,7 +566,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "ac609ca374f13d39edcde88eea859bddcc13543b6fe99088b43da0baead92ee9"
+hash = "57934ff4db36d2e477b1dd0af294f328f0297b0bea5a77f4f8f9b30408134bc8"
 
 [[files]]
 file = "config/betterdeserttemples-forge-1_20.toml"
@@ -922,7 +922,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "5736a4cea481b6bbb62b29bba4c0f2652d15c13d9838c0449068f611f80cf50e"
+hash = "3d66fe4d70d41b9b33849af93caf327e5dc78829d92ef2fb5c0e7aa2d96f156f"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -974,6 +974,10 @@ hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
 
 [[files]]
 file = "config/forgematica/forgematica_______dim_minecraft_the_nether.json"
+hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
+
+[[files]]
+file = "config/forgematica/forgematica_______dim_mining_dimension_quarry_dimension.json"
 hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
 
 [[files]]
@@ -1330,7 +1334,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "764c591cb5aa66b3883674afc471f0e901f85b14f8e16c1bbcc042d1d6d3d955"
+hash = "d47bd99d021821d7b51b299a91a4c92426517eff1bfcdfac14a5bc67037aad41"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1458,7 +1462,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "config/sophisticatedsorter-client.toml"
-hash = "71f2ea7bd1b8e4a917144362115aee2a202be07ddd5ccbfde500be2aca712c5d"
+hash = "18b4263041b355affed24a21c47a058d8ac8d9705e3c86597ab1afde404a6ddf"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -4694,7 +4698,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "de0a7f2638d5a5260bd22e1946afb502a2d58f1b8b2cc5aab0cc56e1bae246f0"
+hash = "20aa908c73a4d65cf23d135a8ae50b9f4f6d54595c6b5398c829fc9cb5ceeb3d"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
