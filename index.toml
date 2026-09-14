@@ -981,26 +981,6 @@ file = "config/forgematica.json"
 hash = "85c6b45ec54f279b832b12706f29868efa37dcf1f6de320bb954738d53a93ebf"
 
 [[files]]
-file = "config/forgematica/area_selections_per_world/_____/area_selections/1.json"
-hash = "e64e14f8f3830539f81f46249d47dbef4069f897b3062eb1e96ed420ac86b8e4"
-
-[[files]]
-file = "config/forgematica/forgematica______.json"
-hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
-
-[[files]]
-file = "config/forgematica/forgematica_______dim_minecraft_overworld.json"
-hash = "3824dee54acff829a9e63b38824a26bd5b7a93e40c761fe74ee1d19ad4de7a90"
-
-[[files]]
-file = "config/forgematica/forgematica_______dim_minecraft_the_nether.json"
-hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
-
-[[files]]
-file = "config/forgematica/forgematica_______dim_mining_dimension_quarry_dimension.json"
-hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
-
-[[files]]
 file = "config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -5976,26 +5956,6 @@ file = "settings/files/config/forgematica.json"
 hash = "85c6b45ec54f279b832b12706f29868efa37dcf1f6de320bb954738d53a93ebf"
 
 [[files]]
-file = "settings/files/config/forgematica/area_selections_per_world/_____/area_selections/1.json"
-hash = "e64e14f8f3830539f81f46249d47dbef4069f897b3062eb1e96ed420ac86b8e4"
-
-[[files]]
-file = "settings/files/config/forgematica/forgematica______.json"
-hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
-
-[[files]]
-file = "settings/files/config/forgematica/forgematica_______dim_minecraft_overworld.json"
-hash = "3824dee54acff829a9e63b38824a26bd5b7a93e40c761fe74ee1d19ad4de7a90"
-
-[[files]]
-file = "settings/files/config/forgematica/forgematica_______dim_minecraft_the_nether.json"
-hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
-
-[[files]]
-file = "settings/files/config/forgematica/forgematica_______dim_mining_dimension_quarry_dimension.json"
-hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
-
-[[files]]
 file = "settings/files/config/fzzy_config/keybinds.toml"
 hash = "26ac5810c9b5dc5c1968827357f0a58c58ac2b6f7b082630960228e16585062f"
 
@@ -6725,7 +6685,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "14495379e6f345d572f5c58edaa68cd3b9be35a78d5b57b7b007fb5681731d6d"
+hash = "03e44d2377b19f3bc25d47cc173165dca3984a4f415174d2a790df69bb3acd62"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
