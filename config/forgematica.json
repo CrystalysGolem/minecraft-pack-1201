@@ -54,7 +54,7 @@
     "renderMaterialListInGuis": true,
     "renderThreadNoTimeout": true,
     "signTextPaste": true,
-    "toolItemEnabled": false,
+    "toolItemEnabled": true,
     "unhideSchematicVCS": false,
     "pasteReplaceBehavior": "none",
     "selectionCornersMode": "corners",
@@ -69,7 +69,7 @@
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
-    "printingMode": false,
+    "printingMode": true,
     "printingDebug": false,
     "printingInterval": 12,
     "printingRange": 5.0,
@@ -178,7 +178,7 @@
       "keys": "F3,M"
     },
     "saveAreaAsInMemorySchematic": {
-      "keys": ""
+      "keys": "LEFT_CONTROL,LEFT_ALT,D"
     },
     "saveAreaAsSchematicToFile": {
       "keys": "LEFT_CONTROL,LEFT_ALT,S"
@@ -334,7 +334,7 @@
   },
   "Visuals": {
     "enableRendering": false,
-    "enableSchematicRendering": false,
+    "enableSchematicRendering": true,
     "enableAreaSelectionBoxesRendering": true,
     "enablePlacementBoxesRendering": true,
     "enableSchematicBlocksRendering": true,

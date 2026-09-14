@@ -1,10 +1,11 @@
 {
   "selections": {
-    "mode": "NORMAL"
+    "mode": "NORMAL",
+    "current": ""
   },
   "placements": {},
   "schematic_projects_manager": {},
-  "operation_mode": "REBUILD",
+  "operation_mode": "AREA_SELECTION",
   "render_range": {
     "mode": "ALL",
     "axis": "y",
@@ -18,7 +19,7 @@
   },
   "area_simple": {
     "name": "Unnamed",
-    "current": "Unnamed",
+    "current": "",
     "boxes": [
       {
         "pos1": [

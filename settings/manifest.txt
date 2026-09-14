@@ -1,4 +1,4 @@
-#version=54b614d38f31
+#version=8a6f0684e726
 # НАБОР НАСТРОЕК ВЛАДЕЛЬЦА. Клиент раскладывает его ПОВЕРХ своих настроек
 # один раз на версию набора (маркер .pack_settings), затем не трогает.
 # Память Java, пути к java и имя инстанса не передаются никогда.
@@ -324,6 +324,7 @@ config/forgematica/forgematica______.json
 config/forgematica/forgematica_______dim_minecraft_overworld.json
 config/forgematica/forgematica_______dim_minecraft_the_nether.json
 config/forgematica/forgematica_______dim_mining_dimension_quarry_dimension.json
+config/forgematica/area_selections_per_world/_____/area_selections/1.json
 config/fzzy_config/keybinds.toml
 config/hammerlib/foil_colors.json
 config/hammerlib/main.cfg

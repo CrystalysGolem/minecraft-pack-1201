@@ -1,10 +1,11 @@
 @echo off
+chcp 65001 >nul
 rem ---------------------------------------------------------------
-rem  Логика обновления сборки. ЭТОТ ФАЙЛ ДОСТАВЛЯЕТСЯ ПАКОМ (он в индексе пака), поэтому
-rem  любые правки здесь приезжают игрокам сами - без переустановки сборки и без zip.
-rem  Стаб minecraft\_packwiz_update.cmd синхронизирует пак и зовёт этот файл последним шагом.
-rem  1) настройки владельца - поверх настроек игрока, один раз на версию набора
-rem  2) фикс-паки - включаем в options.txt последними (там побеждает последний пак)
+rem  ╨Ы╨╛╨│╨╕╨║╨░ ╨╛╨▒╨╜╨╛╨▓╨╗╨╡╨╜╨╕╤П ╤Б╨▒╨╛╤А╨║╨╕. ╨н╨в╨Ю╨в ╨д╨Р╨Щ╨Ы ╨Ф╨Ю╨б╨в╨Р╨Т╨Ы╨п╨Х╨в╨б╨п ╨Я╨Р╨Ъ╨Ю╨Ь (╨╛╨╜ ╨▓ ╨╕╨╜╨┤╨╡╨║╤Б╨╡ ╨┐╨░╨║╨░), ╨┐╨╛╤Н╤В╨╛╨╝╤Г
+rem  ╨╗╤О╨▒╤Л╨╡ ╨┐╤А╨░╨▓╨║╨╕ ╨╖╨┤╨╡╤Б╤М ╨┐╤А╨╕╨╡╨╖╨╢╨░╤О╤В ╨╕╨│╤А╨╛╨║╨░╨╝ ╤Б╨░╨╝╨╕ - ╨▒╨╡╨╖ ╨┐╨╡╤А╨╡╤Г╤Б╤В╨░╨╜╨╛╨▓╨║╨╕ ╤Б╨▒╨╛╤А╨║╨╕ ╨╕ ╨▒╨╡╨╖ zip.
+rem  ╨б╤В╨░╨▒ minecraft\_packwiz_update.cmd ╤Б╨╕╨╜╤Е╤А╨╛╨╜╨╕╨╖╨╕╤А╤Г╨╡╤В ╨┐╨░╨║ ╨╕ ╨╖╨╛╨▓╤С╤В ╤Н╤В╨╛╤В ╤Д╨░╨╣╨╗ ╨┐╨╛╤Б╨╗╨╡╨┤╨╜╨╕╨╝ ╤И╨░╨│╨╛╨╝.
+rem  1) ╨╜╨░╤Б╤В╤А╨╛╨╣╨║╨╕ ╨▓╨╗╨░╨┤╨╡╨╗╤М╤Ж╨░ - ╨┐╨╛╨▓╨╡╤А╤Е ╨╜╨░╤Б╤В╤А╨╛╨╡╨║ ╨╕╨│╤А╨╛╨║╨░, ╨╛╨┤╨╕╨╜ ╤А╨░╨╖ ╨╜╨░ ╨▓╨╡╤А╤Б╨╕╤О ╨╜╨░╨▒╨╛╤А╨░
+rem  2) ╤Д╨╕╨║╤Б-╨┐╨░╨║╨╕ - ╨▓╨║╨╗╤О╤З╨░╨╡╨╝ ╨▓ options.txt ╨┐╨╛╤Б╨╗╨╡╨┤╨╜╨╕╨╝╨╕ (╤В╨░╨╝ ╨┐╨╛╨▒╨╡╨╢╨┤╨░╨╡╤В ╨┐╨╛╤Б╨╗╨╡╨┤╨╜╨╕╨╣ ╨┐╨░╨║)
 rem ---------------------------------------------------------------
 setlocal enabledelayedexpansion
 cd /d "%~dp0"
@@ -14,7 +15,7 @@ call :fixpacks
 exit /b 0
 
 :settings
-rem Набор настроек владельца кладём ПОВЕРХ настроек игрока - один раз на версию набора.
+rem ╨Э╨░╨▒╨╛╤А ╨╜╨░╤Б╤В╤А╨╛╨╡╨║ ╨▓╨╗╨░╨┤╨╡╨╗╤М╤Ж╨░ ╨║╨╗╨░╨┤╤С╨╝ ╨Я╨Ю╨Т╨Х╨а╨е ╨╜╨░╤Б╤В╤А╨╛╨╡╨║ ╨╕╨│╤А╨╛╨║╨░ - ╨╛╨┤╨╕╨╜ ╤А╨░╨╖ ╨╜╨░ ╨▓╨╡╤А╤Б╨╕╤О ╨╜╨░╨▒╨╛╤А╨░.
 if not exist "settings\manifest.txt" exit /b 0
 set "SVER="
 for /f "usebackq tokens=1,* delims==" %%A in ("settings\manifest.txt") do if not defined SVER if /i "%%~A"=="#version" set "SVER=%%~B"
@@ -22,7 +23,7 @@ if not defined SVER exit /b 0
 set "SOLD="
 if exist ".pack_settings" for /f "usebackq delims=" %%X in (".pack_settings") do if not defined SOLD set "SOLD=%%X"
 if "!SOLD!"=="!SVER!" exit /b 0
-echo [packwiz] Применяю настройки владельца (набор !SVER!)
+echo [packwiz] ╨Я╤А╨╕╨╝╨╡╨╜╤П╤О ╨╜╨░╤Б╤В╤А╨╛╨╣╨║╨╕ ╨▓╨╗╨░╨┤╨╡╨╗╤М╤Ж╨░ (╨╜╨░╨▒╨╛╤А !SVER!)
 if not exist "settings\files" exit /b 0
 xcopy "settings\files\*" "." /E /I /Y /Q >nul 2>nul
 if exist "settings\instance\patches" xcopy "settings\instance\patches\*" "..\patches\" /E /I /Y /Q >nul 2>nul
@@ -31,10 +32,10 @@ if exist "settings\instance\instance.cfg.overrides" powershell -NoProfile -Encod
 exit /b 0
 
 :fixpacks
-rem Включает наши ресурспаки с фиксами: игра видит ресурспак только если он в options.txt.
-rem Наш пак дописываем В КОНЕЦ списка - в resourcePacks побеждает последний пак, иначе мод перекрывает фикс.
+rem ╨Т╨║╨╗╤О╤З╨░╨╡╤В ╨╜╨░╤И╨╕ ╤А╨╡╤Б╤Г╤А╤Б╨┐╨░╨║╨╕ ╤Б ╤Д╨╕╨║╤Б╨░╨╝╨╕: ╨╕╨│╤А╨░ ╨▓╨╕╨┤╨╕╤В ╤А╨╡╤Б╤Г╤А╤Б╨┐╨░╨║ ╤В╨╛╨╗╤М╨║╨╛ ╨╡╤Б╨╗╨╕ ╨╛╨╜ ╨▓ options.txt.
+rem ╨Э╨░╤И ╨┐╨░╨║ ╨┤╨╛╨┐╨╕╤Б╤Л╨▓╨░╨╡╨╝ ╨Т ╨Ъ╨Ю╨Э╨Х╨ж ╤Б╨┐╨╕╤Б╨║╨░ - ╨▓ resourcePacks ╨┐╨╛╨▒╨╡╨╢╨┤╨░╨╡╤В ╨┐╨╛╤Б╨╗╨╡╨┤╨╜╨╕╨╣ ╨┐╨░╨║, ╨╕╨╜╨░╤З╨╡ ╨╝╨╛╨┤ ╨┐╨╡╤А╨╡╨║╤А╤Л╨▓╨░╨╡╤В ╤Д╨╕╨║╤Б.
 if not exist "options.txt" exit /b 0
 powershell -NoProfile -EncodedCommand JABmACAAPQAgACcAbwBwAHQAaQBvAG4AcwAuAHQAeAB0ACcACgBpAGYAIAAoAFQAZQBzAHQALQBQAGEAdABoACAAJABmACkAIAB7AAoAIAAgACQAdAAgAD0AIABbAEkATwAuAEYAaQBsAGUAXQA6ADoAUgBlAGEAZABBAGwAbABUAGUAeAB0ACgAJABmACkACgAgACAAJABxACAAPQAgAFsAYwBoAGEAcgBdADMANAAKACAAIAAkAGYAaQB4ACAAPQAgAEAAKAAnAGYAaQBsAGUALwBtAGMAdwBiAGUAdAB0AGUAcgBzAC0AZgBpAHgALgB6AGkAcAAnACwAJwBmAGkAbABlAC8AZQBuAGMAaABhAG4AdAAtAGkAYwBvAG4AcwAtAHIAdQAtAGYAaQB4AC4AegBpAHAAJwApAAoAIAAgACQAZQB2ACAAPQAgAFsAUwB5AHMAdABlAG0ALgBUAGUAeAB0AC4AUgBlAGcAdQBsAGEAcgBFAHgAcAByAGUAcwBzAGkAbwBuAHMALgBNAGEAdABjAGgARQB2AGEAbAB1AGEAdABvAHIAXQB7AAoAIAAgACAAIABwAGEAcgBhAG0AKAAkAG0AKQAKACAAIAAgACAAJABwAGEAcgB0AHMAIAA9ACAAQAAoACkACgAgACAAIAAgAGYAbwByAGUAYQBjAGgAIAAoACQAeAAgAGkAbgAgACQAbQAuAEcAcgBvAHUAcABzAFsAMgBdAC4AVgBhAGwAdQBlAC4AUwBwAGwAaQB0ACgAJwAsACcAKQApACAAewAKACAAIAAgACAAIAAgACQAcwAgAD0AIAAkAHgALgBUAHIAaQBtACgAKQAKACAAIAAgACAAIAAgAGkAZgAgACgAJABzAC4ATABlAG4AZwB0AGgAIAAtAGUAcQAgADAAKQAgAHsAIABjAG8AbgB0AGkAbgB1AGUAIAB9AAoAIAAgACAAIAAgACAAJABzAGsAaQBwACAAPQAgACQAZgBhAGwAcwBlAAoAIAAgACAAIAAgACAAZgBvAHIAZQBhAGMAaAAgACgAJABuACAAaQBuACAAJABmAGkAeAApACAAewAgAGkAZgAgACgAJABzACAALQBsAGkAawBlACAAKAAnACoAJwAgACsAIAAkAG4AIAArACAAJwAqACcAKQApACAAewAgACQAcwBrAGkAcAAgAD0AIAAkAHQAcgB1AGUAIAB9ACAAfQAKACAAIAAgACAAIAAgAGkAZgAgACgALQBuAG8AdAAgACQAcwBrAGkAcAApACAAewAgACQAcABhAHIAdABzACAAKwA9ACAAJABzACAAfQAKACAAIAAgACAAfQAKACAAIAAgACAAZgBvAHIAZQBhAGMAaAAgACgAJABuACAAaQBuACAAJABmAGkAeAApACAAewAgACQAcABhAHIAdABzACAAKwA9ACAAJABxACAAKwAgACQAbgAgACsAIAAkAHEAIAB9AAoAIAAgACAAIAAkAG0ALgBHAHIAbwB1AHAAcwBbADEAXQAuAFYAYQBsAHUAZQAgACsAIAAnAHIAZQBzAG8AdQByAGMAZQBQAGEAYwBrAHMAOgBbACcAIAArACAAKAAkAHAAYQByAHQAcwAgAC0AagBvAGkAbgAgACcALAAnACkAIAArACAAJwBdACcACgAgACAAfQAKACAAIAAkAHQAIAA9ACAAWwByAGUAZwBlAHgAXQA6ADoAUgBlAHAAbABhAGMAZQAoACQAdAAsACAAJwAoAF4AfAAKACkAcgBlAHMAbwB1AHIAYwBlAFAAYQBjAGsAcwA6AFwAWwAoAFsAXgBcAF0AXQAqACkAXABdACcALAAgACQAZQB2ACkACgAgACAAWwBJAE8ALgBGAGkAbABlAF0AOgA6AFcAcgBpAHQAZQBBAGwAbABUAGUAeAB0ACgAJABmACwAIAAkAHQALAAgACgATgBlAHcALQBPAGIAagBlAGMAdAAgAFMAeQBzAHQAZQBtAC4AVABlAHgAdAAuAFUAVABGADgARQBuAGMAbwBkAGkAbgBnACgAJABmAGEAbABzAGUAKQApACkACgB9AAoA >nul 2>nul
 exit /b 0
 
-rem ---------------- установка пакета ----------------
+rem ---------------- ╤Г╤Б╤В╨░╨╜╨╛╨▓╨║╨░ ╨┐╨░╨║╨╡╤В╨░ ----------------

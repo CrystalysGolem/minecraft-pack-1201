@@ -2,11 +2,11 @@ hash-format = "sha256"
 
 [[files]]
 file = "_packwiz_run.cmd"
-hash = "dba7eb8d2fb08c60a2e1eed77c7746df0b2d5f6920facf28250b9c0dfa329bc8"
+hash = "d524123fa79b2d04883494274261047b674e147851f5d6c68e4f435f622735db"
 
 [[files]]
 file = "_packwiz_update.new"
-hash = "39a8d28dd8827814060c773dcd74103d7dbad2c9b20ae1b57c518a3e1fcd544d"
+hash = "4c710fdfe76808cb38d7e7c794a5176cb2086a5857819fdb688ff031dfbaa057"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -574,7 +574,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "dd60bf835167002aedc7d4cce32523644358faba651d03c508e8453684c3325d"
+hash = "cb3bebe9c7da832d3ff6590670660c1d0292efe4cb513e704c0f33fafaa1f720"
 
 [[files]]
 file = "config/betterdeserttemples-forge-1_20.toml"
@@ -690,7 +690,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -938,7 +938,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "603e7dcf1ae361a7e4185e7b7ade84fca6267fe44e171381a977e3e2a8f518a5"
+hash = "4e24db75b2f738dac83f144699efefce1da25349155b2d1a83e5b13cbcf65897"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -978,7 +978,11 @@ hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
 file = "config/forgematica.json"
-hash = "1b653fe172d7569f3b487671fadca77204d858a4d45de9413a049d23bf21ea40"
+hash = "85c6b45ec54f279b832b12706f29868efa37dcf1f6de320bb954738d53a93ebf"
+
+[[files]]
+file = "config/forgematica/area_selections_per_world/_____/area_selections/1.json"
+hash = "e64e14f8f3830539f81f46249d47dbef4069f897b3062eb1e96ed420ac86b8e4"
 
 [[files]]
 file = "config/forgematica/forgematica______.json"
@@ -986,15 +990,15 @@ hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
 
 [[files]]
 file = "config/forgematica/forgematica_______dim_minecraft_overworld.json"
-hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
+hash = "3824dee54acff829a9e63b38824a26bd5b7a93e40c761fe74ee1d19ad4de7a90"
 
 [[files]]
 file = "config/forgematica/forgematica_______dim_minecraft_the_nether.json"
-hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
+hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
 
 [[files]]
 file = "config/forgematica/forgematica_______dim_mining_dimension_quarry_dimension.json"
-hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
+hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -1362,7 +1366,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "b377e917e657f8294398c582627ec6d5a047767cde8da45f30d7593f24103a25"
+hash = "6746efc5955f747b2ebbad52bdb5e64471b5a26cc440e1715e88e4d5e663f82b"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1378,7 +1382,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "2566682755b60bdddfc038dc0ada995395db6159fada15f540baa47a65f8e4a1"
+hash = "34d83b7b1dacd73862c1db11ebef286d2397a36aaeb96393276a48194484d38d"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1510,7 +1514,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "config/sophisticatedsorter-client.toml"
-hash = "18b4263041b355affed24a21c47a058d8ac8d9705e3c86597ab1afde404a6ddf"
+hash = "c0f9681a88430c4f8fa5408c4411bc0ee0997ae0c45bf430052e1aa9492d602f"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -3838,7 +3842,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "emi.json"
-hash = "782788e8eea6e2ae4837a2e32e0ea47371eaf5979ba73ebfe2e1a0da57abf597"
+hash = "eab4cc0c110a6de3420df2d4263c5bdb2c29fc7ba26029f6f5e2d341dc1ed7cd"
 
 [[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
@@ -4932,7 +4936,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "a94f3e7a9bb8a3ab970953ec0b9d99811b3e1ab5e0a48b040928bd999eee1f4d"
+hash = "c7e1752f90aad01a56b39e39a68badd33fd08af23bbc0334c623485caa91a82e"
 preserve = true
 
 [[files]]
@@ -5557,7 +5561,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "settings/files/config/betterdays-common.toml"
-hash = "dd60bf835167002aedc7d4cce32523644358faba651d03c508e8453684c3325d"
+hash = "cb3bebe9c7da832d3ff6590670660c1d0292efe4cb513e704c0f33fafaa1f720"
 
 [[files]]
 file = "settings/files/config/betterdeserttemples-forge-1_20.toml"
@@ -5673,7 +5677,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "settings/files/config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "settings/files/config/blueprint-client.toml"
@@ -5929,7 +5933,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "settings/files/config/fabric/indigo-renderer.properties"
-hash = "603e7dcf1ae361a7e4185e7b7ade84fca6267fe44e171381a977e3e2a8f518a5"
+hash = "4e24db75b2f738dac83f144699efefce1da25349155b2d1a83e5b13cbcf65897"
 
 [[files]]
 file = "settings/files/config/fallingleaves-client.toml"
@@ -5969,7 +5973,11 @@ hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
 file = "settings/files/config/forgematica.json"
-hash = "1b653fe172d7569f3b487671fadca77204d858a4d45de9413a049d23bf21ea40"
+hash = "85c6b45ec54f279b832b12706f29868efa37dcf1f6de320bb954738d53a93ebf"
+
+[[files]]
+file = "settings/files/config/forgematica/area_selections_per_world/_____/area_selections/1.json"
+hash = "e64e14f8f3830539f81f46249d47dbef4069f897b3062eb1e96ed420ac86b8e4"
 
 [[files]]
 file = "settings/files/config/forgematica/forgematica______.json"
@@ -5977,15 +5985,15 @@ hash = "c5084e511824ed9f2f38764243b970bd4c7d1047c5fa450b4f4e1c6a2cf9622e"
 
 [[files]]
 file = "settings/files/config/forgematica/forgematica_______dim_minecraft_overworld.json"
-hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
+hash = "3824dee54acff829a9e63b38824a26bd5b7a93e40c761fe74ee1d19ad4de7a90"
 
 [[files]]
 file = "settings/files/config/forgematica/forgematica_______dim_minecraft_the_nether.json"
-hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
+hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
 
 [[files]]
 file = "settings/files/config/forgematica/forgematica_______dim_mining_dimension_quarry_dimension.json"
-hash = "d3e437d2800647f4889869b2890dd5675e1f6660051048ce0b9dbc23e133c340"
+hash = "14e95d239227c96a6140c7b0c856a6f8dff8be2f486cebf71a0c1a60115ae3b5"
 
 [[files]]
 file = "settings/files/config/fzzy_config/keybinds.toml"
@@ -6353,7 +6361,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "settings/files/config/oculus.properties"
-hash = "b377e917e657f8294398c582627ec6d5a047767cde8da45f30d7593f24103a25"
+hash = "6746efc5955f747b2ebbad52bdb5e64471b5a26cc440e1715e88e4d5e663f82b"
 
 [[files]]
 file = "settings/files/config/oculus_for_simpleclouds-client.toml"
@@ -6369,7 +6377,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "settings/files/config/packetfixer.properties"
-hash = "2566682755b60bdddfc038dc0ada995395db6159fada15f540baa47a65f8e4a1"
+hash = "34d83b7b1dacd73862c1db11ebef286d2397a36aaeb96393276a48194484d38d"
 
 [[files]]
 file = "settings/files/config/patchouli-client.toml"
@@ -6501,7 +6509,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "settings/files/config/sophisticatedsorter-client.toml"
-hash = "18b4263041b355affed24a21c47a058d8ac8d9705e3c86597ab1afde404a6ddf"
+hash = "c0f9681a88430c4f8fa5408c4411bc0ee0997ae0c45bf430052e1aa9492d602f"
 
 [[files]]
 file = "settings/files/config/sophisticatedstorage-client.toml"
@@ -6701,15 +6709,15 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "settings/files/emi.json"
-hash = "782788e8eea6e2ae4837a2e32e0ea47371eaf5979ba73ebfe2e1a0da57abf597"
+hash = "eab4cc0c110a6de3420df2d4263c5bdb2c29fc7ba26029f6f5e2d341dc1ed7cd"
 
 [[files]]
 file = "settings/files/options.txt"
-hash = "a94f3e7a9bb8a3ab970953ec0b9d99811b3e1ab5e0a48b040928bd999eee1f4d"
+hash = "c7e1752f90aad01a56b39e39a68badd33fd08af23bbc0334c623485caa91a82e"
 
 [[files]]
 file = "settings/instance/instance.cfg.overrides"
-hash = "2a4e8509258f0b25691b26872bfdebed8581b44e76e0d5a1024ac67a68d3d366"
+hash = "4e3f9c5aa409e389dc83bb502e53854a550a5ac6c338f4dd08bf9c0a3e8b60b7"
 
 [[files]]
 file = "settings/instance/patches/custom.jvm.embeddium.json"
@@ -6717,7 +6725,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "f62f898ff21e6ad59c5615371e5632ac220028a40baeed0878f61bc522aec481"
+hash = "14495379e6f345d572f5c58edaa68cd3b9be35a78d5b57b7b007fb5681731d6d"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6729,7 +6737,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "d51aa97e7aab77873eb6592ae7d63a98a8d7d65a370bcbf1d4f384afcf16cabe"
+hash = "0bcab5788bcfad27a531bb3c1aec54fb221b21a8d62889546e0957cecd8cf0fa"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"
