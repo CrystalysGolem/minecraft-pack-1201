@@ -541,30 +541,6 @@ file = "config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
 [[files]]
-file = "config/bclib/biomes.json"
-hash = "e31ef59faee81b0cff9506c0b4137f6473f68ca469d2319203bc3ca50eed6d13"
-
-[[files]]
-file = "config/bclib/cache.json"
-hash = "66a151dbf2123ba09e0ec7c3aade37066dc98c153b692b20df7844c5a44c60b3"
-
-[[files]]
-file = "config/bclib/client.json"
-hash = "411b3a2b814e30adfff46ba7c0e688c554028fd9f5887514b29eda9807399fd1"
-
-[[files]]
-file = "config/bclib/generator.json"
-hash = "218542dbc05094a216da6161849a631c4fd770cf5364395d521e15e00240e0bf"
-
-[[files]]
-file = "config/bclib/main.json"
-hash = "6c374c2361f59dbbace6322200613773ec01d5fb6e8fb70ac5d89463e3631f05"
-
-[[files]]
-file = "config/bclib/server.json"
-hash = "a747a0bb0548ef3b677671e5e60ac931bb2a45c212bfdb9a8b180cddb068ee87"
-
-[[files]]
 file = "config/better_combat_reach_fix-common.toml"
 hash = "5d9e30292ef35aaf91ce8ccea16240121e76d719574e4bab290bfd535fdd8996"
 
@@ -625,46 +601,6 @@ file = "config/betterdungeons-forge-1_20.toml"
 hash = "946ce267d09bcedf40defb277de8b64ee72b37118230d47b20eabf55aa32f91a"
 
 [[files]]
-file = "config/betterend/biomes.json"
-hash = "4add7952a45d9c5f031b70d95151225d6a039303ded417a729235968b6f2f724"
-
-[[files]]
-file = "config/betterend/blocks.json"
-hash = "826af0e8ee538fe4b6dc245ad8f76dc4c93b4d13476e97576bfe725222bf3449"
-
-[[files]]
-file = "config/betterend/client.json"
-hash = "b0c5fe0ddb608e1511f9fb145768bbf5308ffd3a58f54c1fb3734635384b9e01"
-
-[[files]]
-file = "config/betterend/enchantments.json"
-hash = "fe93e79aff2fc28279544d8578bc01206964d94cd404c9845ebe871128196803"
-
-[[files]]
-file = "config/betterend/entities.json"
-hash = "c88c23c520341d800c6403788d500a2c8db1eebf1cb3920f9809b31f00e6558b"
-
-[[files]]
-file = "config/betterend/features.json"
-hash = "6259dcfba9c846e5d176778669e7bd51912cbef8f71234d969af7e59a8652e59"
-
-[[files]]
-file = "config/betterend/generator.json"
-hash = "a4ecefba5c475dc5069638415108ba64d9a7052c74dd5bf08e8fa06c807a8a93"
-
-[[files]]
-file = "config/betterend/items.json"
-hash = "95dec281e0a846ae5b659f61bc49561cac1e7978d78f22d7601c670d019ab330"
-
-[[files]]
-file = "config/betterend/portals.json"
-hash = "c0900ca41e9721a30bf49f00762f9fb80367908cd668d5c32ab2816e61ff51d7"
-
-[[files]]
-file = "config/betterend/structures.json"
-hash = "9821b91ae48147ab2570686dc089d703ed52840e626722e80ebdfb99cc63bf4a"
-
-[[files]]
 file = "config/betterendisland-forge-1_20.toml"
 hash = "705bd38f35f830cdee96cda5e3b3e31bc2992b6b5962bb08820dc24fef5d0846"
 
@@ -695,42 +631,6 @@ hash = "8bb460342652cbeb5508fd6023f2c6f439c2a3c8cce988df5e74752c2c7ba612"
 [[files]]
 file = "config/bettermineshafts-forge-1_20.toml"
 hash = "016afc8af06af822bdaa07681699b3c068ec26274116b30b359d5ff03ef9ce11"
-
-[[files]]
-file = "config/betternether/biomes.json"
-hash = "333760b2e61976bfdbf98f1b6e6640baf31e4f384c261d3c7e4b51e38f97b954"
-
-[[files]]
-file = "config/betternether/blocks.json"
-hash = "630a2117c312082f809f8813745a91f3c186891be0334f83aa3f349ecc7b2bc6"
-
-[[files]]
-file = "config/betternether/client.json"
-hash = "1c1bff5e515891b468db017a0e48cf4cef25b51725a8f84581da49061b7c3eab"
-
-[[files]]
-file = "config/betternether/features.json"
-hash = "40210b570eefbf781f21d60482cd4b035642f406cfdba53561148536ac7c9e77"
-
-[[files]]
-file = "config/betternether/generator.json"
-hash = "57466d198aa34e46c8a47af30f591703bacd0db3e903578db229bab506e22e45"
-
-[[files]]
-file = "config/betternether/items.json"
-hash = "5d6b23308a3ebe64faef2519b24a8c4b08c4a252e0daaeb40f1b890b43c3c213"
-
-[[files]]
-file = "config/betternether/main.json"
-hash = "3b0aa9d92a6c0fd1f26964a1bea3eff8e8ddc3cb368a62fde2e1c55b1b78b7e3"
-
-[[files]]
-file = "config/betternether/mobs.json"
-hash = "6ce59f333ede885d055ee3fb3164f38cb609843ce279d00b4bba0d2a73347a5a"
-
-[[files]]
-file = "config/betternether/structures.json"
-hash = "7d91237143cfea424099a6352b4d31cc646239908ae12e7c58d4753f683d40e2"
 
 [[files]]
 file = "config/betteroceanmonuments-forge-1_20.toml"
@@ -1369,10 +1269,6 @@ file = "config/jei/blacklist.json"
 hash = "62494e6d93377ca994b11f3bf568766b517a1cff3f7c967195982b68d367d954"
 
 [[files]]
-file = "config/jei/blacklist.json.bak-2026-09-15_04-07-32"
-hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
-
-[[files]]
 file = "config/jei/jei-client.ini"
 hash = "a74afa0aae880c89af589d1b008e1a2d1fa82c28dfce8594f8fe930a4a030893"
 
@@ -1423,10 +1319,6 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "7aa6dd70520ded8dca3d8402d061f6f6b92ea529db375e9b37b7670585bdff5f"
-
-[[files]]
-file = "config/modernfix-mixins.properties.bak-2026-09-15_03-45-39"
-hash = "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -5616,30 +5508,6 @@ file = "settings/files/config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
 [[files]]
-file = "settings/files/config/bclib/biomes.json"
-hash = "e31ef59faee81b0cff9506c0b4137f6473f68ca469d2319203bc3ca50eed6d13"
-
-[[files]]
-file = "settings/files/config/bclib/cache.json"
-hash = "66a151dbf2123ba09e0ec7c3aade37066dc98c153b692b20df7844c5a44c60b3"
-
-[[files]]
-file = "settings/files/config/bclib/client.json"
-hash = "411b3a2b814e30adfff46ba7c0e688c554028fd9f5887514b29eda9807399fd1"
-
-[[files]]
-file = "settings/files/config/bclib/generator.json"
-hash = "218542dbc05094a216da6161849a631c4fd770cf5364395d521e15e00240e0bf"
-
-[[files]]
-file = "settings/files/config/bclib/main.json"
-hash = "6c374c2361f59dbbace6322200613773ec01d5fb6e8fb70ac5d89463e3631f05"
-
-[[files]]
-file = "settings/files/config/bclib/server.json"
-hash = "a747a0bb0548ef3b677671e5e60ac931bb2a45c212bfdb9a8b180cddb068ee87"
-
-[[files]]
 file = "settings/files/config/better_combat_reach_fix-common.toml"
 hash = "5d9e30292ef35aaf91ce8ccea16240121e76d719574e4bab290bfd535fdd8996"
 
@@ -5700,46 +5568,6 @@ file = "settings/files/config/betterdungeons-forge-1_20.toml"
 hash = "946ce267d09bcedf40defb277de8b64ee72b37118230d47b20eabf55aa32f91a"
 
 [[files]]
-file = "settings/files/config/betterend/biomes.json"
-hash = "4add7952a45d9c5f031b70d95151225d6a039303ded417a729235968b6f2f724"
-
-[[files]]
-file = "settings/files/config/betterend/blocks.json"
-hash = "826af0e8ee538fe4b6dc245ad8f76dc4c93b4d13476e97576bfe725222bf3449"
-
-[[files]]
-file = "settings/files/config/betterend/client.json"
-hash = "b0c5fe0ddb608e1511f9fb145768bbf5308ffd3a58f54c1fb3734635384b9e01"
-
-[[files]]
-file = "settings/files/config/betterend/enchantments.json"
-hash = "fe93e79aff2fc28279544d8578bc01206964d94cd404c9845ebe871128196803"
-
-[[files]]
-file = "settings/files/config/betterend/entities.json"
-hash = "c88c23c520341d800c6403788d500a2c8db1eebf1cb3920f9809b31f00e6558b"
-
-[[files]]
-file = "settings/files/config/betterend/features.json"
-hash = "6259dcfba9c846e5d176778669e7bd51912cbef8f71234d969af7e59a8652e59"
-
-[[files]]
-file = "settings/files/config/betterend/generator.json"
-hash = "a4ecefba5c475dc5069638415108ba64d9a7052c74dd5bf08e8fa06c807a8a93"
-
-[[files]]
-file = "settings/files/config/betterend/items.json"
-hash = "95dec281e0a846ae5b659f61bc49561cac1e7978d78f22d7601c670d019ab330"
-
-[[files]]
-file = "settings/files/config/betterend/portals.json"
-hash = "c0900ca41e9721a30bf49f00762f9fb80367908cd668d5c32ab2816e61ff51d7"
-
-[[files]]
-file = "settings/files/config/betterend/structures.json"
-hash = "9821b91ae48147ab2570686dc089d703ed52840e626722e80ebdfb99cc63bf4a"
-
-[[files]]
 file = "settings/files/config/betterendisland-forge-1_20.toml"
 hash = "705bd38f35f830cdee96cda5e3b3e31bc2992b6b5962bb08820dc24fef5d0846"
 
@@ -5770,42 +5598,6 @@ hash = "8bb460342652cbeb5508fd6023f2c6f439c2a3c8cce988df5e74752c2c7ba612"
 [[files]]
 file = "settings/files/config/bettermineshafts-forge-1_20.toml"
 hash = "016afc8af06af822bdaa07681699b3c068ec26274116b30b359d5ff03ef9ce11"
-
-[[files]]
-file = "settings/files/config/betternether/biomes.json"
-hash = "333760b2e61976bfdbf98f1b6e6640baf31e4f384c261d3c7e4b51e38f97b954"
-
-[[files]]
-file = "settings/files/config/betternether/blocks.json"
-hash = "630a2117c312082f809f8813745a91f3c186891be0334f83aa3f349ecc7b2bc6"
-
-[[files]]
-file = "settings/files/config/betternether/client.json"
-hash = "1c1bff5e515891b468db017a0e48cf4cef25b51725a8f84581da49061b7c3eab"
-
-[[files]]
-file = "settings/files/config/betternether/features.json"
-hash = "40210b570eefbf781f21d60482cd4b035642f406cfdba53561148536ac7c9e77"
-
-[[files]]
-file = "settings/files/config/betternether/generator.json"
-hash = "57466d198aa34e46c8a47af30f591703bacd0db3e903578db229bab506e22e45"
-
-[[files]]
-file = "settings/files/config/betternether/items.json"
-hash = "5d6b23308a3ebe64faef2519b24a8c4b08c4a252e0daaeb40f1b890b43c3c213"
-
-[[files]]
-file = "settings/files/config/betternether/main.json"
-hash = "3b0aa9d92a6c0fd1f26964a1bea3eff8e8ddc3cb368a62fde2e1c55b1b78b7e3"
-
-[[files]]
-file = "settings/files/config/betternether/mobs.json"
-hash = "6ce59f333ede885d055ee3fb3164f38cb609843ce279d00b4bba0d2a73347a5a"
-
-[[files]]
-file = "settings/files/config/betternether/structures.json"
-hash = "7d91237143cfea424099a6352b4d31cc646239908ae12e7c58d4753f683d40e2"
 
 [[files]]
 file = "settings/files/config/betteroceanmonuments-forge-1_20.toml"
@@ -6452,10 +6244,6 @@ file = "settings/files/config/jei/blacklist.json"
 hash = "62494e6d93377ca994b11f3bf568766b517a1cff3f7c967195982b68d367d954"
 
 [[files]]
-file = "settings/files/config/jei/blacklist.json.bak-2026-09-15_04-07-32"
-hash = "3ca754fefc49ea02e5203353bc3390e520e6717dd8b148aa07042f0b48a78621"
-
-[[files]]
 file = "settings/files/config/jei/jei-client.ini"
 hash = "a74afa0aae880c89af589d1b008e1a2d1fa82c28dfce8594f8fe930a4a030893"
 
@@ -6506,10 +6294,6 @@ hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 [[files]]
 file = "settings/files/config/modernfix-mixins.properties"
 hash = "7aa6dd70520ded8dca3d8402d061f6f6b92ea529db375e9b37b7670585bdff5f"
-
-[[files]]
-file = "settings/files/config/modernfix-mixins.properties.bak-2026-09-15_03-45-39"
-hash = "cc9db08ca3f44714cf14117fb1772eed88c9cc3272fea6d17e657292c8799fe0"
 
 [[files]]
 file = "settings/files/config/moonlight-client.toml"
@@ -6901,7 +6685,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "03788d92e8af83c11a69467316fe99f455403dd527300f3f91c679d2c093cd20"
+hash = "fb5008581dfb7e753442b35fac948ebd572792b27f44e8632ec337f153fb527c"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
