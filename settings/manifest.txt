@@ -1,4 +1,4 @@
-#version=204c18542aa2
+#version=3fa682db366a
 # НАБОР НАСТРОЕК ВЛАДЕЛЬЦА. Клиент раскладывает его ПОВЕРХ своих настроек
 # один раз на версию набора (маркер .pack_settings), затем не трогает.
 # Память Java, пути к java и имя инстанса не передаются никогда.
@@ -124,6 +124,7 @@ config/mantle-client.toml
 config/mini_scaled.json
 config/modernfix-common.toml
 config/modernfix-mixins.properties
+config/modernfix-mixins.properties.bak-2026-09-15_03-45-39
 config/moonlight-client.toml
 config/moonlight-common.toml
 config/MouseTweaks.cfg
@@ -289,6 +290,12 @@ config/almostunified/debug.json
 config/almostunified/duplicates.json
 config/almostunified/startup.json
 config/almostunified/unify.json
+config/bclib/biomes.json
+config/bclib/cache.json
+config/bclib/client.json
+config/bclib/generator.json
+config/bclib/main.json
+config/bclib/server.json
 config/bettercaves/README.txt
 config/bettercaves/forge-1_20_1/liquidregions.json
 config/bettercaves/forge-1_20_1/README.txt
@@ -299,9 +306,28 @@ config/betterdeserttemples/README.txt
 config/betterdeserttemples/forge-1_20/armorstands.json
 config/betterdeserttemples/forge-1_20/itemframes.json
 config/betterdeserttemples/forge-1_20/README.txt
+config/betterend/biomes.json
+config/betterend/blocks.json
+config/betterend/client.json
+config/betterend/enchantments.json
+config/betterend/entities.json
+config/betterend/features.json
+config/betterend/generator.json
+config/betterend/items.json
+config/betterend/portals.json
+config/betterend/structures.json
 config/betterfortresses/README.txt
 config/betterfortresses/forge-1_20/itemframes.json
 config/betterfortresses/forge-1_20/README.txt
+config/betternether/biomes.json
+config/betternether/blocks.json
+config/betternether/client.json
+config/betternether/features.json
+config/betternether/generator.json
+config/betternether/items.json
+config/betternether/main.json
+config/betternether/mobs.json
+config/betternether/structures.json
 config/betterstrongholds/README.txt
 config/betterstrongholds/forge-1_20/armorstands.json
 config/betterstrongholds/forge-1_20/itemframes.json
@@ -378,6 +404,7 @@ config/jade/jade.json
 config/jade/plugins.json
 config/jade/sort-order.json
 config/jei/blacklist.json
+config/jei/blacklist.json.bak-2026-09-15_04-07-32
 config/jei/jei-client.ini
 config/jei/jei-colors.ini
 config/jei/jei-debug.ini

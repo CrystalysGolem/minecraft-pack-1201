@@ -59,6 +59,9 @@
   "hammerlib": {
     "root": true
   },
+  "betternether": {
+    "plant_growth": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
