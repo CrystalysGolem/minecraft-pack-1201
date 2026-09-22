@@ -1,0 +1,4 @@
+# Правила расположения бэкапов (Documentsackups\README.md): копий внутри репозитория быть не должно
+backups/
+*.bak*
+*.session*
