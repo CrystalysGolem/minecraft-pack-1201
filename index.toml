@@ -574,7 +574,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "3e504105c6b962e6a5478ca6d2f0ace2e826aabd8e110c3f7b797a481b770569"
+hash = "57934ff4db36d2e477b1dd0af294f328f0297b0bea5a77f4f8f9b30408134bc8"
 
 [[files]]
 file = "config/betterdeserttemples-forge-1_20.toml"
@@ -938,7 +938,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "7c5515d436e92238381c69f748ff844674675f7615fc1ab7088423013f245118"
+hash = "8fc886b4a4071e6483f5bb0ef32347e5bf01e90887245ba6b7d2af4795ee474f"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -978,7 +978,7 @@ hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
 file = "config/forgematica.json"
-hash = "db09af043e85e911dbe6ab709bff1e306cef9f17f99edff22b050b85d9ced858"
+hash = "85c6b45ec54f279b832b12706f29868efa37dcf1f6de320bb954738d53a93ebf"
 
 [[files]]
 file = "config/fzzy_config/keybinds.toml"
@@ -1346,7 +1346,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ab4da3ce6d1ee830e8c66b61da9848165d504269f8056863f7f7f88c1a2703b3"
+hash = "8f7f8277f30c2f89e5eb420d4d0b464506f4c4cd70c7906da3880b026c13475e"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1362,7 +1362,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0c385624c3cbf5c19b4214ad47e90d927998856eccea22b357e524357bfc69d3"
+hash = "843e061803a268db90af75d37709cc0e337fd67b64cf07dec46db624dd6216da"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1494,7 +1494,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "config/sophisticatedsorter-client.toml"
-hash = "4cb7ee039eea6034b9a0bff02cb7d79817ec27188bbcdf76037c42b04a084132"
+hash = "6d63c644bd5212cee47c2ee140a0e832f219bb4f8c6fb4ce269790b68950819b"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -1646,11 +1646,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "config/xaero/minimap/profiles/default.cfg"
-hash = "b50db0952c1bf2604c5b046dcbea5eb54887a51325182311d669e693a164b087"
+hash = "c50ddb2fdf0ec1d3c5dcc211289415eb9dd44e16fafe15b2d3c5764702995524"
 
 [[files]]
 file = "config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "a7d19d3917890b03ca471055d2441027d410b6a6abc1883ac16fc3c50245aeee"
+hash = "292cbe121c6e0730cab042d9dba7d5e5624b2b77d1a40149102456d6c163c370"
 
 [[files]]
 file = "config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -1670,7 +1670,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "config/xaero/world-map/profiles/default.cfg"
-hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+hash = "754634abd1ca6918cd6a00eb302608b98fe70dfa67b13be8f62653aae3458b73"
 
 [[files]]
 file = "config/xaero/world-map/server_profiles/default.cfg"
@@ -3822,7 +3822,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "emi.json"
-hash = "414888d182dbf0080dba7e78886d3566f9bfd2fa35dc4e3f3a3ceb8416f6740b"
+hash = "a852f2b7e2c9c4e277f6161b8996d7c887107efcf58735db2287ed39cd02fc4c"
 
 [[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
@@ -4360,6 +4360,11 @@ hash = "9f5c513676bb16869fb4c282de43f461dae179c0064999a57293f2192cc1ad7f"
 metafile = true
 
 [[files]]
+file = "mods/create_crushed_smelting-1.20.1-1.0.0.pw.toml"
+hash = "2ca3bb9700c140049482e1d08d0f88605b40ffcf3f950299f1492ec37423b24c"
+metafile = true
+
+[[files]]
 file = "mods/create_power_loader-2.0.3-mc1.20.1.pw.toml"
 hash = "5f6ae0ed6a9dfeb4b83fa2bc4009f0b8f6e1033014d371304944a2b016c4e882"
 metafile = true
@@ -4382,6 +4387,11 @@ metafile = true
 [[files]]
 file = "mods/createdieselgenerators-1.20.1-1.3.12.pw.toml"
 hash = "741d15fec462812dbee719f029187a398a43fa90a94ebb9a9dc92ddc7f4a19a2"
+metafile = true
+
+[[files]]
+file = "mods/createmoredrillheads-2.1.0-1.20.1.pw.toml"
+hash = "9314769cfe5808bd056afec357ce465696a7597d2a082ea9a51ed6375a77c822"
 metafile = true
 
 [[files]]
@@ -4422,6 +4432,11 @@ metafile = true
 [[files]]
 file = "mods/dragonfight-1.20.1-4.7.pw.toml"
 hash = "223e47f0443ec16458aeb222159d69b259c61dbca23364e07ebd4518031065aa"
+metafile = true
+
+[[files]]
+file = "mods/drill_drain-1.0.12.pw.toml"
+hash = "1ebcb4254a3bc1a55b03f16dbe3304ec7f44f57095ae81169fe41ab4e04b4357"
 metafile = true
 
 [[files]]
@@ -4916,7 +4931,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "ebeab2ac4be45d550d66e51df612676a2507cee7bbb8c14e0473389335f6c7d2"
+hash = "fd547f46ba0b959101a3686b8a3506b5ed76f0dcc2ae1a9bf9b65d10b0c95fa1"
 preserve = true
 
 [[files]]
@@ -5541,7 +5556,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "settings/files/config/betterdays-common.toml"
-hash = "3e504105c6b962e6a5478ca6d2f0ace2e826aabd8e110c3f7b797a481b770569"
+hash = "57934ff4db36d2e477b1dd0af294f328f0297b0bea5a77f4f8f9b30408134bc8"
 
 [[files]]
 file = "settings/files/config/betterdeserttemples-forge-1_20.toml"
@@ -5913,7 +5928,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "settings/files/config/fabric/indigo-renderer.properties"
-hash = "7c5515d436e92238381c69f748ff844674675f7615fc1ab7088423013f245118"
+hash = "8fc886b4a4071e6483f5bb0ef32347e5bf01e90887245ba6b7d2af4795ee474f"
 
 [[files]]
 file = "settings/files/config/fallingleaves-client.toml"
@@ -5953,7 +5968,7 @@ hash = "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
 
 [[files]]
 file = "settings/files/config/forgematica.json"
-hash = "db09af043e85e911dbe6ab709bff1e306cef9f17f99edff22b050b85d9ced858"
+hash = "85c6b45ec54f279b832b12706f29868efa37dcf1f6de320bb954738d53a93ebf"
 
 [[files]]
 file = "settings/files/config/fzzy_config/keybinds.toml"
@@ -6321,7 +6336,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "settings/files/config/oculus.properties"
-hash = "ab4da3ce6d1ee830e8c66b61da9848165d504269f8056863f7f7f88c1a2703b3"
+hash = "8f7f8277f30c2f89e5eb420d4d0b464506f4c4cd70c7906da3880b026c13475e"
 
 [[files]]
 file = "settings/files/config/oculus_for_simpleclouds-client.toml"
@@ -6337,7 +6352,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "settings/files/config/packetfixer.properties"
-hash = "0c385624c3cbf5c19b4214ad47e90d927998856eccea22b357e524357bfc69d3"
+hash = "843e061803a268db90af75d37709cc0e337fd67b64cf07dec46db624dd6216da"
 
 [[files]]
 file = "settings/files/config/patchouli-client.toml"
@@ -6469,7 +6484,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "settings/files/config/sophisticatedsorter-client.toml"
-hash = "4cb7ee039eea6034b9a0bff02cb7d79817ec27188bbcdf76037c42b04a084132"
+hash = "6d63c644bd5212cee47c2ee140a0e832f219bb4f8c6fb4ce269790b68950819b"
 
 [[files]]
 file = "settings/files/config/sophisticatedstorage-client.toml"
@@ -6621,11 +6636,11 @@ hash = "a4c652cafa7dea324e5f5cf3b1df46a84e54b6d4f877195857bce55a559c1cfd"
 
 [[files]]
 file = "settings/files/config/xaero/minimap/profiles/default.cfg"
-hash = "b50db0952c1bf2604c5b046dcbea5eb54887a51325182311d669e693a164b087"
+hash = "c50ddb2fdf0ec1d3c5dcc211289415eb9dd44e16fafe15b2d3c5764702995524"
 
 [[files]]
 file = "settings/files/config/xaero/minimap/profiles/entity_radar_categories/default.cfg.json"
-hash = "a7d19d3917890b03ca471055d2441027d410b6a6abc1883ac16fc3c50245aeee"
+hash = "292cbe121c6e0730cab042d9dba7d5e5624b2b77d1a40149102456d6c163c370"
 
 [[files]]
 file = "settings/files/config/xaero/minimap/profiles/info_display_config/default.cfg.txt"
@@ -6645,7 +6660,7 @@ hash = "0c229eb0daf85bd09af51f21eeeb99497a3bd50a825d5ab1ca695fb21bf6cf9d"
 
 [[files]]
 file = "settings/files/config/xaero/world-map/profiles/default.cfg"
-hash = "5422abf9c83fedef6509144293fad20f588d4bb6ce0cf1af78cbcd2bcd0d2ccf"
+hash = "754634abd1ca6918cd6a00eb302608b98fe70dfa67b13be8f62653aae3458b73"
 
 [[files]]
 file = "settings/files/config/xaero/world-map/server_profiles/default.cfg"
@@ -6669,11 +6684,11 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "settings/files/emi.json"
-hash = "414888d182dbf0080dba7e78886d3566f9bfd2fa35dc4e3f3a3ceb8416f6740b"
+hash = "a852f2b7e2c9c4e277f6161b8996d7c887107efcf58735db2287ed39cd02fc4c"
 
 [[files]]
 file = "settings/files/options.txt"
-hash = "ebeab2ac4be45d550d66e51df612676a2507cee7bbb8c14e0473389335f6c7d2"
+hash = "fd547f46ba0b959101a3686b8a3506b5ed76f0dcc2ae1a9bf9b65d10b0c95fa1"
 
 [[files]]
 file = "settings/instance/instance.cfg.overrides"
@@ -6685,7 +6700,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "a43d7687842131324e61836b04f362f9b6a7bef44f35c4baed0cd04d379af431"
+hash = "dd726abfbcc5341afebea5a3ae7be921f811b040529410742719643431c84ce5"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6697,7 +6712,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "7c94e6b46659ea4a6aa986b651c4f7e8fcb66f7b5d891b9b5ac895435b426458"
+hash = "4e7539520f899b90e3c6ad29e223e71ee2c32dfe908128af02a3179ab1fbcbe2"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

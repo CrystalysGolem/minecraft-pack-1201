@@ -1,0 +1,12 @@
+name = "Create Drill Drain"
+filename = "drill_drain-1.0.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DRKSn9G8/versions/i0avCVnV/drill_drain-1.0.12.jar"
+hash-format = "sha512"
+hash = "8dda71970bc0b10510445230eb91416fe1b52f77caf498e4a31f206b2a3e61102d1b53de6a904b5fc6175b8d05b91aa2fefa31c13c301bdcf693d26705a4a6da"
+
+[update.modrinth]
+mod-id = "DRKSn9G8"
+version = "i0avCVnV"

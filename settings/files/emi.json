@@ -1,51 +1,235 @@
 {
-  "favorites": [
-    {
-      "stack": "item:createaddition:electric_motor"
-    },
-    {
-      "stack": "item:mekanismgenerators:wind_generator"
-    },
-    {
-      "stack": "item:createoreexcavation:vein_finder"
-    },
-    {
-      "stack": "item:minecraft:ender_pearl"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "minecraft:dirt",
-        "amount": 27
-      }
-    },
-    {
-      "stack": "item:mekanism:jetpack"
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "minecraft:torch",
-        "amount": 59
-      }
-    },
-    {
-      "stack": {
-        "type": "item",
-        "id": "createdeco:copper_catwalk_stairs",
-        "amount": 58
-      }
-    }
-  ],
+  "favorites": [],
   "lookup_history": [
+    "item:create:mechanical_drill",
+    {
+      "type": "item",
+      "id": "create:crushed_raw_iron",
+      "amount": 3
+    },
+    "item:create:experience_nugget",
+    "item:create:experience_block",
+    "item:create_enchantment_industry:experience_lantern",
+    "item:create:mechanical_plough",
+    "item:create:brass_hand",
+    "item:create:deployer",
+    {
+      "type": "item",
+      "id": "minecraft:raw_copper",
+      "amount": 23
+    },
+    "item:minecraft:barrel",
+    "item:create:white_seat",
+    "item:create:andesite_casing",
+    "item:create:cart_assembler",
+    "item:minecraft:furnace_minecart",
+    "item:minecraft:minecart",
+    "item:hexcasting:trinket",
+    "item:create:contraption_controls",
+    "item:minecraft:carrot",
+    {
+      "type": "jemi",
+      "uid": "tconstruct:luck"
+    },
+    "item:tconstruct:broad_axe{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:wood\",\"tconstruct:ancient_hide\"],tic_modifiers:[{level:3,name:\"tconstruct:cultivated\"},{level:1,name:\"tconstruct:fortune\"},{level:1,name:\"tconstruct:stripping\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.65f,\"tconstruct:durability\":4.25f,\"tconstruct:mining_speed\":0.3f},tic_persistent:{},tic_stats:{\"tconstruct:attack_damage\":8.25f,\"tconstruct:attack_speed\":0.6f,\"tconstruct:durability\":255.0f,\"tconstruct:mining_speed\":0.6f},tic_volatile_data:{abilities:1,upgrades:2}}",
+    "item:minecraft:netherite_upgrade_smithing_template",
+    {
+      "type": "item",
+      "id": "minecraft:redstone",
+      "amount": 64
+    },
+    {
+      "type": "item",
+      "id": "minecraft:copper_block",
+      "amount": 50
+    },
+    "item:ae2:certus_quartz_dust",
+    "item:ae2:quartz_glass",
+    "item:ae2:energy_acceptor",
+    "item:ae2:vibration_chamber",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_uranium",
+      "amount": 0
+    },
+    "item:ae2:formation_core",
+    "item:ae2:interface",
+    "item:ae2:cable_interface",
+    "item:ae2:memory_card",
+    "item:ae2:calculation_processor",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_knightmetal",
+      "amount": 0
+    },
+    "item:ae2:io_port",
+    "item:ae2:drive",
+    "item:ae2:logic_processor",
+    "item:ae2:printed_engineering_processor",
+    "item:ae2:engineering_processor",
+    "item:ae2:controller",
+    "item:ae2:smooth_sky_stone_block",
+    {
+      "type": "item",
+      "id": "ae2:fluix_covered_cable",
+      "amount": 20
+    },
+    {
+      "type": "item",
+      "id": "ae2:fluix_glass_cable",
+      "amount": 12
+    },
+    {
+      "type": "item",
+      "id": "ae2:quartz_fiber",
+      "amount": 3
+    },
+    "item:tconstruct:clear_glass",
+    "item:ae2:fluix_smart_cable",
+    {
+      "type": "item",
+      "id": "ae2:fluix_smart_dense_cable",
+      "amount": 40
+    },
+    {
+      "type": "item",
+      "id": "ae2:fluix_crystal",
+      "amount": 30
+    },
+    "item:ae2:fluix_covered_dense_cable",
+    {
+      "type": "item",
+      "id": "ae2:certus_quartz_crystal",
+      "amount": 52
+    },
+    {
+      "type": "item",
+      "id": "ae2:speed_card",
+      "amount": 43
+    },
+    "item:ae2:advanced_card",
+    "item:minecraft:iron_ingot",
+    {
+      "type": "item",
+      "id": "ae2:charged_certus_quartz_crystal",
+      "amount": 12
+    },
+    "item:ae2:export_bus",
+    "item:minecraft:piston",
+    "item:ae2:silicon",
+    "item:ae2:printed_silicon",
+    {
+      "type": "item",
+      "id": "mekanism:advanced_logistical_transporter",
+      "amount": 8
+    },
+    "item:mekanism:basic_logistical_transporter",
+    "item:ae2:fluix_dust",
+    "item:mekanism:alloy_reinforced",
+    "item:mekanism:advanced_fluid_tank{mekData:{owner:[I;789915102,-650623103,-1409974790,-2147319861]}}",
+    "item:mekanism:basic_fluid_tank{mekData:{FluidTanks:[],Items:[],editMode:0,owner:[I;789915102,-650623103,-1409974790,-2147319861],securityMode:0}}",
+    "item:mekanism:alloy_infused",
+    "item:ae2:capacity_card",
+    "item:ae2:basic_card",
+    "item:ae2:inscriber",
+    "item:minecraft:sticky_piston",
+    "item:ae2:printed_calculation_processor",
+    {
+      "type": "item",
+      "id": "ae2:calculation_processor_press",
+      "amount": 13
+    },
+    "item:ae2:fluid_storage_cell_1k",
+    "item:ae2:cell_component_1k",
+    {
+      "type": "item",
+      "id": "ae2:printed_logic_processor",
+      "amount": 7
+    },
+    {
+      "type": "item",
+      "id": "ae2:fluid_cell_housing",
+      "amount": 3
+    },
+    "item:ae2:fluid_storage_cell_4k",
+    "item:ae2:cell_component_4k",
+    "item:ae2:cell_component_16k",
+    "item:ae2:cell_component_64k",
+    "item:ae2:fluid_storage_cell_64k",
+    "item:ae2:fluid_storage_cell_16k",
+    "item:ae2:portable_fluid_cell_1k",
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_copper",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_slimesteel",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "tconstruct:molten_clay",
+      "amount": 0
+    },
+    "item:minecraft:rabbit_hide",
+    "item:minecraft:wheat_seeds",
+    "item:create:large_cogwheel",
+    "item:create:mechanical_pump",
+    "item:create:cogwheel",
+    "item:create:fluid_pipe",
+    "item:create:copper_sheet",
+    "item:villagersplus:alchemist_table",
+    "item:alexscaves:purple_soda_bottle_rocket",
+    {
+      "type": "fluid",
+      "id": "alexscaves:purple_soda",
+      "amount": 0
+    },
+    "item:mekanism:restrictive_transporter",
+    "item:minecraft:iron_bars",
+    "item:mekanism:dust_gold",
+    "item:waystones:waystone{UUID:[I;-2113546997,-1397273849,-1286655577,909492714]}",
+    "item:tconstruct:scorched_chute",
+    "item:mekanism:advanced_mechanical_pipe",
+    "item:mekanism:basic_mechanical_pipe",
+    "item:mekanism:cardboard_box{mekData:{data:{blockState:{Name:\"minecraft:tall_grass\",Properties:{half:\"lower\"}}}}}",
+    {
+      "type": "item",
+      "id": "mekanism:upgrade_energy",
+      "amount": 6
+    },
+    "item:mekanism:upgrade_speed",
+    "item:minecraft:blast_furnace",
+    "item:minecraft:torch",
     "item:createdeco:yellow_copper_lamp",
     "item:create:copper_nugget",
+    "item:tconstruct:scorched_brick",
+    "item:tconstruct:nether_grout",
+    "item:minecraft:anvil",
+    "item:waystones:warp_stone{Damage:0}",
+    "item:mekanism:mekasuit_helmet",
+    "item:mekanism:energy_tablet",
+    "item:mekanism:basic_induction_cell",
+    {
+      "type": "item",
+      "id": "create:copper_tiles",
+      "amount": 8
+    },
+    "item:minecraft:cut_copper",
+    "item:createdeco:copper_sheet_metal",
+    "item:mekanism:precision_sawmill",
+    "item:mekanism:sawdust",
+    "#item:forge:sawdust",
+    "item:minecraft:cartography_table",
+    "item:mekanism:steel_casing",
+    "item:create:crafting_blueprint",
     {
       "type": "item",
       "id": "minecraft:copper_ingot",
       "amount": 44
     },
-    "item:create:copper_sheet",
     "item:createdeco:red_copper_lamp",
     "item:create:electron_tube",
     "item:createdeco:decal_top_right",
@@ -64,7 +248,6 @@
     "item:create:cut_veridium",
     "item:create:cut_veridium_slab",
     "item:create:cut_veridium_bricks",
-    "item:create:andesite_casing",
     "item:railways:copper_wrapped_locometal_smokebox",
     "item:railways:copper_wrapped_locometal",
     "item:create:copper_shingles",
@@ -72,9 +255,6 @@
     "item:create:oxidized_copper_shingles",
     "item:create:weathered_copper_shingles",
     "item:createdieselgenerators:wood_chip",
-    "#item:forge:sawdust",
-    "item:mekanism:cardboard_box",
-    "item:mekanism:sawdust",
     "item:minecraft:snow_block",
     "item:mekanism:jetpack",
     "item:mekanism:basic_chemical_tank",
@@ -103,23 +283,12 @@
       "item:minecraft:white_carpet"
     ],
     "item:alexsmobs:bison_carpet",
-    {
-      "type": "item",
-      "id": "tconstruct:clear_glass",
-      "amount": 64
-    },
     "item:tconstruct:silky_cloth",
     {
       "type": "fluid",
       "id": "tconstruct:molten_glass",
       "amount": 1000
     },
-    {
-      "type": "item",
-      "id": "mekanism:advanced_logistical_transporter",
-      "amount": 2
-    },
-    "item:mekanism:basic_logistical_transporter",
     "item:tconstruct:scorched_basin",
     "item:tconstruct:gold_platform",
     "item:minecraft:gold_ingot",
@@ -135,7 +304,6 @@
     },
     "item:ae2:growth_accelerator",
     "item:ae2:fluix_block",
-    "item:ae2:fluix_glass_cable",
     {
       "type": "item",
       "id": "biomeswevegone:blue_sand",
@@ -162,7 +330,6 @@
       "amount": 2
     },
     "item:mcwfurnitures:mangrove_glass_table",
-    "item:create:white_seat",
     "item:biomeswevegone:ironwood_crafting_table",
     "item:mcwfurnitures:birch_desk",
     "item:minecraft:birch_fence",
@@ -241,7 +408,6 @@
     "item:minecraft:glowstone",
     "item:minecraft:deepslate",
     "item:minecraft:lantern",
-    "item:minecraft:torch",
     "item:handcrafted:fancy_painting",
     "item:minecraft:painting",
     "item:handcrafted:dark_oak_couch",
@@ -281,7 +447,6 @@
       "id": "minecraft:netherite_scrap",
       "amount": 4
     },
-    "item:minecraft:netherite_upgrade_smithing_template",
     "item:toms_storage:ts.adv_wireless_terminal",
     "item:toms_storage:ts.wireless_terminal",
     "item:minecraft:comparator",
@@ -336,8 +501,6 @@
     "item:mekanism:upgrade_anchor",
     "item:mekanism:dust_diamond",
     "#item:forge:dusts/diamond",
-    "item:mekanism:upgrade_speed",
-    "item:mekanism:upgrade_energy",
     "item:mekanism:dust_iron",
     "item:mekanism:dirty_dust_iron",
     "item:mekanism:clump_iron",
@@ -346,7 +509,6 @@
       "type": "jemi",
       "uid": "gas:mekanism:oxygen"
     },
-    "item:mekanism:basic_fluid_tank",
     "item:mekanism:creative_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:2147483647,FluidName:\"create_dragons_plus:purple_dye\"}}]}}",
     "item:minecraft:bucket",
     {
@@ -361,11 +523,8 @@
     "item:mekanism:hydrogen_bucket",
     "item:mekanism:electrolytic_separator",
     "item:mekanism:electrolytic_core",
-    "item:mekanism:alloy_infused",
     "item:mekanism:crusher",
     "item:mekanism:dust_osmium",
-    "item:mekanism:steel_casing",
-    "item:mekanism:dust_gold",
     "fluid:mekanism:oxygen",
     "item:mekanism:jetpack_armored",
     "item:minecraft:snowball",
@@ -444,10 +603,6 @@
     "item:tconstruct:sledge_hammer{Damage:0,RepairCost:0,currentExperience:60382.12960893591d,currentToolLevel:10,display:{Name:\u0027{\"text\":\"Молотище\"}\u0027},tic_broken:0b,tic_materials:[\"tconstruct:steel\",\"tconstruct:steel\",\"tconstruct:steel\",\"tconstruct:steel\"],tic_modifiers:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:emerald\"},{level:5,name:\"tconstruct:haste\"},{level:5,name:\"tconstruct:reinforced\"},{level:2,name:\"tconstruct:luck\"},{level:1,name:\"tconstruct:netherite\"},{level:4,name:\"tconstruct:ductile\"},{level:2,name:\"tconstruct:smite\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:forecast\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.6875f,\"tconstruct:durability\":4.0f,\"tconstruct:mining_speed\":0.5f},tic_persistent:{abilities:-1,upgrades:-4},tic_stats:{\"tconstruct:attack_damage\":12.757501f,\"tconstruct:attack_speed\":0.75f,\"tconstruct:durability\":13494.6f,\"tconstruct:harvest_tier\":\"minecraft:netherite\",\"tconstruct:mining_speed\":14.699999f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:emerald\"},{level:5,name:\"tconstruct:haste\"},{level:5,name:\"tconstruct:reinforced\"},{level:1,name:\"tconstruct:recapitated\"},{level:1,name:\"tconstruct:writable\"},{level:1,name:\"tconstruct:forecast\"},{level:2,name:\"tconstruct:luck\"},{level:1,name:\"tconstruct:netherite\"}],tic_volatile_data:{abilities:1,\"tconstruct:indestructible\":1b,\"tconstruct:rarity\":2,upgrades:5}}",
     "item:minecraft:netherite_ingot",
     "item:minecraft:golden_carrot",
-    {
-      "type": "jemi",
-      "uid": "tconstruct:luck"
-    },
     "item:mekanism:sps_port",
     "item:create:belt_connector",
     "item:create:elevator_pulley",
@@ -455,7 +610,6 @@
     "item:create:brass_casing",
     "item:create:redstone_contact",
     "item:create:iron_sheet",
-    "item:create:contraption_controls",
     "item:minecraft:oak_button",
     "#item:minecraft:buttons",
     "item:biomesoplenty:maple_fence",
@@ -561,7 +715,6 @@
       "id": "create:asurine",
       "amount": 18
     },
-    "item:minecraft:carrot",
     "item:createoreexcavation:vein_finder",
     "item:tconstruct:gold_bars",
     {
@@ -579,7 +732,6 @@
     "item:minecraft:deepslate_redstone_ore",
     "#item:minecraft:redstone_ores",
     "item:mekanism:metallurgic_infuser",
-    "item:mekanism:alloy_reinforced",
     "item:minecraft:redstone_ore",
     "item:minecraft:ender_eye",
     "item:createoreexcavation:drilling_machine",
@@ -601,14 +753,7 @@
       "amount": 0
     },
     "item:farmersdelight:rich_soil",
-    "item:create:cogwheel",
-    {
-      "type": "item",
-      "id": "create:large_cogwheel",
-      "amount": 2
-    },
     "item:mekanismgenerators:wind_generator",
-    "item:mekanism:energy_tablet",
     "item:mekanism:basic_control_circuit",
     "item:minecraft:coal",
     {
@@ -634,8 +779,6 @@
     "item:minecraft:baked_potato",
     "item:alexscaves:alex_meal",
     "item:mekanism:ingot_steel",
-    "item:mekanism:advanced_mechanical_pipe",
-    "item:mekanism:basic_mechanical_pipe",
     "item:minecraft:raw_iron_block",
     "item:minecraft:observer",
     "item:create:powered_latch",
@@ -645,7 +788,6 @@
     "item:minecraft:oak_slab",
     "#item:minecraft:wooden_slabs",
     "item:create:clockwork_bearing",
-    "item:create:brass_hand",
     "item:create:mechanical_arm",
     "item:create:rose_quartz",
     "item:create:polished_rose_quartz",
@@ -660,7 +802,6 @@
       "id": "createaddition:copper_wire",
       "amount": 12
     },
-    "item:minecraft:redstone",
     "item:create:gearbox",
     "item:hammerlib:gears/copper",
     "item:hammerlib:gears/stone",
@@ -708,7 +849,6 @@
       "id": "create:raw_zinc_block",
       "amount": 27
     },
-    "item:mekanism:advanced_fluid_tank",
     "item:tconstruct:scorched_fuel_tank",
     "item:tconstruct:scorched_alloyer",
     [
@@ -725,7 +865,6 @@
     "item:minecraft:glass_bottle",
     "item:minecraft:glow_berries",
     "item:mekanism:logistical_sorter",
-    "item:minecraft:piston",
     "item:tconstruct:tinkers_gadgetry",
     "item:mekanism:personal_chest",
     {
@@ -790,7 +929,6 @@
       "id": "create:limestone",
       "amount": 50
     },
-    "item:minecraft:sticky_piston",
     "item:rechiseled:chisel",
     {
       "type": "item",
@@ -805,7 +943,6 @@
     },
     "item:mekanism:ingot_osmium",
     "item:mekanism:enrichment_chamber",
-    "item:create:deployer",
     "item:create:brass_sheet",
     "item:create:zinc_ingot",
     {
@@ -823,31 +960,13 @@
       "id": "minecraft:oak_sapling",
       "amount": 64
     },
-    "item:ae2:quartz_fiber",
     "item:ae2:storage_bus",
-    "item:ae2:interface",
     "item:ae2:annihilation_core",
     "#item:ae2:interface",
-    "item:ae2:cable_interface",
     "item:ae2:import_bus",
     "item:ae2:formation_plane",
     "item:ae2:annihilation_plane",
-    "item:ae2:formation_core",
-    "item:ae2:fluix_dust",
-    {
-      "type": "item",
-      "id": "ae2:charged_certus_quartz_crystal",
-      "amount": 8
-    },
-    "item:ae2:printed_logic_processor",
-    {
-      "type": "item",
-      "id": "ae2:printed_silicon",
-      "amount": 3
-    },
     "item:minecraft:paper",
-    "item:ae2:logic_processor",
-    "item:ae2:inscriber",
     "item:ironfurnaces:obsidian_furnace",
     {
       "type": "item",
@@ -859,11 +978,6 @@
     "item:ironfurnaces:augment_speed",
     "item:minecraft:netherite_block",
     "item:sophisticatedbackpacks:stack_upgrade_tier_3",
-    {
-      "type": "item",
-      "id": "ae2:certus_quartz_dust",
-      "amount": 7
-    },
     "item:minecraft:crying_obsidian",
     "item:minecraft:obsidian",
     "item:ae2:cut_quartz_block",
@@ -875,20 +989,7 @@
     "item:ironfurnaces:netherite_furnace",
     "item:ironfurnaces:rainbow_core",
     "item:incubation:hay_nest",
-    {
-      "type": "item",
-      "id": "ae2:certus_quartz_crystal",
-      "amount": 60
-    },
-    {
-      "type": "item",
-      "id": "ae2:fluix_crystal",
-      "amount": 8
-    },
     "item:ae2:cable_energy_acceptor",
-    "item:ae2:energy_acceptor",
-    "item:ae2:fluix_smart_cable",
-    "item:ae2:quartz_glass",
     "item:ae2:fluix_upgrade_smithing_template",
     "item:ae2:certus_quartz_hoe{Damage:0}",
     "#item:ae2:quartz_hoe",
@@ -904,15 +1005,10 @@
     "item:ae2:flawed_budding_quartz",
     "item:ae2:charger",
     "item:ae2:small_quartz_bud",
-    "item:ae2:fluid_cell_housing",
-    "item:ae2:fluid_storage_cell_1k",
     "item:ae2:portable_fluid_cell_256k{internalCurrentPower:20000.0d}",
     "item:ae2:chest",
     "item:ae2:energy_cell",
-    "item:ae2:portable_fluid_cell_1k",
-    "item:ae2:cell_component_1k",
     "item:ae2:portable_item_cell_1k{internalCurrentPower:20000.0d}",
-    "item:tconstruct:nether_grout",
     "item:sophisticatedbackpacks:netherite_backpack",
     "item:minecraft:smithing_table",
     "item:sophisticatedbackpacks:advanced_feeding_upgrade",
@@ -961,7 +1057,6 @@
     "item:tconstruct:sky_slime_crystal",
     "item:biomeswevegone:skyris_log",
     "item:tconstruct:sky_slime_ball",
-    "item:minecraft:anvil",
     "item:minecraft:bundle",
     {
       "type": "item",
@@ -1233,18 +1328,12 @@
       "id": "minecraft:raw_gold",
       "amount": 32
     },
-    {
-      "type": "item",
-      "id": "minecraft:raw_copper",
-      "amount": 26
-    },
     "item:tconstruct:ingot_cast",
     {
       "type": "item",
       "id": "iceandfire:raw_silver",
       "amount": 4
     },
-    "item:tconstruct:scorched_brick",
     {
       "type": "fluid",
       "id": "tconstruct:molten_hepatizon",
@@ -1260,7 +1349,6 @@
     "item:tconstruct:scorched_ingot_tank",
     "item:tconstruct:scorched_channel",
     "item:tconstruct:scorched_road",
-    "item:tconstruct:scorched_chute",
     "item:tconstruct:scorched_duct",
     "item:tconstruct:scorched_stone",
     {
@@ -1314,11 +1402,6 @@
     {
       "type": "fluid",
       "id": "tconstruct:molten_queens_slime",
-      "amount": 0
-    },
-    {
-      "type": "fluid",
-      "id": "tconstruct:molten_uranium",
       "amount": 0
     },
     {
@@ -1463,16 +1546,12 @@
     "item:sophisticatedbackpacks:magnet_upgrade",
     "item:sophisticatedbackpacks:advanced_magnet_upgrade",
     "item:sophisticatedbackpacks:refill_upgrade",
-    "item:minecraft:copper_block",
     "item:sophisticatedbackpacks:stack_downgrade_tier_1",
     {
       "type": "item",
       "id": "minecraft:amethyst_shard",
       "amount": 64
     },
-    "item:waystones:warp_stone{Damage:0}",
-    "item:waystones:waystone",
-    "item:minecraft:iron_ingot",
     {
       "type": "item",
       "id": "minecraft:cobbled_deepslate",
@@ -1505,7 +1584,6 @@
     "#item:minecraft:soul_fire_base_blocks",
     "item:ironfurnaces:crystal_furnace",
     "item:minecraft:sugar_cane",
-    "item:minecraft:blast_furnace",
     "item:ironfurnaces:augment_blasting",
     "item:ironfurnaces:upgrade_gold",
     "item:ironfurnaces:silver_furnace",
@@ -1611,8 +1689,67 @@
     "item:supplementaries:flint_block"
   ],
   "craft_history": [
-    "createdeco:yellow_copper_lamp",
+    "minecraft:coal",
+    "create:crafting/kinetics/mechanical_plough",
+    "minecraft:barrel",
+    "create:crafting/kinetics/white_seat_from_other_seat",
+    "create:crafting/kinetics/mechanical_drill",
+    "create:crafting/kinetics/cart_assembler",
+    "minecraft:furnace_minecart",
+    "minecraft:minecart",
+    "minecraft:golden_carrot",
+    "minecraft:netherite_upgrade_smithing_template",
+    "minecraft:netherite_ingot",
+    "minecraft:copper_block",
+    "ae2:tools/network_memory_card",
+    "ae2:network/blocks/io_port",
+    "ae2:network/blocks/storage_drive",
+    "ae2:network/blocks/controller",
+    "ae2:network/cables/smart_fluix",
+    "ae2:network/cables/glass_fluix",
+    "ae2:network/parts/quartz_fiber_part",
+    "ae2:network/cables/dense_smart_fluix",
+    "ae2:network/cables/dense_covered_fluix",
+    "ae2:network/cables/covered_fluix",
+    "ae2:materials/cardspeed",
+    "ae2:materials/advancedcard",
+    "minecraft:iron_ingot_from_iron_block",
+    "ae2:network/parts/export_bus",
+    "minecraft:piston",
+    "ae2:materials/formationcore",
+    "mekanism:transmitter/logistical_transporter/advanced",
+    "mekanism:transmitter/logistical_transporter/basic",
+    "mekanism:fluid_tank/advanced",
+    "ae2:materials/cardcapacity",
+    "ae2:materials/basiccard",
+    "ae2:network/blocks/inscribers",
+    "minecraft:sticky_piston",
+    "ae2:network/cells/fluid_storage_cell_1k_storage",
+    "ae2:network/cells/item_storage_components_cell_1k_part",
+    "ae2:network/cells/fluid_cell_housing",
+    "ae2:decorative/quartz_glass",
+    "create:crafting/kinetics/large_cogwheel",
+    "create:crafting/kinetics/mechanical_pump",
+    "create:crafting/kinetics/fluid_pipe_vertical",
+    "villagersplus:alchemist_table",
+    "mekanism:transmitter/restrictive_transporter",
+    "minecraft:iron_bars",
+    "tconstruct:smeltery/scorched/chute_retextured",
+    "mekanism:transmitter/mechanical_pipe/advanced",
+    "mekanism:transmitter/mechanical_pipe/basic",
+    "mekanism:cardboard_box",
+    "mekanism:upgrade/energy",
+    "mekanism:upgrade/speed",
+    "tconstruct:common/basalt_blast_furnace",
     "iceandfire:copper_ingot_to_nuggets",
+    "tconstruct:smeltery/scorched/nether_grout",
+    "tconstruct:smeltery/scorched/nether_grout_multiple",
+    "minecraft:anvil",
+    "waystones:warp_stone",
+    "minecraft:cut_copper",
+    "mekanism:precision_sawmill",
+    "mekanism:steel_casing",
+    "createdeco:yellow_copper_lamp",
     "create:crafting/materials/electron_tube",
     "minecraft:copper_ingot",
     "farmersdelight:egg_sandwich",
@@ -1629,14 +1766,11 @@
     "minecraft:white_dye_from_lily_of_the_valley",
     "minecraft:white_carpet",
     "alexsmobs:bison_carpet",
-    "mekanism:transmitter/logistical_transporter/advanced",
-    "mekanism:transmitter/logistical_transporter/basic",
     "tconstruct:smeltery/scorched/basin",
     "tconstruct:common/gold_platform",
     "minecraft:gold_ingot_from_gold_block",
     "ae2:network/blocks/crystal_processing_growth_accelerator",
     "ae2:decorative/fluix_block",
-    "ae2:network/cables/glass_fluix",
     "tconstruct:gadgets/fancy_frame/clear",
     "sereneseasons:calendar",
     "minecraft:clock",
@@ -1711,8 +1845,6 @@
     "minecraft:light_gray_dye_from_azure_bluet",
     "handcrafted:white_cushion",
     "handcrafted:white_sheet",
-    "minecraft:netherite_ingot",
-    "minecraft:netherite_upgrade_smithing_template",
     "toms_storage:wireless_terminal",
     "minecraft:comparator",
     "minecraft:spyglass",
@@ -1724,14 +1856,11 @@
     "create_power_loader:crafting/empty_andesite_chunk_loader",
     "minecraft:respawn_anchor",
     "mekanism:upgrade/anchor",
-    "mekanism:upgrade/speed",
-    "mekanism:upgrade/energy",
     "mekanism:fluid_tank/basic",
     "minecraft:bucket",
     "mekanism:electrolytic_separator",
     "mekanism:electrolytic_core",
     "mekanism:crusher",
-    "mekanism:steel_casing",
     "iceandfire:armor_white_boots",
     "iceandfire:armor_white_leggings",
     "iceandfire:armor_white_helmet",
@@ -1775,7 +1904,6 @@
     "ironfurnaces:furnaces/diamond_furnace",
     "ironfurnaces:furnaces/gold_furnace",
     "ironfurnaces:furnaces/iron_furnace",
-    "minecraft:golden_carrot",
     "create:crafting/kinetics/belt_connector",
     "create:crafting/kinetics/elevator_pulley",
     "minecraft:dried_kelp_block",
@@ -1804,18 +1932,14 @@
     "create:crafting/kinetics/basin",
     "create:crafting/kinetics/depot",
     "create:crafting/kinetics/spout",
-    "mekanism:transmitter/mechanical_pipe/advanced",
-    "mekanism:transmitter/mechanical_pipe/basic",
     "minecraft:gold_ingot_from_nuggets",
     "minecraft:raw_iron_block",
     "minecraft:stick",
-    "minecraft:barrel",
     "biomesoplenty:maple_slab",
     "minecraft:observer",
     "create:crafting/logistics/powered_latch",
     "create:crafting/logistics/pulse_timer",
     "create:crafting/logistics/pulse_extender",
-    "create:crafting/kinetics/large_cogwheel",
     "create:crafting/kinetics/mechanical_bearing",
     "create:crafting/kinetics/clockwork_bearing",
     "create:crafting/kinetics/deployer",
@@ -1827,7 +1951,6 @@
     "create:crafting/kinetics/mechanical_piston",
     "create:crafting/kinetics/piston_extension_pole",
     "create:crafting/kinetics/mechanical_saw",
-    "minecraft:iron_ingot_from_iron_block",
     "createaddition:crafting/copper_spool",
     "create:crafting/kinetics/gearbox",
     "create:crafting/kinetics/large_water_wheel",
@@ -1846,7 +1969,6 @@
     "create:crafting/materials/zinc_ingot_from_decompacting",
     "mekanism:processing/tin/ingot/from_block",
     "mekanism:processing/bronze/ingot/from_block",
-    "mekanism:fluid_tank/advanced",
     "tconstruct:smeltery/scorched/fuel_tank",
     "tconstruct:smeltery/scorched/alloyer",
     "tconstruct:smeltery/scorched/ingot_gauge",
@@ -1854,7 +1976,6 @@
     "supplementaries:lumisene_bottle",
     "tconstruct:common/glass/vanilla/glass_bottle",
     "mekanism:logistical_sorter",
-    "minecraft:piston",
     "tconstruct:common/tinkers_gadgetry",
     "mekanism:personal_chest",
     "railways:crafting/palettes/doors/hinged_locometal_door",
@@ -1869,19 +1990,15 @@
     "mekanismgenerators:generator/solar",
     "mekanismgenerators:solar_panel",
     "tconstruct:common/slime/sky/slimeblock",
-    "minecraft:sticky_piston",
     "rechiseled:chisel",
     "sophisticatedbackpacks:stonecutter_upgrade",
     "create:crafting/materials/andesite_alloy",
-    "ae2:network/parts/quartz_fiber_part",
     "ae2:network/parts/storage_bus",
     "ae2:network/blocks/interfaces_interface",
     "ae2:materials/annihilationcore",
     "ae2:network/parts/import_bus",
     "ae2:network/parts/formation_plane_alt",
     "ae2:network/parts/annihilation_plane_alt2",
-    "ae2:materials/formationcore",
-    "ae2:network/blocks/inscribers",
     "ironfurnaces:furnaces/obsidian_furnace",
     "ironfurnaces:augments/augment_fuel",
     "ironfurnaces:furnaces/netherite_furnace",
@@ -1891,7 +2008,6 @@
     "ae2:decorative/quartz_block",
     "ae2:network/parts/energy_acceptor",
     "ae2:network/blocks/energy_energy_acceptor",
-    "ae2:decorative/quartz_glass",
     "ae2:misc/deconstruction_certus_quartz_block",
     "iceandfire:armor_blue_chestplate",
     "iceandfire:armor_blue_leggings",
@@ -1899,7 +2015,6 @@
     "iceandfire:armor_blue_helmet",
     "iceandfire:dragonscale_blue_to_dragonscales_blue",
     "ae2:network/blocks/crystal_processing_charger",
-    "tconstruct:smeltery/scorched/nether_grout_multiple",
     "minecraft:diamond",
     "minecraft:smithing_table",
     "sophisticatedbackpacks:advanced_feeding_upgrade",
@@ -1921,7 +2036,6 @@
     "minecraft:blaze_powder",
     "minecraft:writable_book",
     "minecraft:lapis_lazuli",
-    "minecraft:anvil",
     "tconstruct:common/materials/steel_ingot_from_block",
     "tconstruct:smeltery/scorched/scorched_bricks_from_brick",
     "minecraft:lightning_rod",
@@ -1971,7 +2085,6 @@
     "minecraft:bone_meal",
     "minecraft:lapis_block",
     "tconstruct:common/fantastic_foundry",
-    "tconstruct:smeltery/scorched/nether_grout",
     "tconstruct:smeltery/scorched/faucet",
     "tconstruct:smeltery/scorched/scorched_bricks_stairs",
     "minecraft:golden_shovel",
@@ -1981,7 +2094,6 @@
     "iceandfire:armor_green_leggings",
     "iceandfire:armor_green_boots",
     "iceandfire:armor_green_chestplate",
-    "minecraft:coal",
     "minecraft:golden_apple",
     "minecraft:flint_and_steel",
     "tconstruct:tables/modifier_worktable",
@@ -2029,7 +2141,6 @@
     "supplementaries:deepslate_lamp",
     "minecraft:blast_furnace",
     "minecraft:quartz_block",
-    "minecraft:copper_block",
     "minecraft:gold_block",
     "minecraft:iron_block",
     "minecraft:redstone_block",

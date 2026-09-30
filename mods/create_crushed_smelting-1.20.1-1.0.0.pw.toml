@@ -1,0 +1,8 @@
+name = "create_crushed_smelting-1.20.1-1.0.0"
+filename = "create_crushed_smelting-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/create_crushed_smelting-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "8dd8f7eaa9286157ec56267d8961c3cc307797a8ebd367d217fe4c73d5b77756d01a587d88462be7a07f62d202963cb557582375c113293bb823e30621e991d0"
