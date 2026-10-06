@@ -1,4 +1,4 @@
-#version=c1c4ff1cfc1a
+#version=9ec646a639bf
 # НАБОР НАСТРОЕК ВЛАДЕЛЬЦА. Клиент раскладывает его ПОВЕРХ своих настроек
 # один раз на версию набора (маркер .pack_settings), затем не трогает.
 # Память Java, пути к java и имя инстанса не передаются никогда.
@@ -20,6 +20,7 @@ config/astikorcarts-common.toml
 config/astikorcartsredux-client.toml
 config/astikorcartsredux-common.toml
 config/badoptimizations.txt
+config/bakery.toml
 config/balm-common.toml
 config/betterdays-client.toml
 config/betterdays-common.toml
@@ -94,6 +95,7 @@ config/explorerscompass-client.toml
 config/explorerscompass-common.toml
 config/fallingleaves-client.toml
 config/fallingtree.json
+config/farmandcharm.toml
 config/farmersdelight-client.toml
 config/farmersdelight-common.toml
 config/fastbench.cfg
@@ -104,6 +106,7 @@ config/forge-client.toml
 config/forgematica.json
 config/global_packs.toml
 config/guideme.toml
+config/herbalbrews.toml
 config/hexcasting-client.toml
 config/hexcasting-common.toml
 config/horseman-client.toml
@@ -182,6 +185,7 @@ config/trashslot-common.toml
 config/treechop-client.toml
 config/treechop-common.toml
 config/trender.json
+config/vinery.toml
 config/waystones-common.toml
 config/whitenoise-client.toml
 config/xaerohud.txt

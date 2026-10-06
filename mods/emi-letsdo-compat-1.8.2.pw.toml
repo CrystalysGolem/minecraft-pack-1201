@@ -1,0 +1,12 @@
+name = "[Let's Do Addon] EMI Compat"
+filename = "emi-letsdo-compat-1.8.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/k6hi4lMv/versions/2wBcY3LO/emi-letsdo-compat-1.8.2.jar"
+hash-format = "sha512"
+hash = "9b9cadeafcfdaf9ed8685638d66df414b21fd1c1be5e7365dec4ffff0e1b1441ea960ccc6380429c8324286b266d7e0bb7679a754c4eae360c5262d2d1be0c38"
+
+[update.modrinth]
+mod-id = "k6hi4lMv"
+version = "2wBcY3LO"

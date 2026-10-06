@@ -1,0 +1,8 @@
+name = "drill_head_upgrades-1.20.1-1.0.0"
+filename = "drill_head_upgrades-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/drill_head_upgrades-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "aa7ec54a6dfb46242892ecd4a058db80a1f7497063d92aca1263da896f9cc558a955da93fc97146d1767768cc00b40292bd26e07c383b06a86fcb086951d363e"

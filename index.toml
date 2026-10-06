@@ -10,7 +10,7 @@ hash = "288f453d18ad6831604662476048ff8858f36f8e29bfc2e6b3dee5804c5ca3d8"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "e9a9856cfe52b91322f2944c297c0daf5d3e90c117672f0bd8974692315dff1a"
+hash = "ff9e1a58d399659c384a259b2b80ce399ac621748b6da02f2530da400dacd8ab"
 
 [[files]]
 file = "config/Mekanism/common.toml"
@@ -537,6 +537,10 @@ file = "config/badoptimizations.txt"
 hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
 
 [[files]]
+file = "config/bakery.toml"
+hash = "6a6ccd51b77c9fad53449f783d1f12d2c46f424bdd6bfba0c8f98d5211dd6237"
+
+[[files]]
 file = "config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
@@ -574,7 +578,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "config/betterdays-common.toml"
-hash = "d893d82c211cda774f31749be5a139647346bbb1af8ad5f4b6a680eca8866f27"
+hash = "3e504105c6b962e6a5478ca6d2f0ace2e826aabd8e110c3f7b797a481b770569"
 
 [[files]]
 file = "config/betterdeserttemples-forge-1_20.toml"
@@ -690,7 +694,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -882,7 +886,7 @@ hash = "a0f2c7cfac8f79d37fab4ff1a0fdef02e8f4ffca1f5b65daa28aa7b179342b5c"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "9e2dc7c4707daeadc926998894dd66e52c99d8b976aa369b2a5fc28361411629"
+hash = "d07334059043a96f09f416b81419faa7d960d77a9d766c213f60df950bbec354"
 
 [[files]]
 file = "config/emi.css"
@@ -938,7 +942,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "43c7058afc48b2cedb4fbf8d63cc5cef889484afe8eff57b06e75c621935d634"
+hash = "f682f55e74590ac5a3302a1d6f74127c11c6dffd2c09e04fa55cf8a9ae9bcbc9"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -947,6 +951,10 @@ hash = "2cd017af6632239398b694fadf8191d6073cf39585549876cc682843f521ecb3"
 [[files]]
 file = "config/fallingtree.json"
 hash = "922a0a06c316eb1f0aba285f5bc59f4421b51b6f861661f3cdab38bbd44e4927"
+
+[[files]]
+file = "config/farmandcharm.toml"
+hash = "154f39438ed32c86edba2a0eb1bd1407a04daf3230ea3f37bbaa7bb1f33e7ccf"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -1011,6 +1019,10 @@ hash = "f58021b18301c9c571a993801631539523855519b84cf33d5cd4918d8010042e"
 [[files]]
 file = "config/hammerlib/tags/modded/hammerlib.json"
 hash = "70802862f36b8b7df99900bcafcb995e12676d2c8722e2e20ed1456d05ff4e43"
+
+[[files]]
+file = "config/herbalbrews.toml"
+hash = "7c4ba324bf4778cd520d4b5ac36a1d475b45265e27f17ff70f8a1d7f53bbebcd"
 
 [[files]]
 file = "config/hexcasting-client.toml"
@@ -1286,7 +1298,7 @@ hash = "0f7758b015952072ae6eb72f829f5be6530f81d79b190d3e45cd7955d201de85"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "482a527b68ce3c40b6bf593c0760f380a99ce1084b61f4de3da3c6476dd91190"
+hash = "d9f347f67d040f96879a7f00f733f33539111245ce16cb7369424dcffc7148d9"
 
 [[files]]
 file = "config/jeresources-common.toml"
@@ -1346,7 +1358,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "867d29a81c48d6dd54d8bebeadf10770d0a55c26629a789cbd2b8fd536a19e85"
+hash = "359de68ff1c65a6147aee35444c5b7c6f9e0563299163449691fcc877a43decf"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1362,7 +1374,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "1c24516ef15ab060aaf3327c0f84c0bcf75eff503b6a1ba658482e3cfccca1e2"
+hash = "0d5f7c564e0f9b7cbeb922c76a8953ac67f0622f0fe2b084c074f6689058654f"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1466,7 +1478,7 @@ hash = "d15110f71646c8b1e18a78483990691bbda1e9e687d39ac62cff0423375a4076"
 
 [[files]]
 file = "config/sodiumextras-client.toml"
-hash = "bcce71f3924419afebb08ef29d7b8eeca6acf376e5df6bb6b948d601f5981164"
+hash = "1a0a3bbe9ba9b9b0b8a041c0006bd955f3ce9f3af610d54dbf42b6898ec24632"
 
 [[files]]
 file = "config/solcarrot-client.toml"
@@ -1494,7 +1506,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "config/sophisticatedsorter-client.toml"
-hash = "7104fbf3a505c7b01b8cc7a58aceee2dbbe48cda445ca95797bb0f9b0af3544e"
+hash = "058f679837a31cea9954beb22c63d62bd4ebea35d1c0f5661a9f9debb27d5b1c"
 
 [[files]]
 file = "config/sophisticatedstorage-client.toml"
@@ -1595,6 +1607,10 @@ hash = "c33ff56f71f536fbe0a1c0ef9da00ce50de42c8a1a777263b4edfc6a4c0b5a73"
 [[files]]
 file = "config/villagertradingplus/villagertradingplus-1.0-config.json5"
 hash = "2ae7617d1b8a0c51b9db15273cfcd56ccea6f61c992dadebcf8bdbc150a3aa42"
+
+[[files]]
+file = "config/vinery.toml"
+hash = "fe8acd27cd79406ce57b35ef6c41fe2641faab6ce230e94e17554ca188b77e5f"
 
 [[files]]
 file = "config/waystones-common.toml"
@@ -3822,7 +3838,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "emi.json"
-hash = "9efdf41e73ca1b7c71978f9429a89e0bed5c249f7d259b0cbc178c1e38845419"
+hash = "ee4c36f958c6fe317ef99824476df6a3ae06f54a0c6ad217d804fad33b1f1ffc"
 
 [[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
@@ -4440,6 +4456,11 @@ hash = "1ebcb4254a3bc1a55b03f16dbe3304ec7f44f57095ae81169fe41ab4e04b4357"
 metafile = true
 
 [[files]]
+file = "mods/drill_head_upgrades-1.20.1-1.0.0.pw.toml"
+hash = "605de68c4d3a9ec741066e9eb1ee83f8207211dbd20ee1370e06a294cb81e604"
+metafile = true
+
+[[files]]
 file = "mods/durabilitytooltip-1.2.0-forge-mc1.20.pw.toml"
 hash = "1b37c4c502862e5f20fc905c6781f9067bfee69415967789b8c00f6a6d219f70"
 metafile = true
@@ -4467,6 +4488,21 @@ metafile = true
 [[files]]
 file = "mods/emi-1.1.24+1.20.1+forge.pw.toml"
 hash = "4851b2d99fa1f81f5a182c27dc0720e01fa9c8d5561654d4daf96b2647ffbe90"
+metafile = true
+
+[[files]]
+file = "mods/emi-letsdo-compat-1.8.2.pw.toml"
+hash = "11798309a75de3e325bcccab730f4e66b134d37e507e1008850f9dca54f33dfe"
+metafile = true
+
+[[files]]
+file = "mods/emi-structures-0.1.1+1.20.1-forge.pw.toml"
+hash = "0a5a185293474d30bf4c7cc3a39fa368ee08c27c276572078820fd6a48aa9714"
+metafile = true
+
+[[files]]
+file = "mods/emi_loot-0.7.9+1.20.1+forge.pw.toml"
+hash = "5e37f945ae9264cd267d0547ae7b3617e27874d1cb9d74dfdecd3b7dc66fe0c6"
 metafile = true
 
 [[files]]
@@ -4630,6 +4666,36 @@ hash = "e81d19b552518de4acc59c23de5eb3bfe9bf354d1716fd65603a197cb2a04e78"
 metafile = true
 
 [[files]]
+file = "mods/letsdo-bakery-forge-2.0.6.pw.toml"
+hash = "38d0a8ac8c7a341886449334fb5689ddc5f08b8a2840b61f84d1c492f7c0a300"
+metafile = true
+
+[[files]]
+file = "mods/letsdo-brewery-forge-2.0.6.pw.toml"
+hash = "29e863d682c285f9110af9d6bdbaf3c82c498a458fcf584aff5d48988128be71"
+metafile = true
+
+[[files]]
+file = "mods/letsdo-farm_and_charm-forge-1.0.14.pw.toml"
+hash = "57c8a4d868c1bc64de6bfa0ab6e16826da8f4ca964f1286efa3a4ce5bedbdd9d"
+metafile = true
+
+[[files]]
+file = "mods/letsdo-herbalbrews-forge-1.0.12.pw.toml"
+hash = "e3e2287cd5cdb089aa2a371872e532dd0013501b1d5ba0f69c215a71ccd617ca"
+metafile = true
+
+[[files]]
+file = "mods/letsdo-vinery-forge-1.4.41.pw.toml"
+hash = "27806db141d701d56831ad48e19dfd1b9ba2c723d9d7209b54ea73f74ebc9a6c"
+metafile = true
+
+[[files]]
+file = "mods/letsdocompat-forge-2.2.4.pw.toml"
+hash = "cae3596794d0bebe1744830f9e93b243496b7c92fa2b3e321bd2c3afdb832d9c"
+metafile = true
+
+[[files]]
 file = "mods/mcw-furniture-3.4.1-mc1.20.1forge.pw.toml"
 hash = "e4d70d845dc7325e411d91bbe215bf3662df548ebe12d931c4dc38b80d0ee0b3"
 metafile = true
@@ -4647,6 +4713,11 @@ metafile = true
 [[files]]
 file = "mods/mcwbyg-1.20.1-1.6.pw.toml"
 hash = "ddb3f8a548d2a5456f0f87f9f0fb02803f0cda0c956a808163a1e7d12df7400a"
+metafile = true
+
+[[files]]
+file = "mods/mdh_drill_drain_compat-1.20.1-1.0.0.pw.toml"
+hash = "0bf86628070de77989d5ac39ece7674f9ba029820ce10b56c417d82dbd32ceb7"
 metafile = true
 
 [[files]]
@@ -4931,7 +5002,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "8e08e210f4a68366e2438225258e87498ac1df1531770c48f8db8c840ad51a5d"
+hash = "93af172d375cdaaa8aaccae2bb5bdd6c4b1740cd5a79cfa484606016bf924529"
 preserve = true
 
 [[files]]
@@ -4992,7 +5063,7 @@ hash = "9472e4b936f504aedaf71044e2b9e1fac0188708767b759e2b4b33da9afa0ab5"
 
 [[files]]
 file = "settings/files/config/Mekanism/client.toml"
-hash = "e9a9856cfe52b91322f2944c297c0daf5d3e90c117672f0bd8974692315dff1a"
+hash = "ff9e1a58d399659c384a259b2b80ce399ac621748b6da02f2530da400dacd8ab"
 
 [[files]]
 file = "settings/files/config/Mekanism/common.toml"
@@ -5519,6 +5590,10 @@ file = "settings/files/config/badoptimizations.txt"
 hash = "cae5ba66971b2f61e0b523c5aeb8b8d4fa806f0bea8a1709860e4fea94426ac9"
 
 [[files]]
+file = "settings/files/config/bakery.toml"
+hash = "6a6ccd51b77c9fad53449f783d1f12d2c46f424bdd6bfba0c8f98d5211dd6237"
+
+[[files]]
 file = "settings/files/config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
@@ -5556,7 +5631,7 @@ hash = "9be0f6e8110477e7fa24be732b6f82d6b48c3fde02bcf4745679a09f437525cf"
 
 [[files]]
 file = "settings/files/config/betterdays-common.toml"
-hash = "d893d82c211cda774f31749be5a139647346bbb1af8ad5f4b6a680eca8866f27"
+hash = "3e504105c6b962e6a5478ca6d2f0ace2e826aabd8e110c3f7b797a481b770569"
 
 [[files]]
 file = "settings/files/config/betterdeserttemples-forge-1_20.toml"
@@ -5672,7 +5747,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "settings/files/config/biomeswevegone/world_generation.json"
-hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
+hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
 
 [[files]]
 file = "settings/files/config/blueprint-client.toml"
@@ -5872,7 +5947,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "settings/files/config/embeddium-options.json"
-hash = "9e2dc7c4707daeadc926998894dd66e52c99d8b976aa369b2a5fc28361411629"
+hash = "d07334059043a96f09f416b81419faa7d960d77a9d766c213f60df950bbec354"
 
 [[files]]
 file = "settings/files/config/emi.css"
@@ -5928,7 +6003,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "settings/files/config/fabric/indigo-renderer.properties"
-hash = "43c7058afc48b2cedb4fbf8d63cc5cef889484afe8eff57b06e75c621935d634"
+hash = "f682f55e74590ac5a3302a1d6f74127c11c6dffd2c09e04fa55cf8a9ae9bcbc9"
 
 [[files]]
 file = "settings/files/config/fallingleaves-client.toml"
@@ -5937,6 +6012,10 @@ hash = "2cd017af6632239398b694fadf8191d6073cf39585549876cc682843f521ecb3"
 [[files]]
 file = "settings/files/config/fallingtree.json"
 hash = "922a0a06c316eb1f0aba285f5bc59f4421b51b6f861661f3cdab38bbd44e4927"
+
+[[files]]
+file = "settings/files/config/farmandcharm.toml"
+hash = "154f39438ed32c86edba2a0eb1bd1407a04daf3230ea3f37bbaa7bb1f33e7ccf"
 
 [[files]]
 file = "settings/files/config/farmersdelight-client.toml"
@@ -6001,6 +6080,10 @@ hash = "f58021b18301c9c571a993801631539523855519b84cf33d5cd4918d8010042e"
 [[files]]
 file = "settings/files/config/hammerlib/tags/modded/hammerlib.json"
 hash = "70802862f36b8b7df99900bcafcb995e12676d2c8722e2e20ed1456d05ff4e43"
+
+[[files]]
+file = "settings/files/config/herbalbrews.toml"
+hash = "7c4ba324bf4778cd520d4b5ac36a1d475b45265e27f17ff70f8a1d7f53bbebcd"
 
 [[files]]
 file = "settings/files/config/hexcasting-client.toml"
@@ -6276,7 +6359,7 @@ hash = "0f7758b015952072ae6eb72f829f5be6530f81d79b190d3e45cd7955d201de85"
 
 [[files]]
 file = "settings/files/config/jei/recipe-category-sort-order.ini"
-hash = "482a527b68ce3c40b6bf593c0760f380a99ce1084b61f4de3da3c6476dd91190"
+hash = "d9f347f67d040f96879a7f00f733f33539111245ce16cb7369424dcffc7148d9"
 
 [[files]]
 file = "settings/files/config/jeresources-common.toml"
@@ -6336,7 +6419,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "settings/files/config/oculus.properties"
-hash = "867d29a81c48d6dd54d8bebeadf10770d0a55c26629a789cbd2b8fd536a19e85"
+hash = "359de68ff1c65a6147aee35444c5b7c6f9e0563299163449691fcc877a43decf"
 
 [[files]]
 file = "settings/files/config/oculus_for_simpleclouds-client.toml"
@@ -6352,7 +6435,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "settings/files/config/packetfixer.properties"
-hash = "1c24516ef15ab060aaf3327c0f84c0bcf75eff503b6a1ba658482e3cfccca1e2"
+hash = "0d5f7c564e0f9b7cbeb922c76a8953ac67f0622f0fe2b084c074f6689058654f"
 
 [[files]]
 file = "settings/files/config/patchouli-client.toml"
@@ -6456,7 +6539,7 @@ hash = "d15110f71646c8b1e18a78483990691bbda1e9e687d39ac62cff0423375a4076"
 
 [[files]]
 file = "settings/files/config/sodiumextras-client.toml"
-hash = "bcce71f3924419afebb08ef29d7b8eeca6acf376e5df6bb6b948d601f5981164"
+hash = "1a0a3bbe9ba9b9b0b8a041c0006bd955f3ce9f3af610d54dbf42b6898ec24632"
 
 [[files]]
 file = "settings/files/config/solcarrot-client.toml"
@@ -6484,7 +6567,7 @@ hash = "1e785e1121fdae683ca60b69dfc73f30216a6bea82fb78750b9b3fc01870ac14"
 
 [[files]]
 file = "settings/files/config/sophisticatedsorter-client.toml"
-hash = "7104fbf3a505c7b01b8cc7a58aceee2dbbe48cda445ca95797bb0f9b0af3544e"
+hash = "058f679837a31cea9954beb22c63d62bd4ebea35d1c0f5661a9f9debb27d5b1c"
 
 [[files]]
 file = "settings/files/config/sophisticatedstorage-client.toml"
@@ -6587,6 +6670,10 @@ file = "settings/files/config/villagertradingplus/villagertradingplus-1.0-config
 hash = "2ae7617d1b8a0c51b9db15273cfcd56ccea6f61c992dadebcf8bdbc150a3aa42"
 
 [[files]]
+file = "settings/files/config/vinery.toml"
+hash = "fe8acd27cd79406ce57b35ef6c41fe2641faab6ce230e94e17554ca188b77e5f"
+
+[[files]]
 file = "settings/files/config/waystones-common.toml"
 hash = "937399a3a36d32057aa3f046b974c57d178aae701bb782fb3faefc947dc4899a"
 
@@ -6684,11 +6771,11 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "settings/files/emi.json"
-hash = "9efdf41e73ca1b7c71978f9429a89e0bed5c249f7d259b0cbc178c1e38845419"
+hash = "ee4c36f958c6fe317ef99824476df6a3ae06f54a0c6ad217d804fad33b1f1ffc"
 
 [[files]]
 file = "settings/files/options.txt"
-hash = "8e08e210f4a68366e2438225258e87498ac1df1531770c48f8db8c840ad51a5d"
+hash = "93af172d375cdaaa8aaccae2bb5bdd6c4b1740cd5a79cfa484606016bf924529"
 
 [[files]]
 file = "settings/instance/instance.cfg.overrides"
@@ -6700,7 +6787,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "f7c3dc25193a3f8138ccb32fd3950c5b260c314c74a96848d7ff406e9e2ea6f8"
+hash = "af6f19b6be233599050401e867060b9b05e8f337b119b217313e92f76442b297"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6712,7 +6799,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "f34f87b206ec536a4b2c156847450c468dd885923c10433d0aba699df1bd5c67"
+hash = "b7ca2d1405d0b6a312e3fa11fc60e273e21582d0ad22e243110e7c309777afb3"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

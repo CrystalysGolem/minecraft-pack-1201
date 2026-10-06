@@ -1,0 +1,12 @@
+name = "EMI Structures"
+filename = "emi-structures-0.1.1+1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/YFx6D8i4/versions/shgbOKAr/emi-structures-0.1.1%2B1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "60ca259ebd272c767f3851989a9d9ebd647f43ada54be4526cc4079741f5f889490ac5f584e0ec8cb3a851fd15a822a0235758c85e3f15299b957659b5bd1685"
+
+[update.modrinth]
+mod-id = "YFx6D8i4"
+version = "shgbOKAr"

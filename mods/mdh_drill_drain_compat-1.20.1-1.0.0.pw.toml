@@ -1,0 +1,8 @@
+name = "mdh_drill_drain_compat-1.20.1-1.0.0"
+filename = "mdh_drill_drain_compat-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://raw.githubusercontent.com/CrystalysGolem/minecraft-pack-1201/main/mods/mdh_drill_drain_compat-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "2f6ef5d87373d5a7ae8c7bd8d811d5b09f23237a8e931a7775345339036c3cec5cd9f9823cd365606892f868d6ecf512cdf1b3108ba38c78135a20c4469a792a"
