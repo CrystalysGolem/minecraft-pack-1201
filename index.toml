@@ -694,7 +694,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "config/blueprint-client.toml"
@@ -886,7 +886,7 @@ hash = "a0f2c7cfac8f79d37fab4ff1a0fdef02e8f4ffca1f5b65daa28aa7b179342b5c"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "d07334059043a96f09f416b81419faa7d960d77a9d766c213f60df950bbec354"
+hash = "88290d23a5aba7d5f76c4be32b3ac373f34844f672a8ecd9654f49cee7b36301"
 
 [[files]]
 file = "config/emi.css"
@@ -942,7 +942,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "f682f55e74590ac5a3302a1d6f74127c11c6dffd2c09e04fa55cf8a9ae9bcbc9"
+hash = "173ef0c15b9b6879f3e8d62487650f4c2a06e6cc99614d77370e92949363139f"
 
 [[files]]
 file = "config/fallingleaves-client.toml"
@@ -1358,7 +1358,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "359de68ff1c65a6147aee35444c5b7c6f9e0563299163449691fcc877a43decf"
+hash = "a84bb85440b0c2b9f6af5346cf127192e5037dccae08ec7848315a9779c3e80a"
 
 [[files]]
 file = "config/oculus_for_simpleclouds-client.toml"
@@ -1374,7 +1374,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "0d5f7c564e0f9b7cbeb922c76a8953ac67f0622f0fe2b084c074f6689058654f"
+hash = "37c127214bc6c90dc64b6e299815419b7c767745e40004d356899e2fdfe5e3df"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -1595,6 +1595,10 @@ hash = "5498eb053d4aa284fe6e59c7b3178db95fcf1e7021fa184a4719e66a2d616483"
 [[files]]
 file = "config/trender.json"
 hash = "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
+
+[[files]]
+file = "config/ultimate_unicorn_mod-common.toml"
+hash = "19fb27b052f666eb9226d65a26b5f329c2612a13da345021c56e466f3659c388"
 
 [[files]]
 file = "config/villagersplus/villagersplus-3.0-config.json5"
@@ -3838,7 +3842,7 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "emi.json"
-hash = "ee4c36f958c6fe317ef99824476df6a3ae06f54a0c6ad217d804fad33b1f1ffc"
+hash = "c51357f4489dfb5307ec06813dee3b1e1a77af5a4c589b641474abf4b08e6557"
 
 [[files]]
 file = "mods/AdditionalStructures-1.20.x-(v.4.2.2).pw.toml"
@@ -4966,6 +4970,11 @@ hash = "0c84c2d26fdfe13324579ce2d010b7b39ebebab7f2f7ce35db0dd1dafe74051a"
 metafile = true
 
 [[files]]
+file = "mods/ultimate_unicorn_mod-1.20.1-1.6.7.1.pw.toml"
+hash = "ea989e58af3c66b2e4cf3e3d6e927dfa22d7f95fbe896864eeddc1393c3ce140"
+metafile = true
+
+[[files]]
 file = "mods/villagersplus-forge-mc1.20.1-4.0.0.pw.toml"
 hash = "0d9e23d76e06493d531ca5443a2dae56323dd184503b2a15c21545aeb41f972a"
 metafile = true
@@ -5002,7 +5011,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "93af172d375cdaaa8aaccae2bb5bdd6c4b1740cd5a79cfa484606016bf924529"
+hash = "955dbdefbb053217d392bcf284172aee1ba778bbf6e3b5ae2e686d10e2fc32fe"
 preserve = true
 
 [[files]]
@@ -5747,7 +5756,7 @@ hash = "0b05a8814f09fead55b1901b7efab7d3ab87227ea3fc6b5e65a6197261832710"
 
 [[files]]
 file = "settings/files/config/biomeswevegone/world_generation.json"
-hash = "50b760ffbc0d9d309063b8a59249498455584732d46e4e8b45bf45bdfa148678"
+hash = "5ab08dae537d43aef3f217e3a7a17608d39f1be082960fe4abd545d0697a72dc"
 
 [[files]]
 file = "settings/files/config/blueprint-client.toml"
@@ -5947,7 +5956,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "settings/files/config/embeddium-options.json"
-hash = "d07334059043a96f09f416b81419faa7d960d77a9d766c213f60df950bbec354"
+hash = "88290d23a5aba7d5f76c4be32b3ac373f34844f672a8ecd9654f49cee7b36301"
 
 [[files]]
 file = "settings/files/config/emi.css"
@@ -6003,7 +6012,7 @@ hash = "7e619a586ca7feedee96e47e5de7bea5d4f5d10239ca0111edc044ea0c65a448"
 
 [[files]]
 file = "settings/files/config/fabric/indigo-renderer.properties"
-hash = "f682f55e74590ac5a3302a1d6f74127c11c6dffd2c09e04fa55cf8a9ae9bcbc9"
+hash = "173ef0c15b9b6879f3e8d62487650f4c2a06e6cc99614d77370e92949363139f"
 
 [[files]]
 file = "settings/files/config/fallingleaves-client.toml"
@@ -6419,7 +6428,7 @@ hash = "45121987f8bbbb948bd5096ffb02b1361c762b3e34836b3f9097a9a4ef7222d4"
 
 [[files]]
 file = "settings/files/config/oculus.properties"
-hash = "359de68ff1c65a6147aee35444c5b7c6f9e0563299163449691fcc877a43decf"
+hash = "a84bb85440b0c2b9f6af5346cf127192e5037dccae08ec7848315a9779c3e80a"
 
 [[files]]
 file = "settings/files/config/oculus_for_simpleclouds-client.toml"
@@ -6435,7 +6444,7 @@ hash = "de03196eb131c5abf5d2e69126a7f33c025921419585f46e923e17ea0236dd4b"
 
 [[files]]
 file = "settings/files/config/packetfixer.properties"
-hash = "0d5f7c564e0f9b7cbeb922c76a8953ac67f0622f0fe2b084c074f6689058654f"
+hash = "37c127214bc6c90dc64b6e299815419b7c767745e40004d356899e2fdfe5e3df"
 
 [[files]]
 file = "settings/files/config/patchouli-client.toml"
@@ -6658,6 +6667,10 @@ file = "settings/files/config/trender.json"
 hash = "fe0bed19bd0927b3d519816c73378730689080a8f07e66a6167c266ffde29dd2"
 
 [[files]]
+file = "settings/files/config/ultimate_unicorn_mod-common.toml"
+hash = "19fb27b052f666eb9226d65a26b5f329c2612a13da345021c56e466f3659c388"
+
+[[files]]
 file = "settings/files/config/villagersplus/villagersplus-3.0-config.json5"
 hash = "a32bb4d92535a1aebbfae239b8518cfd265e151b0976b5517c0ce91cee1a24e8"
 
@@ -6771,11 +6784,11 @@ hash = "838155604e6db136b36aa0d792e8669bc09ef1680e088bc4d0164ecb6b4aa8e1"
 
 [[files]]
 file = "settings/files/emi.json"
-hash = "ee4c36f958c6fe317ef99824476df6a3ae06f54a0c6ad217d804fad33b1f1ffc"
+hash = "c51357f4489dfb5307ec06813dee3b1e1a77af5a4c589b641474abf4b08e6557"
 
 [[files]]
 file = "settings/files/options.txt"
-hash = "93af172d375cdaaa8aaccae2bb5bdd6c4b1740cd5a79cfa484606016bf924529"
+hash = "955dbdefbb053217d392bcf284172aee1ba778bbf6e3b5ae2e686d10e2fc32fe"
 
 [[files]]
 file = "settings/instance/instance.cfg.overrides"
@@ -6787,7 +6800,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "af6f19b6be233599050401e867060b9b05e8f337b119b217313e92f76442b297"
+hash = "7f74ab9ec48aee308303683951f17c71021ccaed6f4a2e3264b0772105d0975b"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"
@@ -6799,7 +6812,7 @@ hash = "46ed277127f04bac69af03effa897815bd20af959023784fa12a003d31425dfe"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.9.zip.txt"
-hash = "b7ca2d1405d0b6a312e3fa11fc60e273e21582d0ad22e243110e7c309777afb3"
+hash = "bcd102adbd0f9fe313b1bc93bd1bcb1ad54949f832e62cef5280c4909c222797"
 
 [[files]]
 file = "shaderpacks/MakeUp-UltraFast-9.5d.zip"

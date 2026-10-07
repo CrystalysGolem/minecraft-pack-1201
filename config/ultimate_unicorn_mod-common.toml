@@ -1,0 +1,27 @@
+#Region ID
+#Range: 0 ~ 3
+regionId = 1
+#Whether to log the dirt block on common setup
+logDirtBlock = true
+#A magic number
+#Range: > 0
+magicNumber = 42
+#What you want the introduction message to be for the magic number
+magicNumberIntroduction = "The magic number is... "
+#A list of items to log on common setup.
+items = ["minecraft:iron_ingot"]
+#If true, Nightmares will not make fire where they walk.
+disableNightmareFire = false
+#If true, fire made by Nightmares doesn't hurt or spread.
+gentleNightmareFire = true
+#If true, Nightmares will be unable to create fireballs by wing buffeting near fires.
+disableNightmareFireballs = false
+#If true, custom horses do not show custom skins (but may still have custom titles and powers).
+disableCustomHorseSkins = false
+#If true, custom horses do not show custom titles (but may still have custom colors and powers).
+disableCustomHorseTitles = false
+#If true, custom horse powers cannot be used (but they may still show custom skins and titles).
+disableCustomHorsePowers = false
+#If true, the custom horse power "Flame Aura" does not cause damage.
+disableFlameAura = false
+

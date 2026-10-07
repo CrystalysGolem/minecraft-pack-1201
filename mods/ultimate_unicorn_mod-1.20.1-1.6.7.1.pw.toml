@@ -1,0 +1,12 @@
+name = "Wings, Horns, and Hooves: The Ultimate Unicorn Mod"
+filename = "ultimate_unicorn_mod-1.20.1-1.6.7.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SnKmIrgV/versions/EYLoGzfl/ultimate_unicorn_mod-1.20.1-1.6.7.1.jar"
+hash-format = "sha512"
+hash = "417a7490188350880becdb6c336d69a52f887b56c3de8bf7fb67abadcc7e25177e488b9618c8d4e2a7b623fa3392a69d7ebc9a1eaf1c26f25802b2000e8ffbab"
+
+[update.modrinth]
+mod-id = "SnKmIrgV"
+version = "EYLoGzfl"

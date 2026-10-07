@@ -1,4 +1,4 @@
-#version=9ec646a639bf
+#version=c9815afafa04
 # НАБОР НАСТРОЕК ВЛАДЕЛЬЦА. Клиент раскладывает его ПОВЕРХ своих настроек
 # один раз на версию набора (маркер .pack_settings), затем не трогает.
 # Память Java, пути к java и имя инстанса не передаются никогда.
@@ -185,6 +185,7 @@ config/trashslot-common.toml
 config/treechop-client.toml
 config/treechop-common.toml
 config/trender.json
+config/ultimate_unicorn_mod-common.toml
 config/vinery.toml
 config/waystones-common.toml
 config/whitenoise-client.toml
