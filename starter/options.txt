@@ -135,7 +135,7 @@ key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_accessories.key.open_accessories_screen:key.keyboard.h
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
-key_key.toms_storage.open_terminal:key.keyboard.caps.lock
+key_key.toms_storage.open_terminal:key.mouse.4
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.ponder.ponder:key.keyboard.w

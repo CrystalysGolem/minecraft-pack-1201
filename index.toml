@@ -5006,7 +5006,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "2aec8242065d79e53ba09e486c3364bbaaf917cd595c8d3840d8d58cfc6ed26f"
+hash = "69f749e01a91e348358cf6aa36ec74320aaae6b697184a9d8b005dde2ff56103"
 preserve = true
 
 [[files]]
@@ -6782,10 +6782,6 @@ file = "settings/files/emi.json"
 hash = "d76935ffdeb6cb3f58f5b3975111a836f529135f78d04450299c752ad3a8c1c2"
 
 [[files]]
-file = "settings/files/options.txt"
-hash = "2aec8242065d79e53ba09e486c3364bbaaf917cd595c8d3840d8d58cfc6ed26f"
-
-[[files]]
 file = "settings/instance/instance.cfg.overrides"
 hash = "4e3f9c5aa409e389dc83bb502e53854a550a5ac6c338f4dd08bf9c0a3e8b60b7"
 
@@ -6795,7 +6791,7 @@ hash = "9cab04ef9c8a3dd29b3b559253511f7253e52bacf0c98dd21dbaf96824cbadd6"
 
 [[files]]
 file = "settings/manifest.txt"
-hash = "9bf099154b90ed31a12df71aa64172cd420cf09b370884eadd0b645b97899003"
+hash = "896b59996223caaaddf3f5636e2649c6b5fd5cf29df88867fcad71de004e547a"
 
 [[files]]
 file = "shaderpacks/Bliss_v2.1.2_(Chocapic13_Shaders_edit).zip"

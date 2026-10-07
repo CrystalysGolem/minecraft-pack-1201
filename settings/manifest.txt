@@ -1,8 +1,7 @@
-#version=d96572b80de3
+#version=6619803abd68
 # НАБОР НАСТРОЕК ВЛАДЕЛЬЦА. Клиент раскладывает его ПОВЕРХ своих настроек
 # один раз на версию набора (маркер .pack_settings), затем не трогает.
 # Память Java, пути к java и имя инстанса не передаются никогда.
-options.txt
 emi.json
 config/accessories.json5
 config/additionalstructures-client.toml
