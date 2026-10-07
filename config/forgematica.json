@@ -13,7 +13,7 @@
   },
   "Generic": {
     "areaSelectionsPerWorld": true,
-    "changeSelectedCornerOnMove": true,
+    "changeSelectedCornerOnMove": false,
     "cloneAtOriginalPosition": true,
     "commandDisableFeedback": true,
     "commandFillNoChunkClamp": false,
@@ -22,7 +22,7 @@
     "debugLogging": false,
     "easyPlaceFirst": true,
     "easyPlaceHoldEnabled": true,
-    "easyPlaceMode": false,
+    "easyPlaceMode": true,
     "easyPlaceSinglePlayerHandling": true,
     "easyPlaceProtocolVersion": "auto",
     "easyPlaceVanillaReach": false,
@@ -69,7 +69,7 @@
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
-    "printingMode": true,
+    "printingMode": false,
     "printingDebug": false,
     "printingInterval": 12,
     "printingRange": 5.0,
@@ -333,7 +333,7 @@
     "verifierErrorHilightMaxPositions": 1000
   },
   "Visuals": {
-    "enableRendering": false,
+    "enableRendering": true,
     "enableSchematicRendering": true,
     "enableAreaSelectionBoxesRendering": true,
     "enablePlacementBoxesRendering": true,

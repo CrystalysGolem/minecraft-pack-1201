@@ -1,28 +1,91 @@
 {
   "favorites": [
     {
-      "stack": {
-        "type": "item",
-        "id": "biomeswevegone:stripped_maple_log",
-        "amount": 8
-      }
+      "stack": "item:mekanism:pressurized_reaction_chamber",
+      "recipe": "mekanism:pressurized_reaction_chamber"
     },
     {
-      "stack": {
-        "type": "item",
-        "id": "create:large_cogwheel",
-        "amount": 8
-      }
+      "stack": "item:mekanism:upgrade_speed"
     },
     {
-      "stack": {
-        "type": "item",
-        "id": "minecraft:cobblestone",
-        "amount": 64
-      }
+      "stack": "item:mekanism:upgrade_energy"
     }
   ],
   "lookup_history": [
+    {
+      "type": "fluid",
+      "id": "mekanismgenerators:bioethanol",
+      "amount": 19652
+    },
+    {
+      "type": "item",
+      "id": "mekanism:hdpe_sheet",
+      "amount": 14
+    },
+    {
+      "type": "item",
+      "id": "mekanism:hdpe_pellet",
+      "amount": 44
+    },
+    {
+      "type": "item",
+      "id": "mekanism:substrate",
+      "amount": 22
+    },
+    "item:mekanism:upgrade_energy",
+    "item:mekanism:upgrade_speed",
+    "item:mekanism:pressurized_reaction_chamber",
+    "item:mekanism:basic_chemical_tank",
+    "item:mekanism:enrichment_chamber",
+    "item:mekanism:steel_casing",
+    "item:mekanism:rotary_condensentrator",
+    {
+      "type": "fluid",
+      "id": "mekanism:ethene",
+      "amount": 50
+    },
+    "item:mekanism:basic_fluid_tank",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:ethene"
+    },
+    "item:mekanism:advanced_fluid_tank",
+    {
+      "type": "item",
+      "id": "mekanism:bio_fuel",
+      "amount": 64
+    },
+    "item:mekanism:advanced_chemical_tank",
+    "item:mekanism:dynamic_tank",
+    "item:mekanism:ingot_steel",
+    "item:mekanism:mekasuit_bodyarmor",
+    "item:mekanism:hdpe_rod",
+    "item:mekanismgenerators:fission_reactor_casing",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:nuclear_waste"
+    },
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:polonium"
+    },
+    "item:mekanism:pellet_polonium",
+    "item:mekanism:meka_tool",
+    {
+      "type": "fluid",
+      "id": "mekanism:brine",
+      "amount": 10
+    },
+    "fluid:mekanism:lithium",
+    {
+      "type": "jemi",
+      "uid": "gas:mekanism:lithium",
+      "amount": 100
+    },
+    "item:mekanism:dust_lithium",
+    "item:mekanism:basic_induction_cell",
+    "item:mekanism:module_jetpack_unit",
+    "item:mekanism:jetpack{mekData:{GasTanks:[{Tank:0b,stored:{amount:7968L,gasName:\"mekanism:hydrogen\"}}],mode:2}}",
     "item:create:light_gray_seat",
     "item:create:yellow_seat",
     "item:create:light_blue_seat",
@@ -101,7 +164,6 @@
     "item:mekanism:elite_energy_cube{mekData:{EnergyContainers:[{Container:0b,stored:\"0.5761\"}],owner:[I;789915102,-650623103,-1409974790,-2147319861]}}",
     "item:mekanism:advanced_energy_cube",
     "item:mekanism:basic_energy_cube",
-    "item:mekanism:steel_casing",
     "item:minecraft:diamond_ore",
     {
       "type": "item",
@@ -184,18 +246,12 @@
     "item:mekanism:alloy_atomic",
     "item:mekanism:alloy_reinforced",
     "item:mekanism:electric_pump",
-    {
-      "type": "item",
-      "id": "mekanism:upgrade_speed",
-      "amount": 4
-    },
     "item:mcwfurnitures:oak_kitchen_sink",
     {
       "type": "item",
       "id": "minecraft:water_bucket",
       "remainder": "item:minecraft:bucket"
     },
-    "item:mekanism:upgrade_energy",
     "item:mekanism:electrolytic_core",
     "item:mekanism:dust_iron",
     "item:mekanism:digital_miner",
@@ -231,8 +287,6 @@
       "uid": "slurry:mekanism:clean_copper"
     },
     "item:mekanism:atomic_disassembler{mekData:{EnergyContainers:[{Container:0b,stored:\"977160\"}],mode:2}}",
-    "item:mekanism:pellet_polonium",
-    "item:mekanism:meka_tool",
     "item:mekanism:configurator",
     {
       "type": "item",
@@ -242,46 +296,14 @@
     "item:mekanism:mekasuit_helmet",
     "item:mekanism:basic_compressing_factory",
     "item:mekanism:osmium_compressor",
-    "item:mekanism:basic_induction_cell",
-    "item:mekanism:ingot_steel",
     "#item:forge:ingots/steel",
     "item:minecraft:gold_ingot",
     "item:mekanism:mekasuit_boots",
-    {
-      "type": "jemi",
-      "uid": "gas:mekanism:nuclear_waste",
-      "amount": 10
-    },
-    {
-      "type": "jemi",
-      "uid": "gas:mekanism:polonium",
-      "amount": 1000
-    },
-    "item:mekanism:mekasuit_bodyarmor",
     "item:mekanism:salt",
     {
       "type": "jemi",
       "uid": "gas:mekanism:brine"
     },
-    {
-      "type": "fluid",
-      "id": "mekanism:brine",
-      "amount": 10
-    },
-    "fluid:mekanism:lithium",
-    {
-      "type": "jemi",
-      "uid": "gas:mekanism:lithium",
-      "amount": 100
-    },
-    "item:mekanism:dust_lithium",
-    "item:mekanism:pressurized_reaction_chamber",
-    {
-      "type": "item",
-      "id": "mekanism:hdpe_pellet",
-      "amount": 3
-    },
-    "item:mekanism:hdpe_sheet",
     "item:mekanism:enriched_redstone",
     [
       "item:mekanism:enriched_redstone",
@@ -289,7 +311,6 @@
       "#item:alexsmobs:platypus_chargeables"
     ],
     "item:mekanism:basic_pressurized_tube",
-    "item:mekanism:basic_chemical_tank",
     "item:create:powdered_obsidian",
     "#item:forge:dusts/obsidian",
     "item:mekanism:dust_refined_obsidian",
@@ -311,7 +332,6 @@
       "#item:forge:dusts/diamond"
     ],
     "item:mekanism:basic_enriching_factory",
-    "item:mekanism:enrichment_chamber",
     {
       "type": "jemi",
       "uid": "infuse type:mekanism:diamond",
@@ -321,7 +341,6 @@
     "item:mekanism:crusher",
     "item:mekanism:enriched_refined_obsidian",
     "item:mekanism:jetpack_armored",
-    "item:mekanism:jetpack{mekData:{GasTanks:[{Tank:0b,stored:{amount:12345L,gasName:\"mekanism:hydrogen\"}}],mode:2}}",
     {
       "type": "jemi",
       "uid": "gas:mekanism:oxygen"
@@ -378,7 +397,6 @@
     "item:create:copper_nugget",
     "item:minecraft:glowstone",
     "item:minecraft:shroomlight",
-    "item:mekanism:basic_fluid_tank{mekData:{FluidTanks:[{Tank:0b,stored:{Amount:26000,FluidName:\"minecraft:water\"}}],Items:[],bucketMode:1b,editMode:0,owner:[I;789915102,-650623103,-1409974790,-2147319861],securityMode:0}}",
     "item:mekanism:basic_control_circuit",
     "item:biomesoplenty:glowshroom",
     "item:create:andesite_table_cloth",
@@ -409,22 +427,12 @@
       "uid": "gas:mekanism:hydrogen",
       "amount": 100
     },
-    {
-      "type": "jemi",
-      "uid": "gas:mekanism:ethene"
-    },
     "item:createaddition:biomass",
     {
       "type": "tag",
       "registry": "minecraft:item",
       "id": "forge:fuels",
       "amount": 2
-    },
-    "item:mekanism:substrate",
-    {
-      "type": "fluid",
-      "id": "mekanism:ethene",
-      "amount": 50
     },
     "item:ae2:fluix_crystal",
     "item:ae2:fluix_upgrade_smithing_template",
@@ -567,7 +575,6 @@
     },
     "item:mekanism:basic_logistical_transporter",
     "item:ae2:fluix_dust",
-    "item:mekanism:advanced_fluid_tank{mekData:{owner:[I;789915102,-650623103,-1409974790,-2147319861]}}",
     "item:ae2:capacity_card",
     "item:ae2:basic_card",
     "item:ae2:inscriber",
@@ -706,11 +713,6 @@
     },
     "item:tconstruct:scorched_basin",
     "item:tconstruct:gold_platform",
-    {
-      "type": "fluid",
-      "id": "mekanismgenerators:bioethanol",
-      "amount": 23879
-    },
     {
       "type": "item",
       "id": "biomesoplenty:orange_sand",
@@ -861,7 +863,6 @@
     },
     "item:mekanismgenerators:heat_generator",
     "item:mekanismgenerators:bio_generator",
-    "item:mekanism:bio_fuel",
     "item:mekanismgenerators:gas_burning_generator",
     "item:mekanism:module_gravitational_modulating_unit",
     "item:minecraft:respawn_anchor",
@@ -1834,31 +1835,21 @@
       "id": "minecraft:cobbled_deepslate",
       "amount": 64
     },
-    "item:minecraft:lapis_block",
-    {
-      "type": "item",
-      "id": "minecraft:gold_block",
-      "amount": 9
-    },
-    {
-      "type": "item",
-      "id": "minecraft:redstone_block",
-      "amount": 15
-    },
-    "item:improvableskills:parchment_fragment",
-    {
-      "type": "item",
-      "id": "tconstruct:blood_slime_leaves",
-      "amount": 52
-    },
-    "item:netherexp:soul_slate",
-    {
-      "type": "item",
-      "id": "minecraft:fire_coral",
-      "amount": 3
-    }
+    "item:minecraft:lapis_block"
   ],
   "craft_history": [
+    "mekanism:upgrade/energy",
+    "mekanism:upgrade/speed",
+    "mekanism:pressurized_reaction_chamber",
+    "mekanism:chemical_tank/basic",
+    "mekanism:enrichment_chamber",
+    "mekanism:steel_casing",
+    "mekanism:rotary_condensentrator",
+    "mekanism:fluid_tank/basic",
+    "mekanism:fluid_tank/advanced",
+    "mekanism:chemical_tank/advanced",
+    "mekanism:dynamic_tank",
+    "tconstruct:common/materials/steel_ingot_from_block",
     "create:crafting/kinetics/yellow_seat",
     "minecraft:diamond_leggings",
     "incubation:egg",
@@ -1879,7 +1870,6 @@
     "mekanism:energy_cube/ultimate",
     "mekanism:energy_cube/elite",
     "mekanism:energy_cube/basic",
-    "mekanism:steel_casing",
     "mekanism:energy_cube/advanced",
     "createmoredrillheads:diamond_drill",
     "minecraft:iron_ingot_from_iron_block",
@@ -1910,9 +1900,7 @@
     "mekanism:factory/ultimate/compressing",
     "mekanism:factory/elite/compressing",
     "mekanism:electric_pump",
-    "mekanism:upgrade/speed",
     "mcwfurnitures:oak_kitchen_sink",
-    "mekanism:upgrade/energy",
     "mekanism:electrolytic_separator",
     "mekanism:electrolytic_core",
     "mekanism:transmitter/universal_cable/advanced",
@@ -1929,14 +1917,10 @@
     "mekanism:factory/advanced/compressing",
     "mekanism:factory/basic/compressing",
     "mekanism:osmium_compressor",
-    "tconstruct:common/materials/steel_ingot_from_block",
     "minecraft:gold_ingot_from_gold_block",
     "mekanism:transmitter/pressurized_tube/basic",
-    "mekanism:chemical_tank/advanced",
-    "mekanism:chemical_tank/basic",
     "mekanism:factory/advanced/enriching",
     "mekanism:factory/basic/enriching",
-    "mekanism:enrichment_chamber",
     "mekanism:factory/advanced/crushing",
     "mekanism:factory/basic/crushing",
     "mekanism:crusher",
@@ -1960,7 +1944,6 @@
     "iceandfire:copper_ingot_to_nuggets",
     "minecraft:cut_copper",
     "minecraft:glowstone",
-    "mekanism:fluid_tank/advanced",
     "iceandfire:copper_nuggets_to_ingot",
     "create:crafting/logistics/andesite_table_cloth_clear",
     "tconstruct:smeltery/scorched/drain_retextured",
@@ -2117,7 +2100,6 @@
     "create_power_loader:crafting/empty_andesite_chunk_loader",
     "minecraft:respawn_anchor",
     "mekanism:upgrade/anchor",
-    "mekanism:fluid_tank/basic",
     "minecraft:bucket",
     "iceandfire:armor_white_boots",
     "iceandfire:armor_white_leggings",
