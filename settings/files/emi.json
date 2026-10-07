@@ -1,10 +1,6 @@
 {
   "favorites": [
     {
-      "stack": "item:mekanism:pressurized_reaction_chamber",
-      "recipe": "mekanism:pressurized_reaction_chamber"
-    },
-    {
       "stack": "item:mekanism:upgrade_speed"
     },
     {
@@ -12,6 +8,137 @@
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "createmoredrillheads:emerald_dusts_tipped_diamond_drill",
+      "amount": 36
+    },
+    "item:minecraft:diamond_ore",
+    "item:drill_drain:drill_drain",
+    "item:create:fluid_pipe",
+    "item:create:mechanical_pump",
+    "item:create:cogwheel",
+    {
+      "type": "item",
+      "id": "createmoredrillheads:diamond_drill",
+      "amount": 4
+    },
+    {
+      "type": "item",
+      "id": "create:andesite_alloy",
+      "amount": 64
+    },
+    "item:minecraft:iron_nugget",
+    "item:create:andesite_casing",
+    "item:create:deployer",
+    {
+      "type": "item",
+      "id": "mekanism:advanced_mechanical_pipe",
+      "amount": 57
+    },
+    "item:minecraft:iron_ingot",
+    "item:ae2:singularity",
+    "item:minecraft:stone",
+    "item:minecraft:cobblestone",
+    "item:mekanism:geiger_counter",
+    "item:tconstruct:jeweled_apple",
+    "item:solcarrot:food_book",
+    "item:minecraft:cod",
+    "item:tconstruct:clear_item_frame",
+    "item:farmersdelight:tomato_sauce",
+    "item:farm_and_charm:cooking_pot",
+    "item:minecraft:wooden_shovel{Damage:0}",
+    {
+      "type": "item",
+      "id": "farmersdelight:cabbage_leaf",
+      "amount": 8
+    },
+    "item:farmersdelight:beef_patty",
+    "item:minecraft:bowl",
+    {
+      "type": "item",
+      "id": "farmersdelight:raw_pasta",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "farmersdelight:cooked_bacon",
+      "amount": 9
+    },
+    {
+      "type": "item",
+      "id": "farmersdelight:pumpkin_slice",
+      "amount": 17
+    },
+    "item:farmersdelight:wheat_dough",
+    "item:create:wheat_flour",
+    "item:create:dough",
+    "#item:forge:dough",
+    "item:farm_and_charm:dough",
+    "item:bakery:cake_dough",
+    "item:bakery:sweet_dough",
+    "item:farm_and_charm:mincer",
+    "item:farm_and_charm:raw_pasta",
+    "#item:forge:pasta",
+    {
+      "type": "item",
+      "id": "minecraft:porkchop",
+      "amount": 21
+    },
+    "item:biomesoplenty:brimstone",
+    "item:alexscaves:sulfur_dust",
+    "#item:forge:dusts/sulfur",
+    "item:minecraft:cooked_porkchop",
+    "item:minecraft:melon_slice",
+    "item:minecraft:milk_bucket",
+    "item:farmersdelight:cooked_mutton_chops",
+    "item:farmersdelight:mutton_chops",
+    "item:farmersdelight:bacon_sandwich",
+    "item:vinery:jungle_grapes_white",
+    "item:minecraft:mushroom_stew",
+    "item:farmersdelight:stuffed_potato",
+    "item:farmersdelight:fruit_salad",
+    "item:farmersdelight:bacon_and_eggs",
+    "item:farmersdelight:pie_crust",
+    "item:alexsmobs:blobfish",
+    "item:alexsmobs:flying_fish",
+    {
+      "type": "item",
+      "id": "alexscaves:lanternfish",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "biomeswevegone:white_puffball_cap",
+      "amount": 4
+    },
+    "item:farmersdelight:salmon_roll",
+    {
+      "type": "item",
+      "id": "farmersdelight:bacon",
+      "amount": 12
+    },
+    "item:biomeswevegone:green_apple",
+    "item:minecraft:sugar_cane",
+    "item:minecraft:egg",
+    "item:incubation:scrambled_eggs",
+    {
+      "type": "item",
+      "id": "supplementaries:pancake",
+      "amount": 3
+    },
+    {
+      "type": "item",
+      "id": "minecraft:cooked_salmon",
+      "amount": 6
+    },
+    "item:farmersdelight:minced_beef",
+    "item:minecraft:cookie",
+    {
+      "type": "item",
+      "id": "alexsmobs:emu_egg",
+      "amount": 8
+    },
     {
       "type": "fluid",
       "id": "mekanismgenerators:bioethanol",
@@ -137,7 +264,6 @@
     },
     "item:minecraft:deepslate_diamond_ore",
     "item:minecraft:diamond",
-    "item:createmoredrillheads:diamond_drill",
     "item:herbalbrews:tea_blossom",
     "item:sophisticatedbackpacks:feeding_upgrade",
     "item:minecraft:golden_carrot",
@@ -164,13 +290,6 @@
     "item:mekanism:elite_energy_cube{mekData:{EnergyContainers:[{Container:0b,stored:\"0.5761\"}],owner:[I;789915102,-650623103,-1409974790,-2147319861]}}",
     "item:mekanism:advanced_energy_cube",
     "item:mekanism:basic_energy_cube",
-    "item:minecraft:diamond_ore",
-    {
-      "type": "item",
-      "id": "createmoredrillheads:emerald_dusts_tipped_diamond_drill",
-      "amount": 6
-    },
-    "item:minecraft:iron_ingot",
     "item:brewery:beer_haley",
     "item:brewery:beer_oat",
     "item:brewery:beer_nettle",
@@ -183,11 +302,9 @@
     "item:vinery:bottle_mojang_noir",
     "item:vinery:white_savanna_grapejuice",
     "item:vinery:cherry",
-    "item:create:deployer",
     "item:create:electron_tube",
     "item:create:rose_quartz",
     "item:create:polished_rose_quartz",
-    "item:create:andesite_casing",
     "item:create:brass_hand",
     "item:create:white_seat",
     "item:minecraft:white_wool",
@@ -203,7 +320,6 @@
     "item:create:fluid_tank",
     "item:minecraft:barrel",
     "#item:c:wooden_barrels",
-    "item:drill_drain:drill_drain",
     "item:createmoredrillheads:netherite_drill",
     "item:mekanism:dust_emerald",
     "#item:forge:dusts/emerald",
@@ -306,8 +422,8 @@
     },
     "item:mekanism:enriched_redstone",
     [
-      "item:mekanism:enriched_redstone",
       "item:mekanism:basic_chemical_tank{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:\"mekanism:redstone\"}}]}}",
+      "item:mekanism:enriched_redstone",
       "#item:alexsmobs:platypus_chargeables"
     ],
     "item:mekanism:basic_pressurized_tube",
@@ -327,8 +443,8 @@
     },
     "item:mekanism:enriched_diamond",
     [
-      "item:mekanism:enriched_diamond",
       "item:mekanism:basic_chemical_tank{mekData:{InfusionTanks:[{Tank:0b,stored:{amount:64000L,infuseTypeName:\"mekanism:diamond\"}}]}}",
+      "item:mekanism:enriched_diamond",
       "#item:forge:dusts/diamond"
     ],
     "item:mekanism:basic_enriching_factory",
@@ -352,14 +468,7 @@
     },
     "item:create:andesite_funnel",
     "item:create:gearbox",
-    {
-      "type": "item",
-      "id": "create:cogwheel",
-      "amount": 5
-    },
     "item:create:vertical_gearbox",
-    "item:minecraft:iron_nugget",
-    "item:create:andesite_alloy",
     "item:sophisticatedstorage:compacting_upgrade",
     "item:minecraft:piston",
     "item:sophisticatedbackpacks:compacting_upgrade",
@@ -622,8 +731,6 @@
     "item:minecraft:rabbit_hide",
     "item:minecraft:wheat_seeds",
     "item:create:large_cogwheel",
-    "item:create:mechanical_pump",
-    "item:create:fluid_pipe",
     "item:create:copper_sheet",
     "item:villagersplus:alchemist_table",
     "item:alexscaves:purple_soda_bottle_rocket",
@@ -637,7 +744,6 @@
     "item:mekanism:dust_gold",
     "item:waystones:waystone{UUID:[I;-2113546997,-1397273849,-1286655577,909492714]}",
     "item:tconstruct:scorched_chute",
-    "item:mekanism:advanced_mechanical_pipe",
     "item:mekanism:basic_mechanical_pipe",
     "item:mekanism:cardboard_box{mekData:{data:{blockState:{Name:\"minecraft:tall_grass\",Properties:{half:\"lower\"}}}}}",
     "item:minecraft:blast_furnace",
@@ -724,7 +830,6 @@
       "id": "biomeswevegone:blue_sand",
       "amount": 64
     },
-    "item:tconstruct:clear_item_frame",
     "item:ae2:facade{item:\"tconstruct:light_gray_clear_stained_glass\"}",
     "item:sereneseasons:calendar",
     "item:minecraft:clock",
@@ -786,7 +891,6 @@
     "item:farmersdelight:diamond_knife{Damage:0}",
     "item:farmersdelight:cutting_board",
     "item:farmersdelight:cooking_pot",
-    "item:minecraft:wooden_shovel{Damage:0}",
     "item:mcwfurnitures:stripped_dark_oak_kitchen_cabinet",
     "item:mcwfurnitures:cabinet_door",
     "item:mcwfurnitures:stripped_dark_oak_glass_kitchen_cabinet",
@@ -925,8 +1029,6 @@
     "item:minecraft:beetroot",
     "item:farmersdelight:cabbage",
     "item:farmersdelight:onion",
-    "item:farmersdelight:minced_beef",
-    "item:farmersdelight:beef_patty",
     "item:biomeswevegone:cooked_oddion_bulb",
     "item:iceandfire:armor_electric_chestplate{Damage:352}",
     "item:minecraft:stick",
@@ -1039,11 +1141,6 @@
     },
     "item:mining_dimension:quarry_dimension{Damage:0}",
     "item:minecraft:wither_skeleton_skull",
-    {
-      "type": "item",
-      "id": "minecraft:cobblestone",
-      "amount": 46
-    },
     {
       "type": "item",
       "id": "tconstruct:earth_slime_crystal_block",
@@ -1272,11 +1369,6 @@
     "item:create:zinc_ingot",
     {
       "type": "item",
-      "id": "minecraft:stone",
-      "amount": 64
-    },
-    {
-      "type": "item",
       "id": "minecraft:oak_sapling",
       "amount": 64
     },
@@ -1373,11 +1465,6 @@
     "item:minecraft:bundle",
     {
       "type": "item",
-      "id": "biomesoplenty:brimstone",
-      "amount": 192
-    },
-    {
-      "type": "item",
       "id": "tconstruct:earth_slime_dirt",
       "amount": 15
     },
@@ -1444,8 +1531,6 @@
       "id": "minecraft:bread",
       "amount": 64
     },
-    "item:farmersdelight:bacon",
-    "item:farmersdelight:cooked_bacon",
     "#item:forge:salad_ingredients",
     {
       "type": "item",
@@ -1737,107 +1822,36 @@
       "amount": 44
     },
     "item:minecraft:clay",
-    "item:tconstruct:seared_fancy_bricks",
-    "item:tconstruct:seared_table",
-    "item:tconstruct:seared_melter",
-    "item:tconstruct:seared_fuel_gauge",
-    [
-      "item:tconstruct:seared_fuel_gauge",
-      "item:tconstruct:seared_ingot_gauge"
-    ],
-    "item:tconstruct:smeltery_controller{texture:\"tconstruct:seared_stone\"}",
-    "item:tconstruct:seared_fuel_tank",
-    "item:tconstruct:brown_clear_stained_glass",
-    "item:minecraft:gravel",
-    {
-      "type": "item",
-      "id": "biomesoplenty:maple_stairs",
-      "amount": 48
-    },
-    {
-      "type": "item",
-      "id": "iceandfire:dragonscales_green",
-      "amount": 24
-    },
-    "item:minecraft:fishing_rod{Damage:0}",
-    "item:iceandfire:sapphire_gem",
-    "item:improvableskills:skills_book",
-    "item:iceandfire:dragon_skull_fire{DragonAge:56,DragonType:0,Stage:3}",
-    {
-      "type": "item",
-      "id": "iceandfire:fire_dragon_heart",
-      "amount": 2
-    },
-    {
-      "type": "item",
-      "id": "iceandfire:dragonbone",
-      "amount": 14
-    },
-    "#item:forge:wither_bones",
-    {
-      "type": "item",
-      "id": "iceandfire:dragonscales_gray",
-      "amount": 21
-    },
-    {
-      "type": "item",
-      "id": "alexsmobs:bison_fur",
-      "amount": 2
-    },
-    "item:tconstruct:pickaxe{Damage:0,tic_broken:0b,tic_materials:[\"tconstruct:copper\",\"tconstruct:copper\",\"tconstruct:copper\"],tic_modifiers:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:emerald\"},{level:1,name:\"tconstruct:pierce\"},{level:3,name:\"tconstruct:dwarven\"}],tic_multipliers:{\"tconstruct:attack_damage\":1.25f,\"tconstruct:mining_speed\":1.25f},tic_persistent:{upgrades:-2},tic_stats:{\"tconstruct:attack_damage\":2.1f,\"tconstruct:attack_speed\":1.2f,\"tconstruct:durability\":852.0f,\"tconstruct:harvest_tier\":\"minecraft:diamond\",\"tconstruct:mining_speed\":7.7000003f},tic_upgrades:[{level:1,name:\"tconstruct:diamond\"},{level:1,name:\"tconstruct:emerald\"}],tic_volatile_data:{abilities:1,\"tconstruct:rarity\":1,upgrades:3}}",
-    "#item:tconstruct:seared_blocks",
-    "item:toms_storage:ts.trim",
-    "item:toms_storage:ts.painted_trim",
-    "item:sophisticatedstorage:storage_tool",
-    "item:tconstruct:repair_kit{Material:\"tconstruct:cobalt\"}",
-    "item:biomesoplenty:blackstone_spines",
-    "item:supplementaries:bamboo_spikes",
-    "item:supplementaries:bamboo_spikes_tipped{Damage:0,Potion:\"minecraft:poison\"}",
-    "item:minecraft:bamboo",
-    {
-      "type": "item",
-      "id": "alexscaves:cave_tablet",
-      "nbt": "{CaveBiome:\"alexscaves:magnetic_caves\"}",
-      "amount": 4
-    },
-    "item:toms_storage:ts.inventory_proxy",
-    "item:toms_storage:ts.inventory_cable_connector_framed",
-    {
-      "type": "item",
-      "id": "toms_storage:ts.inventory_cable_framed",
-      "amount": 6
-    },
-    {
-      "type": "item",
-      "id": "sophisticatedstorage:chest",
-      "nbt": "{woodType:\"biomesoplenty:maple\"}",
-      "amount": 6
-    },
-    "item:sophisticatedstorage:chest{woodType:\"oak\"}",
-    "item:sophisticatedstorage:chest",
-    "item:sophisticatedstorage:copper_chest",
-    "item:sophisticatedstorage:iron_chest",
-    "item:sophisticatedstorage:gold_chest",
-    "item:biomesoplenty:maple_trapdoor",
-    "#item:minecraft:trapdoors",
-    "item:toms_storage:ts.crafting_terminal",
-    "item:sophisticatedbackpacks:magnet_upgrade",
-    "item:sophisticatedbackpacks:advanced_magnet_upgrade",
-    "item:sophisticatedbackpacks:refill_upgrade",
-    "item:sophisticatedbackpacks:stack_downgrade_tier_1",
-    {
-      "type": "item",
-      "id": "minecraft:amethyst_shard",
-      "amount": 64
-    },
-    {
-      "type": "item",
-      "id": "minecraft:cobbled_deepslate",
-      "amount": 64
-    },
-    "item:minecraft:lapis_block"
+    "item:tconstruct:seared_fancy_bricks"
   ],
   "craft_history": [
+    "drill_drain:crafting/drill_drain",
+    "create:crafting/kinetics/fluid_pipe_vertical",
+    "create:crafting/kinetics/mechanical_pump",
+    "create:crafting/kinetics/cogwheel",
+    "createmoredrillheads:diamond_drill",
+    "create:crafting/materials/andesite_alloy",
+    "minecraft:iron_nugget",
+    "mekanism:geiger_counter",
+    "solcarrot:food_book",
+    "tconstruct:gadgets/fancy_frame/clear",
+    "farm_and_charm:cooking_pot",
+    "minecraft:wooden_shovel",
+    "minecraft:iron_ingot_from_iron_block",
+    "farmersdelight:bacon_sandwich",
+    "farmersdelight:hamburger",
+    "bakery:vegetable_sandwich",
+    "minecraft:bowl",
+    "farmersdelight:wheat_dough_from_egg",
+    "bakery:sandwich",
+    "farmersdelight:melon_popsicle",
+    "farmersdelight:fruit_salad",
+    "farmersdelight:bacon_and_eggs",
+    "biomeswevegone:green_apple_pie",
+    "minecraft:sugar_from_sugar_cane",
+    "farmersdelight:stuffed_potato",
+    "farmersdelight:pie_crust",
+    "incubation:scrambled_eggs",
     "mekanism:upgrade/energy",
     "mekanism:upgrade/speed",
     "mekanism:pressurized_reaction_chamber",
@@ -1871,8 +1885,6 @@
     "mekanism:energy_cube/elite",
     "mekanism:energy_cube/basic",
     "mekanism:energy_cube/advanced",
-    "createmoredrillheads:diamond_drill",
-    "minecraft:iron_ingot_from_iron_block",
     "create:crafting/kinetics/deployer",
     "create:crafting/materials/electron_tube",
     "create:crafting/materials/rose_quartz",
@@ -1885,7 +1897,6 @@
     "sophisticatedstorage:upgrade_base",
     "create:crafting/kinetics/fluid_tank",
     "minecraft:barrel",
-    "drill_drain:crafting/drill_drain",
     "minecraft:diamond",
     "mekanism:energy_tablet",
     "mekanism:factory/ultimate/enriching",
@@ -1927,10 +1938,7 @@
     "mekanism:jetpack",
     "create:crafting/logistics/andesite_funnel",
     "create:crafting/kinetics/gearbox",
-    "create:crafting/kinetics/cogwheel",
     "create:crafting/materials/brass_ingot_from_decompacting",
-    "minecraft:iron_nugget",
-    "create:crafting/materials/andesite_alloy",
     "create:crafting/materials/zinc_nugget_from_decompacting",
     "create:crafting/materials/zinc_ingot_from_decompacting",
     "sophisticatedstorage:advanced_compacting_upgrade",
@@ -1991,8 +1999,6 @@
     "ae2:network/cells/item_storage_components_cell_1k_part",
     "ae2:network/cells/fluid_cell_housing",
     "create:crafting/kinetics/large_cogwheel",
-    "create:crafting/kinetics/mechanical_pump",
-    "create:crafting/kinetics/fluid_pipe_vertical",
     "villagersplus:alchemist_table",
     "mekanism:transmitter/restrictive_transporter",
     "minecraft:iron_bars",
@@ -2020,7 +2026,6 @@
     "tconstruct:smeltery/scorched/basin",
     "tconstruct:common/gold_platform",
     "ae2:network/blocks/crystal_processing_growth_accelerator",
-    "tconstruct:gadgets/fancy_frame/clear",
     "sereneseasons:calendar",
     "minecraft:clock",
     "interiors:crafting/floor_chair/white_floor_chair",
@@ -2056,7 +2061,6 @@
     "farmersdelight:diamond_knife",
     "farmersdelight:cutting_board",
     "farmersdelight:cooking_pot",
-    "minecraft:wooden_shovel",
     "mcwfurnitures:stripped_dark_oak_kitchen_cabinet",
     "mcwfurnitures:cabinet_door",
     "mcwfurnitures:stripped_dark_oak_glass_kitchen_cabinet",
@@ -2127,7 +2131,6 @@
     "farmersdelight:chicken_sandwich",
     "minecraft:beetroot_soup",
     "farmersdelight:mixed_salad",
-    "farmersdelight:wheat_dough_from_egg",
     "farmersdelight:cabbage",
     "farmersdelight:onion",
     "createdeco:copper_mesh_fence",
